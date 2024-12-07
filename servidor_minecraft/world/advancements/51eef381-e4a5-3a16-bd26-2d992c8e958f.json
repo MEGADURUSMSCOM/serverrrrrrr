@@ -826,6 +826,12 @@
     },
     "done": true
   },
+  "witherstormmod:main/infinite_potential": {
+    "criteria": {
+      "inventory_changed": "2024-12-07 19:08:09 +0000"
+    },
+    "done": true
+  },
   "dungeons_enhanced:ambitious_explorer": {
     "criteria": {
       "entered_hay_storage": "2024-12-07 18:58:24 +0000"
@@ -841,6 +847,12 @@
   "minecraft:recipes/transportation/bamboo_raft": {
     "criteria": {
       "in_water": "2024-12-07 18:58:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2024-12-07 19:12:25 +0000"
     },
     "done": true
   },
@@ -889,6 +901,12 @@
   "lootr:10loot": {
     "criteria": {
       "loot_stat": "2024-12-07 18:58:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2024-12-07 19:12:25 +0000"
     },
     "done": true
   },

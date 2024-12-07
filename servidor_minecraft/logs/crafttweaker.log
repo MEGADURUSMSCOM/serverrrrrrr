@@ -1,34 +1,34 @@
-[18:48:50.034][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.20.1 production server modded with platform Forge
-[18:48:50.042][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
-[18:48:50.160][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin
-[18:48:50.161][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin_forge
-[18:48:50.163][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
-[18:48:51.383][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support through the default plugin:
-[18:48:51.406][INFO][CraftTweaker]: - 'crafttweaker' at version '14.0.27'
-[18:48:51.406][INFO][CraftTweaker]: - 'farmersdelight' at version '1.20.1-1.2.3'
-[18:49:00.222][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
-[18:49:01.145][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
-[18:49:01.190][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
-[18:49:01.339][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
-[18:49:24.230][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
-[18:49:24.264][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
-[18:49:24.287][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
-[18:49:24.299][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
-[18:49:25.716][INFO][CraftTweaker]: crafttweaker.reload.start
-[18:49:25.720][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
-[18:49:25.750][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
-[18:49:26.169][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, crafttweaker, expansions]
-[18:49:26.170][INFO][CraftTweaker-ZenCode]: Loading file '3rdlifeplus/recipipes removal.zs' with priority 0
-[18:49:26.171][INFO][CraftTweaker-ZenCode]: Loading file 'coins/recipi remove.zs' with priority 0
-[18:49:26.171][INFO][CraftTweaker-ZenCode]: Loading file 'taxdl/recipies removal.zs' with priority 0
-[18:49:26.206][INFO][Script]: Hello World!
-[18:49:26.207][INFO][CraftTweaker]: Removing "minecraft:crafting" recipes with modid: "third_life_plus"
-[18:49:26.210][INFO][Script]: Hello World!
-[18:49:26.210][INFO][CraftTweaker]: Removing "minecraft:blasting" recipes with modid: "coinsje"
-[18:49:26.210][INFO][CraftTweaker]: Removing "minecraft:smelting" recipes with modid: "coinsje"
-[18:49:26.211][INFO][CraftTweaker]: Removing "minecraft:crafting" recipes with modid: "coinsje"
-[18:49:26.212][INFO][Script]: Hello World!
-[18:49:26.212][INFO][CraftTweaker]: Removing "minecraft:smithing" recipes with modid: "taxdl"
-[18:49:26.212][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
-[18:49:26.214][INFO][CraftTweaker]: crafttweaker.reload.complete
-[18:49:26.215][INFO][CraftTweaker]: This reload was made possible by DreamThorn and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[19:17:32.063][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.20.1 production server modded with platform Forge
+[19:17:32.086][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
+[19:17:32.162][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin
+[19:17:32.163][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[19:17:32.208][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
+[19:17:33.484][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support through the default plugin:
+[19:17:33.484][INFO][CraftTweaker]: - 'crafttweaker' at version '14.0.27'
+[19:17:33.485][INFO][CraftTweaker]: - 'farmersdelight' at version '1.20.1-1.2.3'
+[19:17:41.996][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
+[19:17:42.835][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[19:17:42.862][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[19:17:42.958][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
+[19:18:06.638][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[19:18:06.673][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[19:18:06.697][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[19:18:06.714][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[19:18:08.136][INFO][CraftTweaker]: crafttweaker.reload.start
+[19:18:08.140][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[19:18:08.166][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[19:18:08.527][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, crafttweaker, expansions]
+[19:18:08.528][INFO][CraftTweaker-ZenCode]: Loading file '3rdlifeplus/recipipes removal.zs' with priority 0
+[19:18:08.529][INFO][CraftTweaker-ZenCode]: Loading file 'coins/recipi remove.zs' with priority 0
+[19:18:08.529][INFO][CraftTweaker-ZenCode]: Loading file 'taxdl/recipies removal.zs' with priority 0
+[19:18:08.554][INFO][Script]: Hello World!
+[19:18:08.556][INFO][CraftTweaker]: Removing "minecraft:crafting" recipes with modid: "third_life_plus"
+[19:18:08.558][INFO][Script]: Hello World!
+[19:18:08.558][INFO][CraftTweaker]: Removing "minecraft:blasting" recipes with modid: "coinsje"
+[19:18:08.559][INFO][CraftTweaker]: Removing "minecraft:smelting" recipes with modid: "coinsje"
+[19:18:08.559][INFO][CraftTweaker]: Removing "minecraft:crafting" recipes with modid: "coinsje"
+[19:18:08.560][INFO][Script]: Hello World!
+[19:18:08.561][INFO][CraftTweaker]: Removing "minecraft:smithing" recipes with modid: "taxdl"
+[19:18:08.561][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[19:18:08.562][INFO][CraftTweaker]: crafttweaker.reload.complete
+[19:18:08.563][INFO][CraftTweaker]: This reload was made possible by Hooley and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
