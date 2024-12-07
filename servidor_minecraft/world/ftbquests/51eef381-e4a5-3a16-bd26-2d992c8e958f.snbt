@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "51eef381e4a53a16bd262d992c8e958f"
+	name: "MEGAnonimo#51eef381"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}
