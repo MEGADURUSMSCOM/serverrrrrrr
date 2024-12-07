@@ -1,0 +1,2393 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "el_mundo_que_te_rodea"
+	group: "3EE6CB5568052FC7"
+	icon: "alexscaves:spelunkery_table"
+	id: "1D6521B36CDD66D4"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["04899758B76538FA"]
+			hide: true
+			id: "59F37D8F3B590F2C"
+			rewards: [{
+				id: "1D4B2CB75BC6DEAB"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "616C9FA3AE2B4DF7"
+				item: "betterarcheology:archeology_table"
+				type: "item"
+			}]
+			title: "A chambear!!!"
+			x: -10.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["01B2936FA3A0075F"]
+			description: ["Pista: Encuentra puestos de arqueologia subterraneos."]
+			hide: true
+			id: "21E6379704B1334C"
+			rewards: [{
+				id: "2AD5EFE50456DBF1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [
+				{
+					id: "270CF9C8EADEFAB4"
+					item: "alexscaves:cave_book"
+					type: "item"
+				}
+				{
+					id: "4A8290D1BBCCC286"
+					item: "alexscaves:spelunkery_table"
+					type: "item"
+				}
+			]
+			title: "Nuevos biomas"
+			x: -1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["01B2936FA3A0075F"]
+			hide: true
+			id: "04899758B76538FA"
+			rewards: [{
+				id: "0F7D0D1E163D1D15"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				icon: "betterarcheology:fossiliferous_dirt"
+				id: "2820489979C8B25D"
+				observe_type: 0
+				timer: 0L
+				to_observe: "betterarcheology:fossiliferous_dirt"
+				type: "observation"
+			}]
+			title: "Reliquias por descubrir"
+			x: -10.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["04899758B76538FA"]
+			hide: true
+			id: "3958A3289A71558A"
+			rewards: [{
+				id: "201AEA41DB6FB419"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "7773CF9A4502D3FF"
+				item: {
+					Count: 1b
+					id: "minecraft:brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Un arqueologo novato"
+			x: -8.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3958A3289A71558A"]
+			id: "5168FEA4DC1303A7"
+			rewards: [{
+				id: "3EFE316EEB265276"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "4AEAADFF5AF9C30D"
+				item: {
+					Count: 1b
+					id: "betterarcheology:iron_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Una mejora siempre va bien"
+			x: -8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"5168FEA4DC1303A7"
+				"48B78E7B286B0605"
+			]
+			dependency_requirement: "one_completed"
+			hide: true
+			id: "42B5C4F892C53C54"
+			rewards: [{
+				id: "4DF1B6AF77EFB83C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "493669BE0B5C8409"
+				item: {
+					Count: 1b
+					id: "betterarcheology:diamond_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Te sobran los diamantes?"
+			x: -10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["59F37D8F3B590F2C"]
+			id: "6FE3588F4F332A11"
+			rewards: [{
+				count: 3
+				id: "3927D9348B45C79E"
+				item: "betterarcheology:artifact_shards"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50E11F0EB0ACFEC3"
+				item: "betterarcheology:artifact_shards"
+				type: "item"
+			}]
+			title: "I esto?"
+			x: -9.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["59F37D8F3B590F2C"]
+			id: "05D84EB164C150BE"
+			rewards: [{
+				id: "5866C2DF62FF2170"
+				item: "betterarcheology:bomb"
+				type: "item"
+			}]
+			tasks: [{
+				id: "560F0202F656E9EE"
+				item: "betterarcheology:bomb"
+				type: "item"
+			}]
+			title: "BOOM"
+			x: -11.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["59F37D8F3B590F2C"]
+			id: "4325AE6332FEC22E"
+			rewards: [{
+				id: "6236B43E2EAEE939"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1FE209F6414E7BA1"
+					item: {
+						Count: 1b
+						id: "betterarcheology:torrent_totem"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "409214ECFB3DF78E"
+					item: {
+						Count: 1b
+						id: "betterarcheology:soul_totem"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "La cosa va de tótems"
+			x: -10.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["04899758B76538FA"]
+			hide: true
+			id: "7F6B4141F2106A8A"
+			tasks: [{
+				id: "48E9A6D73FFA61F5"
+				item: "minecraft:decorated_pot"
+				type: "item"
+			}]
+			title: "Un jarron en blanco"
+			x: -12.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7F6B4141F2106A8A"]
+			id: "48B78E7B286B0605"
+			rewards: [{
+				id: "6F67043E80172E78"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "01778F9A449DE436"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:decorated_pot_ingredients"
+					}
+				}
+				title: "Any #minecraft:decorated_pot_ingredients"
+				type: "item"
+			}]
+			title: "A decorar"
+			x: -12.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["21E6379704B1334C"]
+			hide: true
+			id: "4FF3ACD5F789E5AF"
+			rewards: [
+				{
+					count: 5
+					id: "7FBC85191729AAC0"
+					item: {
+						Count: 1b
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:magnetic_caves"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73842413A2FAE42F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "1B63133A21390033"
+				item: {
+					Count: 1b
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:magnetic_caves"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["4FF3ACD5F789E5AF"]
+			id: "1991EB8FD2268B29"
+			rewards: [
+				{
+					id: "00FD60F3DDBB4B5C"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "078B93DC103AF69D"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "2E904E43B36F2ED6"
+				item: {
+					Count: 1b
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:magnetic_caves"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1991EB8FD2268B29"]
+			id: "36DB5B1F08A937B2"
+			rewards: [{
+				id: "62D1646EC21B2633"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "19F4278BA3711653"
+				item: {
+					Count: 1b
+					id: "alexscaves:cave_map"
+					tag: {
+						BiomeTargetResourceKey: "alexscaves:magnetic_caves"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["21E6379704B1334C"]
+			hide: true
+			id: "1E177EB7610C2A72"
+			rewards: [
+				{
+					count: 5
+					id: "79422F49AD25EC90"
+					item: {
+						Count: 1b
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:primordial_caves"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3AA0A5EEE474E16F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "78957DC7FCFE6060"
+				item: {
+					Count: 1b
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:primordial_caves"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1E177EB7610C2A72"]
+			id: "164EDACC69BF78CA"
+			rewards: [
+				{
+					id: "6238272EBEFDF46F"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "1F6204A65FA43023"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0AA08F4E88D3404B"
+				item: {
+					Count: 1b
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:primordial_caves"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["164EDACC69BF78CA"]
+			id: "7C4287E8184D6B4D"
+			rewards: [{
+				id: "60834C32E58FF2B7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "43C70C862E1EE120"
+				item: {
+					Count: 1b
+					id: "alexscaves:cave_map"
+					tag: {
+						BiomeTargetResourceKey: "alexscaves:primordial_caves"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["21E6379704B1334C"]
+			hide: true
+			id: "64D7B3AD4DF46B61"
+			rewards: [
+				{
+					count: 5
+					id: "5F21C09A604ACF4A"
+					item: {
+						Count: 1b
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:toxic_caves"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58FBE0C98E60B09C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "66070AD2425BE00D"
+				item: {
+					Count: 1b
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:toxic_caves"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["64D7B3AD4DF46B61"]
+			id: "08064A4E2F495B30"
+			rewards: [
+				{
+					id: "3D4440988020F3A8"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "0743F403C74712F5"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "248B39137801D488"
+				item: {
+					Count: 1b
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:toxic_caves"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["08064A4E2F495B30"]
+			id: "52F6A6DB259822B7"
+			rewards: [{
+				id: "494A5144E5956507"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "348AB9109EAA574E"
+				item: {
+					Count: 1b
+					id: "alexscaves:cave_map"
+					tag: {
+						BiomeTargetResourceKey: "alexscaves:toxic_caves"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["21E6379704B1334C"]
+			hide: true
+			id: "157986E05089A88F"
+			rewards: [
+				{
+					count: 5
+					id: "68159516B9FDBA4B"
+					item: {
+						Count: 1b
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:forlorn_hollows"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15515E8F80144368"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "038B38540F1A4AAC"
+				item: {
+					Count: 1b
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:forlorn_hollows"
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["157986E05089A88F"]
+			id: "1F97AD09E9368A22"
+			rewards: [
+				{
+					id: "6DB00FC699F9BF76"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "6B43DFA27276F0D2"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "01320012DC15A197"
+				item: {
+					Count: 1b
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:forlorn_hollows"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1F97AD09E9368A22"]
+			id: "13DD1968C63AC631"
+			rewards: [{
+				id: "4FBB5953C7004B04"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "3829EF284C2C50F5"
+				item: {
+					Count: 1b
+					id: "alexscaves:cave_map"
+					tag: {
+						BiomeTargetResourceKey: "alexscaves:forlorn_hollows"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["21E6379704B1334C"]
+			hide: true
+			id: "29D1ADC9FECE1EA3"
+			rewards: [
+				{
+					count: 5
+					id: "699FAF3307AA8B3E"
+					item: {
+						Count: 1b
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:abyssal_chasm"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FB05D152C7BE5FC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4E3452C12BE4D238"
+				item: {
+					Count: 1b
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:abyssal_chasm"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["29D1ADC9FECE1EA3"]
+			id: "4B54401874B03BB0"
+			rewards: [
+				{
+					id: "0AFA3BCE8AAB0CC3"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "7A2C7FE463C8FDDD"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1E315C4BD55FF0FC"
+				item: {
+					Count: 1b
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:abyssal_chasm"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4B54401874B03BB0"]
+			id: "6E30C01E902745BD"
+			rewards: [{
+				id: "53F2B4FBABA2C18B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "12F5C36B22D58564"
+				item: {
+					Count: 1b
+					id: "alexscaves:cave_map"
+					tag: {
+						BiomeTargetResourceKey: "alexscaves:abyssal_chasm"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7C4287E8184D6B4D"]
+			hide: true
+			icon: "alexscaves:tremorsaurus_egg"
+			id: "46EC31D99F1C6E94"
+			rewards: [
+				{
+					id: "5F85FD43659CE34D"
+					item: "alexscaves:amber_curiosity"
+					type: "item"
+				}
+				{
+					id: "4B455AEFAFA02838"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40616D59C42FA66B"
+					table_id: 6050887230689300844L
+					type: "random"
+				}
+				{
+					id: "09C1C3912D1E9FE5"
+					item: "third_life_plus:heart"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "alexscaves:tremorsaurus"
+				icon: "betterarcheology:chicken_fossil_head"
+				id: "6CF93127204D5F12"
+				type: "kill"
+				value: 1L
+			}]
+			title: "GeT-reax"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6E30C01E902745BD"]
+			hide: true
+			icon: "betterarcheology:villager_fossil_head"
+			id: "5FC135AEF2BB45B3"
+			rewards: [
+				{
+					id: "1C5F1310BC247278"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "53ADE64DEBCD3FB1"
+					item: "alexscaves:glow_ink_bomb"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					id: "40B57A38B73B22DC"
+					item: "alexscaves:ink_bomb"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					id: "0E578B88B48C1A57"
+					item: "third_life_plus:heart"
+					type: "item"
+				}
+				{
+					id: "5A8939426B12E8B7"
+					item: "third_life_plus:golden_heart"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "por un tiempo..."
+			tasks: [{
+				entity: "alexscaves:hullbreaker"
+				icon: "alexsmobs:blobfish"
+				id: "09CBE931C365774B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Libera la zona abisal"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["13DD1968C63AC631"]
+			hide: true
+			icon: "alexscaves:pure_darkness"
+			id: "6D5A41C9BA918794"
+			rewards: [
+				{
+					id: "0CB4F79635F432C9"
+					item: {
+						Count: 1b
+						id: "alexscaves:totem_of_possession"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Golpe con el y controla con click derecho"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "6A1B1DEF37099FCF"
+					item: "majruszsdifficulty:golden_bandage"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "720504BF31EAB844"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B6677631EB614B3"
+					table_id: 4645360515797637232L
+					type: "random"
+				}
+				{
+					id: "05FA6A713C5EB2E6"
+					item: "third_life_plus:golden_heart"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Junta un Vesper y algunos Underzealot"
+			tasks: [{
+				entity: "alexscaves:forsaken"
+				icon: "alexscaves:darkened_apple"
+				id: "1343A7C58CC4D259"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Aquel que espera"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["52F6A6DB259822B7"]
+			hide: true
+			icon: "alexscaves:nuclear_bomb"
+			id: "23853EE8EE3F023D"
+			rewards: [
+				{
+					id: "16ACB8CC2867B241"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "5A2F91815E3900C7"
+					item: "alexscaves:green_soylent"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				entity: "alexscaves:nucleeper"
+				icon: {
+					Count: 1b
+					id: "alexscaves:hazmat_mask"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "44D2351FACF32B48"
+				type: "kill"
+				value: 1L
+			}]
+			title: "I si a la proxima no lo matas?"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["36DB5B1F08A937B2"]
+			hide: true
+			id: "4A89EDF432BEECE9"
+			rewards: [
+				{
+					id: "294D28814080D117"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0FD2591B3EE7F1E4"
+					item: "alexscaves:polarity_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "37370043D49C56EC"
+					item: "third_life_plus:temporary_life"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "alexscaves:tesla_bulb"
+				id: "63D3381E4D44FA8B"
+				observe_type: 5
+				timer: 0L
+				title: "Estoy en la tele!"
+				to_observe: "alexscaves:notor"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7C4287E8184D6B4D"]
+			hide: true
+			id: "0D6F1F7FA9A1146B"
+			rewards: [
+				{
+					count: 16
+					id: "494A39C3C4115939"
+					item: "spelunkers_charm:geode"
+					title: "click derecho en herreria"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58660CE93F1CC237"
+					table_id: 6050887230689300844L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5EF30228B37DEFDD"
+				item: "alexscaves:dinosaur_nugget"
+				type: "item"
+			}]
+			title: "Galleta de dinosaurio"
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["13DD1968C63AC631"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "alexscaves:hood_of_darkness"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6E0F5275130372ED"
+			rewards: [
+				{
+					id: "2A33AE2B208C65A1"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					id: "0C56B6D3C059E881"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F10C714D328E955"
+					table_id: 7191532406964630749L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5197A9F71ABEAFD0"
+					table_id: 4645360515797637232L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "6E7D86042B42B6D0"
+					item: {
+						Count: 1b
+						id: "alexscaves:cloak_of_darkness"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59FD89D74D9C8BA2"
+					item: {
+						Count: 1b
+						id: "alexscaves:hood_of_darkness"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Se uno con lo oscuro..."
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["36DB5B1F08A937B2"]
+			hide: true
+			id: "7F23F3EC5A145861"
+			rewards: [{
+				count: 8
+				id: "080D4111ADC6DEBE"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			subtitle: "Un escudo que no protege"
+			tasks: [{
+				id: "3ACB7B20DCA71B3A"
+				item: {
+					Count: 1b
+					id: "alexscaves:resistor_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Back off!"
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6E30C01E902745BD"]
+			hide: true
+			id: "121CD273BCDB39DD"
+			rewards: [
+				{
+					id: "66A3EA345864F625"
+					item: "alexscaves:pearl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EE2B37FF9EAEA1F"
+					table_id: 6050887230689300844L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "alexscaves:alexscaves/ride_submarine"
+				criterion: ""
+				id: "0E5B59045BCA53BA"
+				type: "advancement"
+			}]
+			title: "Ve con cuidado"
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["23853EE8EE3F023D"]
+			hide: true
+			id: "1BA65E3637B4A216"
+			rewards: [
+				{
+					id: "088356C1957809BA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4EDD6D6619E09BFD"
+					table_id: 6050887230689300844L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "321ECE313760D71E"
+				item: "alexscaves:raygun"
+				type: "item"
+			}]
+			title: "Piu piu"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["17565D7787A4B808"]
+			description: ["Usa en yunque junto con una arma o armadura"]
+			hide: true
+			id: "371D02F33C5C92C2"
+			rewards: [{
+				id: "1E76D0D4C5EC888A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "mineral estelar"
+			tasks: [{
+				id: "301401139F370D5D"
+				item: "starmetal:star_metal"
+				type: "item"
+			}]
+			title: "Aplicalo a una arma"
+			x: -6.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["01B2936FA3A0075F"]
+			hide: true
+			id: "5C8478F125C92849"
+			rewards: [
+				{
+					id: "1B9293261C8C2EB2"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 5
+					id: "0211307E97962F71"
+					item: "majruszsdifficulty:bandage"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E324368DBFC9517"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:copper_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 4
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Un gran poder..."
+			x: 7.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5C8478F125C92849"]
+			description: ["Presiona la tecla &c\"x\"&r con el libro de echizos equipado para  seleccinar un echizo."]
+			hide: true
+			id: "1E7166DA18567AEA"
+			rewards: [
+				{
+					id: "0074B03325C6F7CE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "077A5F86E5D09F2A"
+					item: "majruszsdifficulty:golden_bandage"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "15A68633D25A3F00"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:iron_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 5
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "El camino al poder"
+			x: 6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1E7166DA18567AEA"]
+			hide: true
+			id: "6F2F1319EAC322EA"
+			rewards: [
+				{
+					id: "3B5D629914E1E173"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					count: 5
+					id: "2B3B024E163717BF"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3402D94FBF25DAB5"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:gold_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 6
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Aprendiz a mago"
+			x: 5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6F2F1319EAC322EA"]
+			hide: true
+			id: "011E99B20B1D2CEA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "606251F13F3C3D8B"
+				table_id: 2092828827130485791L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1635770F6F7F1687"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:diamond_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 8
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Mago Veterano"
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["011E99B20B1D2CEA"]
+			hide: true
+			id: "238B1AB8983FA2E0"
+			rewards: [{
+				id: "3966F870C47DC80F"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29545E1A0540F983"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:netherite_spell_book"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: -1
+							spellSlots: 10
+							spells: [ ]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Mago Experto"
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5C8478F125C92849"]
+			hide: true
+			id: "4C50CFF26B4D0DFE"
+			rewards: [{
+				id: "79A8FFDD577D2872"
+				item: "irons_spellbooks:cinder_essence"
+				title: "Para craftear el caldero de alquimia"
+				type: "item"
+			}]
+			subtitle: "Un libro magico y un pergamino"
+			tasks: [{
+				id: "2161902B0E7E90D8"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			title: "Aprende de lo mistico"
+			x: 7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5C8478F125C92849"]
+			hide: true
+			id: "528C241D81EF6AD0"
+			rewards: [{
+				count: 2
+				id: "38D1B61ABBA8F640"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			subtitle: "Papel, tinta y un foco"
+			tasks: [{
+				id: "53A594673B624C59"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			title: "Que la magia fluya"
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5C8478F125C92849"]
+			description: ["Se hacen 4 pociones a la vez y requiere de una hogera debajo"]
+			hide: true
+			id: "658327434A89A4DC"
+			rewards: [{
+				count: 3
+				id: "0CAE4A6CD8736E13"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_healing"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Puedes hacer pociones, obtener tinta de pergaminos o llenarlo con sangre"
+			tasks: [{
+				id: "0B770AA13863D4C9"
+				item: "irons_spellbooks:alchemist_cauldron"
+				type: "item"
+			}]
+			title: "Pociones y sangre"
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["658327434A89A4DC"]
+			hide: true
+			id: "7191AF3D1A1B8F83"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1D85D8312E792C0D"
+					table_id: 2092828827130485791L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34082FC92254D713"
+					table_id: 2409118067992150210L
+					type: "random"
+				}
+			]
+			subtitle: "Fusiona pergaminos y mejoralos"
+			tasks: [{
+				id: "3AF99A7AF21A18E9"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			title: "Bibliotecario"
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4C50CFF26B4D0DFE"]
+			hide: true
+			id: "74071471B67BD75B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5ECF012F60438367"
+				table_id: 2409118067992150210L
+				type: "random"
+			}]
+			tasks: [{
+				id: "668B00F483FEE4E4"
+				item: "irons_spellbooks:arcane_debris"
+				type: "item"
+			}]
+			title: "Restos arcanos"
+			x: 6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4C50CFF26B4D0DFE"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:wandering_magician_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "615051586C0A79DB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "066E96EFA13FFEA1"
+					table_id: 7191532406964630749L
+					type: "random"
+				}
+				{
+					id: "4A3CC14803547DBA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "52B40F8637B26F2A"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:wandering_magician_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FB068B4A102F3D9"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:wandering_magician_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F1D74A1004C733C"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:wandering_magician_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E18BEBBA911A76C"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:wandering_magician_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Iniciado"
+			x: 8.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["615051586C0A79DB"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "irons_spellbooks:pumpkin_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2E1651D8C24E1FB9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "14C1DD66DB99F022"
+					table_id: 7191532406964630749L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "261E6A631D725BEE"
+					table_id: 2092828827130485791L
+					type: "random"
+				}
+				{
+					id: "1CF88B3AB6AF0363"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "554ABAC402A1F9E9"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:pumpkin_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E6FA26DC8489C5B"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:pumpkin_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43A7AA4D4652113C"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:pumpkin_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B5640A5F2C8E992"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:pumpkin_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Aprendiz"
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["658327434A89A4DC"]
+			hide: true
+			icon: "irons_spellbooks:rare_ink"
+			id: "1153135C42890CD3"
+			rewards: [{
+				id: "23A372546082837B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "60EFB499415AF055"
+					item: "irons_spellbooks:common_ink"
+					type: "item"
+				}
+				{
+					id: "2A6F2DEBEFE9B685"
+					item: "irons_spellbooks:uncommon_ink"
+					type: "item"
+				}
+				{
+					id: "511342F1069B13B0"
+					item: "irons_spellbooks:rare_ink"
+					type: "item"
+				}
+			]
+			title: "Tintero"
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1153135C42890CD3"]
+			hide: true
+			icon: "irons_spellbooks:legendary_ink"
+			id: "3D755640759549F1"
+			rewards: [{
+				id: "66D71A57D5E50AF8"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "198FAEACF74C46D8"
+					item: "irons_spellbooks:epic_ink"
+					type: "item"
+				}
+				{
+					id: "10F80C98E17A8B3F"
+					item: "irons_spellbooks:legendary_ink"
+					type: "item"
+				}
+			]
+			title: "Tintero legendario"
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["528C241D81EF6AD0"]
+			hide: true
+			id: "5257616D36679734"
+			rewards: [
+				{
+					id: "061712D6BE22BC5D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1012628D0D60A8C4"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			subtitle: "Todos los focos"
+			tasks: [
+				{
+					id: "39CD38FEDED6ADB3"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "72B0A3FFA6D919E0"
+					item: "minecraft:poisonous_potato"
+					type: "item"
+				}
+				{
+					id: "475169A59507430C"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "4318D25F805EFD78"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "19A61317B0B23A01"
+					item: "irons_spellbooks:lightning_bottle"
+					type: "item"
+				}
+				{
+					id: "6BC2D62986BD856D"
+					item: "irons_spellbooks:blood_vial"
+					type: "item"
+				}
+				{
+					id: "11CF9A70D9E213E4"
+					item: "irons_spellbooks:divine_pearl"
+					type: "item"
+				}
+				{
+					id: "70D48D4A8A85E0D5"
+					item: "irons_spellbooks:frozen_bone"
+					type: "item"
+				}
+			]
+			title: "Poli valente"
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4C50CFF26B4D0DFE"]
+			id: "40F845225378676A"
+			rewards: [{
+				count: 4
+				id: "1CE2E6FD96F0F824"
+				item: "irons_spellbooks:arcane_essence"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Utilica el caldero de alquimia o estante de pociones"
+			tasks: [{
+				id: "0484D3DD0697BC74"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "irons_spellbooks:instant_mana_one"
+					}
+				}
+				type: "item"
+			}]
+			title: "Util para un mago"
+			x: 9.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["40F845225378676A"]
+			hide: true
+			id: "158610D0D17B1C04"
+			rewards: [{
+				count: 3
+				id: "015644CBB6029CE9"
+				item: "irons_spellbooks:arcane_essence"
+				random_bonus: 5
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D02339525C80F9F"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "irons_spellbooks:instant_mana_two"
+					}
+				}
+				type: "item"
+			}]
+			title: "Así mejor"
+			x: 10.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["158610D0D17B1C04"]
+			hide: true
+			id: "7DCBD3CCED6E54CE"
+			rewards: [{
+				id: "20B51A6A096B2BEA"
+				item: "irons_spellbooks:magic_cloth"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "5ECCED8B33BF4F57"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "irons_spellbooks:instant_mana_three"
+					}
+				}
+				type: "item"
+			}]
+			title: "Aqui viene lo bueno"
+			x: 10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7DCBD3CCED6E54CE"]
+			hide: true
+			id: "62D7D529D96CDCD6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5EE0F2BF0933B154"
+					table_id: 2092828827130485791L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E3EAD59A263087C"
+					table_id: 2409118067992150210L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "014EC8699AAB1446"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "irons_spellbooks:instant_mana_four"
+					}
+				}
+				type: "item"
+			}]
+			title: "Mana concentrado"
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6F47619F98DB92D3"
+				"5C8478F125C92849"
+			]
+			hide: true
+			icon: "artifacts:cross_necklace"
+			id: "2FE09C40D0E69F12"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "05F4F55C029C589D"
+					table_id: 4645360515797637232L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07C6D6A969A3CC8E"
+					table_id: 4645360515797637232L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "589C94698699A16D"
+					table_id: 4082850926856813320L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "14BF4060E313E214"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "7ED89518F7586A40"
+					item: "third_life_plus:golden_heart"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "\"No one expects the spanish inquisition\""
+			tasks: [
+				{
+					entity: "sons_of_sins:butcher"
+					icon: "sons_of_sins:flesh_of_demise"
+					id: "18ABE046AD2EA60C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "sons_of_sins:kelvin"
+					icon: "sons_of_sins:ribs"
+					id: "7275839C61F795A7"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "sons_of_sins:curse"
+					icon: "sons_of_sins:muscle"
+					id: "2A096753F5863C15"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "sons_of_sins:prowler"
+					icon: "sons_of_sins:heart"
+					id: "383A432E403C2CFC"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "sons_of_sins:blud"
+					icon: {
+						Count: 1b
+						id: "sons_of_sins:bottle_of_blood"
+						tag: { }
+					}
+					id: "5734B6963BBDD71C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "sons_of_sins:wistiver"
+					icon: "minecraft:rotten_flesh"
+					id: "6A96652306F8C922"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "sons_of_sins:walking_bed"
+					icon: "minecraft:bone"
+					id: "3D375C428A7E5C98"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "irons_spellbooks:archevoker"
+					icon: {
+						Count: 1b
+						id: "irons_spellbooks:archevoker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "276365EFEBD4A954"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "irons_spellbooks:necromancer"
+					icon: {
+						Count: 1b
+						id: "irons_spellbooks:cultist_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1731A2D22DB9430E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "irons_spellbooks:pyromancer"
+					icon: {
+						Count: 1b
+						id: "irons_spellbooks:pyromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "47BA3A87F97F1968"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "irons_spellbooks:cryomancer"
+					icon: {
+						Count: 1b
+						id: "irons_spellbooks:cryomancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "2D16B63402DFCDB9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Elimina a los coruptos"
+			x: 12.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6F47619F98DB92D3"]
+			hide: true
+			id: "2F4710F0E84B42BA"
+			rewards: [{
+				id: "2F9816361C19D348"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Mata un pecado con un arma de huesos"
+			tasks: [{
+				id: "5E778F8FF2788148"
+				item: "sons_of_sins:ether_ashes"
+				type: "item"
+			}]
+			title: "Cenizas del pecado"
+			x: 15.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["2F4710F0E84B42BA"]
+			hide: true
+			id: "6284DB63E2BA1529"
+			rewards: [{
+				id: "742D777B9103BE47"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "362D66A9FDC37741"
+				item: "sons_of_sins:soul_steel"
+				type: "item"
+			}]
+			title: "Metal de almas"
+			x: 15.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["01B2936FA3A0075F"]
+			hide: true
+			id: "6F47619F98DB92D3"
+			rewards: [
+				{
+					count: 6
+					id: "3F50AA10DE53E973"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "0959143856F55580"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Las heramientas de este material les hacen mas daño"
+			tasks: [{
+				id: "422E0A124F68D9C7"
+				item: "sons_of_sins:bloody_bone"
+				type: "item"
+			}]
+			title: "Huesos pecaminosos"
+			x: 13.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6284DB63E2BA1529"]
+			id: "08A52F916794A91D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B7A91861AEE3673"
+				table_id: 4082850926856813320L
+				type: "random"
+			}]
+			tasks: [{
+				id: "32C817B8D45F58DF"
+				item: {
+					Count: 1b
+					id: "sons_of_sins:sickle_of_struggle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Segador de partes"
+			x: 13.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"08A52F916794A91D"
+				"2FE09C40D0E69F12"
+			]
+			dependency_requirement: "one_completed"
+			hide: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 11
+					}
+				}
+				id: "sons_of_sins:flesh_carcass"
+				tag: {
+					Inventory: {
+						Items: [ ]
+						Size: 11
+					}
+				}
+			}
+			id: "4F5C9ACC8D55F2E2"
+			rewards: [{
+				id: "47972095132562E3"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			subtitle: "Créalos"
+			tasks: [
+				{
+					id: "309494F975B1C82A"
+					item: "sons_of_sins:blood_bucket"
+					type: "item"
+				}
+				{
+					id: "571C3590FF522C26"
+					item: "sons_of_sins:flesh_carcass"
+					type: "item"
+				}
+			]
+			title: "Si no tienes amigos..."
+			x: 12.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5C8478F125C92849"]
+			hide: true
+			icon: "graveyard:corruption"
+			id: "24E39166CB07FA6E"
+			rewards: [
+				{
+					id: "1F1250D3F195427D"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_spell: {
+								id: "irons_spellbooks:raise_dead"
+								level: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66EBB9AA8C5F64E2"
+					item: "third_life_plus:golden_heart"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "irons_spellbooks:priest"
+				icon: {
+					Count: 1b
+					id: "irons_spellbooks:priest_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "72F212B9193BBE91"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Unholy"
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["01B2936FA3A0075F"]
+			hide: true
+			id: "17565D7787A4B808"
+			rewards: [{
+				count: 2
+				id: "7DAA7A7AC515D5EE"
+				item: "minecraft:iron_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E735AA3588ECBBF"
+				item: "starmetal:star_fragment"
+				type: "item"
+			}]
+			title: "No es oro todo lo que brilla"
+			x: -6.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"72918404EB245287"
+				"10CBE1506D5DE5F3"
+			]
+			hide: true
+			icon: "born_in_chaos_v1:dark_upgrade"
+			id: "586A6355CE7AB88A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53EB4837B9F1D903"
+				table_id: 4645360515797637232L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "2764F059CB2908E9"
+					item: {
+						Count: 1b
+						id: "born_in_chaos_v1:dark_metal_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22A26D31BD662007"
+					item: {
+						Count: 1b
+						id: "born_in_chaos_v1:dark_metal_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3323F5B2EF130EC3"
+					item: {
+						Count: 1b
+						id: "born_in_chaos_v1:dark_metal_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06BDFB816288466A"
+					item: {
+						Count: 1b
+						id: "born_in_chaos_v1:dark_metal_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6ADB677DF8C6C0D8"
+					item: "born_in_chaos_v1:dark_upgrade"
+					type: "item"
+				}
+			]
+			title: "Caballero oscuro"
+			x: -17.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"3CA3876EAAC1C52E"
+				"01B2936FA3A0075F"
+			]
+			hide: true
+			icon: "born_in_chaos_v1:shattered_skull"
+			id: "08EE4710636D0F0D"
+			rewards: [{
+				count: 5
+				id: "3958B4E54AB1B74A"
+				item: "born_in_chaos_v1:smoked_monster_flesh"
+				type: "item"
+			}]
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:fallen_chaos_knight"
+					id: "2279A4E2861DFB40"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					id: "4FEE01C2ACDF65C9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "La aventura empieza"
+			x: -17.0d
+			y: -11.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"08EE4710636D0F0D"
+				"54964CE65B297450"
+			]
+			hide: true
+			icon: "born_in_chaos_v1:death_totem"
+			id: "3B9AAD4C085988D8"
+			rewards: [{
+				id: "3E9AD904DBDAF7D0"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "73001E0A7A0EEC1D"
+					item: "born_in_chaos_v1:death_totem"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5A506B114E70AA8F"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+			]
+			title: "No funciona xd"
+			x: -18.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["08EE4710636D0F0D"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "born_in_chaos_v1:nightmare_mantleofthe_night_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3BE7E7A6798F0A8E"
+			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B31B5D4491085D6"
+				table_id: 4645360515797637232L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "478AD7E400837830"
+					item: {
+						Count: 1b
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "346EF2482FB59F39"
+					item: {
+						Count: 1b
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F2725AD01770E78"
+					item: {
+						Count: 1b
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A3601CB3166310D"
+					item: {
+						Count: 1b
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Furro"
+			x: -15.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["08EE4710636D0F0D"]
+			hide: true
+			id: "72918404EB245287"
+			rewards: [
+				{
+					id: "161CEAE5CC9418E3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A9CF4182373D079"
+					table_id: 4082850926856813320L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7F742491384F343A"
+				item: "born_in_chaos_v1:armor_plate_from_dark_metal"
+				type: "item"
+			}]
+			title: "Sin miedo al éxito"
+			x: -18.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["08EE4710636D0F0D"]
+			hide: true
+			id: "7E7307FC31A2EF1E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "395A86DF87C3FF20"
+				table_id: 4082850926856813320L
+				type: "random"
+			}]
+			tasks: [{
+				id: "41F4E8699EE9FABF"
+				item: "born_in_chaos_v1:lord_pumpkinheads_lamp"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["08EE4710636D0F0D"]
+			hide: true
+			id: "55817B3B1719EFB0"
+			rewards: [{
+				id: "300124F2CA88F5F9"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E4244F06818A378"
+				item: "born_in_chaos_v1:eternal_candy"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -8.0d
+		}
+	]
+	subtitle: ["Missiones secundarias"]
+	title: "El mundo que te rodea"
+}

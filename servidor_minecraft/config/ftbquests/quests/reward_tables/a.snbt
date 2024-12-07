@@ -1,0 +1,23 @@
+{
+	id: "13AEFECF1E01D324"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "a"
+	}
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ item: "minecraft:stripped_oak_wood" }
+		{ item: "minecraft:stripped_spruce_log" }
+		{
+			type: "xp_levels"
+			xp_levels: 5
+		}
+	]
+	title: "a"
+}

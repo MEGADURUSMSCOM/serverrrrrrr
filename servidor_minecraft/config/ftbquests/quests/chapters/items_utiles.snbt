@@ -1,0 +1,511 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "items_utiles"
+	group: "00AD71BCA4D1B411"
+	icon: "farmersdelight:apple_cider"
+	id: "7D2F5469E156FB5E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3CA3876EAAC1C52E"]
+			hide: true
+			id: "5CB6F1B2456A629C"
+			rewards: [
+				{
+					count: 8
+					id: "770F92A10073E62B"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					id: "493384FF55E13968"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Sirve para alimentarlos automáticamente"
+			tasks: [{
+				id: "49C86671F209DFDF"
+				item: "animal_feeding_trough:feeding_trough"
+				type: "item"
+			}]
+			title: "Comedero para animales"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3CA3876EAAC1C52E"]
+			hide: true
+			id: "3D47A5F989927EA9"
+			rewards: [{
+				id: "2346AB0C83008653"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Igual que la cortadora de piedras"
+			tasks: [{
+				id: "19ECD8B31CFAED98"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "corail_woodcutter:vanilla_woodcutters"
+					}
+				}
+				title: "Any #corail_woodcutter:vanilla_woodcutters"
+				type: "item"
+			}]
+			title: "Craftea una cortador de madera"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3CA3876EAAC1C52E"]
+			hide: true
+			id: "273F3CA631E7A0AC"
+			rewards: [{
+				id: "581FEBC90DBE86CC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Equipa un vex con una antorcha y que ilumine tu camino"
+			tasks: [{
+				id: "198AEAB1660E21D3"
+				title: "Vex"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3CA3876EAAC1C52E"]
+			hide: true
+			id: "639B2A82663005D7"
+			rewards: [{
+				id: "38F37EF77E5D3A2B"
+				item: "mca:divorce_papers"
+				type: "item"
+			}]
+			subtitle: "Malas elecciones te persigen..."
+			tasks: [
+				{
+					consume_items: true
+					id: "4E6BD97EA3F70311"
+					item: "mca:rose_gold_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "240A124AF22697CE"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			title: "Papeles de divorcio"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3CA3876EAAC1C52E"]
+			hide: true
+			id: "281485D5995EBF4F"
+			rewards: [{
+				id: "6605B528AD10C430"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "64089702DE2329B1"
+				item: "securitycraft:sc_manual"
+				type: "item"
+			}]
+			title: "En caso de"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4A6FC64A8C6608B1"]
+			hide: true
+			id: "750C14FAE8A9EDB1"
+			rewards: [
+				{
+					id: "55294BCCC880C8C7"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35EBACFE8544071D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "0D2A6355353647D9"
+					item: "minecraft:diamond"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "0C97A1B7447B2AC0"
+					item: {
+						Count: 1b
+						id: "third_life_plus:jagged_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Te permite robar vidas a jugadores matandolos"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69D6C8D1FDFF0A04"
+				item: {
+					Count: 1b
+					id: "mca:staff_of_life"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Dominio sobre la muerte"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3CA3876EAAC1C52E"]
+			hide: true
+			id: "79B7D1AD7321C9B4"
+			rewards: [{
+				id: "2E21E2FF862DD1F0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "6B69ECAAB9BD9D02"
+				item: "sereneseasons:calendar"
+				type: "item"
+			}]
+			title: "Cuidado con las estaciónes"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"4717D73AD3D4F4E1"
+				"7B7AEE484EF193D1"
+			]
+			hide: true
+			id: "74C9AE7782A7B21B"
+			rewards: [{
+				id: "4609680E9599589F"
+				item: "nourished_nether:netherite_nugget"
+				type: "item"
+			}]
+			subtitle: "De nada por el tradeo XD"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "478A0B8587AABB4D"
+				item: "bygonenether:withered_debris"
+				type: "item"
+			}]
+			title: "Es inútil 😊"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3CA3876EAAC1C52E"]
+			hide: true
+			id: "17342F4C90FEA6A5"
+			rewards: [
+				{
+					id: "673D333674D90DA1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2B5B833CB6BB847E"
+					item: "illagerinvasion:lost_candle"
+					type: "item"
+				}
+			]
+			subtitle: "Revela las posiciónes enemígas"
+			tasks: [{
+				id: "4D86D8842B616666"
+				item: "illagerinvasion:horn_of_sight"
+				type: "item"
+			}]
+			title: "Para las raids"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CA3876EAAC1C52E"]
+			description: ["Es mejor que una espada de hierro"]
+			hide: true
+			id: "592CE5C7EDBFE6B4"
+			rewards: [
+				{
+					id: "1CCB9B94B7CF7556"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "0AE65BB1B7AFD585"
+					item: "farmersdelight:beef_patty"
+					type: "item"
+				}
+			]
+			subtitle: "Golpea muy bien"
+			tasks: [{
+				id: "3E752F2A4C2FD6B7"
+				item: {
+					Count: 1b
+					id: "cfm:spatula"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "uNa SPaTuLa"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CA3876EAAC1C52E"]
+			hide: true
+			icon: "realmrpg_skeletons:dungeon_crawler_skeleton"
+			id: "787F16A790E472A6"
+			rewards: [
+				{
+					id: "72A04C0127E0BAF2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "3688116CF1101535"
+					item: "alexsmobs:maggot"
+					type: "item"
+				}
+			]
+			subtitle: "Gusano"
+			tasks: [{
+				id: "27B4B03D09945093"
+				title: "."
+				type: "checkmark"
+			}]
+			title: "Usa la tecla \"c\" para gatear"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3CA3876EAAC1C52E"]
+			hide: true
+			icon: "supplementaries:enderman_head"
+			id: "652EA5E480038924"
+			rewards: [
+				{
+					id: "7D7C2D20BC8B0B3E"
+					item: "majruszsdifficulty:golden_bandage"
+					random_bonus: 49
+					title: "Gacha"
+					type: "item"
+				}
+				{
+					id: "6B56666A4D93DBCC"
+					item: "third_life_plus:temporary_life"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5E30407E90EC0B5C"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:shadowwalker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F2A87B755C67E43"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:shadowwalker_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "795579EC3C459C7F"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:shadowwalker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4935472B154FD465"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:shadowwalker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "El señor de la noche"
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3CA3876EAAC1C52E"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "immersive_armors:bone_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1A951B2C1C6FE1D2"
+			subtitle: "Caña de azucar, cactus..."
+			tasks: [{
+				id: "429109ED4DA6B218"
+				title: "Puedes usar polvo de hueso para todas las plantas"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3CA3876EAAC1C52E"]
+			hide: true
+			id: "0857ADC8817E88D1"
+			invisible: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "311DD3A61CB254C5"
+					table_id: 7191532406964630749L
+					type: "choice"
+				}
+				{
+					id: "3E2A469692676FE0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "39AADBD871DE217F"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:flower_pot"
+				id: "5DFD1A2ADFA82863"
+				stat: "minecraft:pot_flower"
+				title: "Fotosintesis"
+				type: "stat"
+				value: 48
+			}]
+			title: "Florista"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CA3876EAAC1C52E"]
+			hide: true
+			id: "362519FAE0BF1B00"
+			rewards: [
+				{
+					id: "1DF802FF6567FF0B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 3
+					id: "0FAD653B8C5089DB"
+					item: "third_life_plus:temporary_life"
+					title: "Impunidad para el trobador"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2CD7A20134DF30BD"
+				item: {
+					Count: 1b
+					id: "immersive_melodies:lute"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Trobador"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3CA3876EAAC1C52E"]
+			hide: true
+			icon: "minecraft:campfire"
+			id: "4E15F4480C16B8EA"
+			rewards: [{
+				id: "521861011235739C"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "Te proporcionan regeneración"
+			tasks: [{
+				id: "27E157CB67D26477"
+				title: "Campamentos"
+				type: "checkmark"
+			}]
+			title: "Hogeras"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3CA3876EAAC1C52E"]
+			hide: true
+			icon: "minecraft:name_tag"
+			id: "593BC1A90C20420E"
+			subtitle: "Usa shift+click derecho para renombrar una etiqueta"
+			tasks: [{
+				id: "07CB7F624DC55456"
+				title: "Nametag"
+				type: "checkmark"
+			}]
+			title: "Nametag/Etiquetas"
+			x: 0.0d
+			y: 1.0d
+		}
+	]
+	title: "Cosas utiles y más"
+}

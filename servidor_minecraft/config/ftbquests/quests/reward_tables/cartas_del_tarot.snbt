@@ -1,0 +1,59 @@
+{
+	id: "4077A2C6E5BE5870"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "tarotcards:the_moon"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tarotcards:the_star"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tarotcards:the_chariot"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tarotcards:death"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tarotcards:the_devil"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tarotcards:wheel_of_fortune"
+				tag: { }
+			}
+			weight: 0.666f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tarotcards:temperance"
+				tag: { }
+			}
+		}
+		{ item: "minecraft:cobweb", weight: 15.555f }
+	]
+	title: "Cartas del Tarot"
+}

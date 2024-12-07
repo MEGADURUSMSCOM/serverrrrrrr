@@ -1,0 +1,579 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "favor_de_los_dioses"
+	group: "00AD71BCA4D1B411"
+	icon: "minecraft:enchanted_golden_apple"
+	id: "5AF76014F62823EB"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: [
+				"6DE4586A4DC32AFE"
+				"10CBE1506D5DE5F3"
+				"395F171EB89CF273"
+				"14C993C0E7C7CA98"
+			]
+			dependency_requirement: "all_started"
+			description: [
+				"Para guiar el alma una brujula, para rescatar el alma del abismo una prueva de valor, el poder del oceano contenido, un material capaz de soportar la presion y calor abismal del abismo para protejer el alma en su regreso, un fragmento de alma para reconstruir lo que se ha roto y para alumbrar su camino estrellas que indiquen el norte y el camino a la superficie."
+				""
+				""
+				"Pista:completa la quest \"El rey del más allá\"."
+			]
+			hide: true
+			icon: "endrem:undead_soul"
+			id: "70833E8137FBE720"
+			rewards: [{
+				count: 5
+				id: "2A97F4EFBFEDCE5C"
+				item: "third_life_plus:golden_heart"
+				title: "Undead"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "Debes dar el item recompensa a un admin a cambio de revivir a una participante."
+			tasks: [
+				{
+					consume_items: true
+					id: "01BDD8F6B2157D13"
+					item: "securitycraft:reinforced_netherite_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1751C5D544E19C32"
+					item: "minecraft:recovery_compass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "36E37E3670184819"
+					item: "paraglider:stamina_vessel"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "362806D0E098B183"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1860C70042AA5A80"
+					item: "endrem:undead_soul"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "07BC2225F52B7CFC"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5C3E01D9C1594B3C"
+					item: "deeperdarker:heart_of_the_deep"
+					type: "item"
+				}
+			]
+			title: "Revivir a un caido"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"4717D73AD3D4F4E1"
+				"6DE4586A4DC32AFE"
+				"60280404B0B31F62"
+			]
+			dependency_requirement: "all_started"
+			hide: true
+			icon: "minecraft:beacon"
+			id: "4A0E72DF4CD91F6D"
+			rewards: [{
+				count: 4
+				id: "0A509E4C20CB6308"
+				item: "majruszsdifficulty:recall_potion"
+				title: "Blue Label de Johnnie Walker"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "Bebe la poción y volveras a tu spawnpoint."
+			tasks: [
+				{
+					consume_items: true
+					id: "75E4BF2E814D282D"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "260BF30BA5F0F84C"
+					item: "securitycraft:reinforced_diamond_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "5117FE9E0320079F"
+					item: "bosses_of_mass_destruction:soul_star"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "41D804D09A24CDFA"
+					item: "minecraft:tinted_glass"
+					type: "item"
+				}
+				{
+					id: "53561405D7A7B15B"
+					item: "man:tearoftheman"
+					type: "item"
+				}
+			]
+			title: "Vuelta al spawn point"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"765E0E2C72498E4B"
+				"6DE4586A4DC32AFE"
+			]
+			description: ["Para bosses de fase (los que desbloquean dimensiones o son como un final boss)"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "sanitydim:garland"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "20B06D26B712FD16"
+			rewards: [
+				{
+					command: "/sanity add @p 100"
+					elevate_perms: true
+					icon: "minecraft:beacon"
+					id: "2E3FF7FD1C713135"
+					team_reward: true
+					title: "Luz sagrada concentrada"
+					type: "command"
+				}
+				{
+					command: "/sanity add @p 100"
+					elevate_perms: true
+					icon: "minecraft:beacon"
+					id: "268B101011E8D4B6"
+					team_reward: true
+					title: "Luz sagrada concentrada"
+					type: "command"
+				}
+				{
+					command: "/sanity add @p 100"
+					elevate_perms: true
+					icon: "minecraft:beacon"
+					id: "1254B22E61F576E8"
+					team_reward: true
+					title: "Luz sagrada concentrada"
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Haz click en la recompensa (+100% de sanidad)."
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "4F389A812D5194E0"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "1E042F65BC575742"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "3AE03009D41AFEDC"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1D4BE8A68AA8F61D"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			title: "Recupera toda tu sanidad x3 (se consume al reclamar)"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"22B5B7EFBCD079D4"
+				"6DE4586A4DC32AFE"
+			]
+			hide: true
+			icon: "minecraft:dragon_head"
+			id: "7949B29F58587312"
+			rewards: [{
+				id: "12AD38F1962865A3"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.2d
+			subtitle: "Para tradear con cierto duende"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "04381E55E59BFE2A"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "680F82A436F7D248"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "725A9307378EB0B4"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			title: "Cabeza de dragón"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["2FF2DF815B63F530"]
+			hide: true
+			icon: "artifacts:cross_necklace"
+			id: "6DE4586A4DC32AFE"
+			rewards: [{
+				id: "267CA8D4670A21A8"
+				table_id: 7191532406964630749L
+				type: "random"
+			}]
+			shape: "heart"
+			size: 1.5d
+			subtitle: "Haz click para alabanza"
+			tasks: [{
+				id: "78653B1FFDA5F130"
+				title: "Praice the SUN"
+				type: "checkmark"
+			}]
+			title: "Alaba a tu dios"
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6DE4586A4DC32AFE"
+				"22B5B7EFBCD079D4"
+			]
+			description: ["Ej: encantamientos de un casco de hierro a un casco de diamante"]
+			hide: true
+			icon: "minecraft:paper"
+			id: "19718A8E3EBE21A7"
+			rewards: [{
+				id: "7BA2A6F6383AABA8"
+				item: "mca:letter"
+				title: "Entregar a un dios"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Por un precio, y con items compatibles"
+			tasks: [
+				{
+					id: "02AD98F9855C11FD"
+					title: "Puedes pedir ha un dios que te cambie encantamientos de un equipo ha otro"
+					type: "checkmark"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "7A9FC92C4A5BA47F"
+					item: "minecraft:copper_block"
+					title: "Tributo"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6DE4586A4DC32AFE"
+				"4717D73AD3D4F4E1"
+			]
+			description: ["Util en una pelea contra algun boss"]
+			hide: true
+			icon: "illagerinvasion:unusual_dust"
+			id: "276E99AA500EDAA2"
+			rewards: [{
+				command: "/sanity add @p 20"
+				elevate_perms: true
+				icon: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "illagerinvasion:strong_berserking"
+					}
+				}
+				id: "2BBF4960A6936476"
+				title: "Recupera +20% de tu sanidad (se consume instantaniamente)"
+				type: "command"
+			}]
+			shape: "square"
+			subtitle: "Da una ofrenda a los dioses"
+			tasks: [
+				{
+					consume_items: true
+					id: "6FCAB46714AF8C82"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "566892B3F9069AB8"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "764BCDA159192341"
+					item: "minecraft:nether_wart"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 7L
+					id: "6E0E9CF0F7BCF131"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			title: "Poción de sanidad"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6DE4586A4DC32AFE"
+				"4717D73AD3D4F4E1"
+				"765E0E2C72498E4B"
+			]
+			hide: true
+			icon: "netherdungeons:spore_bundle"
+			id: "7E112FFC7D15BD57"
+			rewards: [
+				{
+					command: "/sanity add @p 40"
+					elevate_perms: true
+					icon: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_night_vision"
+						}
+					}
+					id: "42720D99656603DA"
+					team_reward: true
+					title: "Recupera +40% de tu sanidad (se consume instantaneamente)"
+					type: "command"
+				}
+				{
+					command: "/sanity add @p 40"
+					elevate_perms: true
+					icon: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_night_vision"
+						}
+					}
+					id: "52B8154B60A7789B"
+					team_reward: true
+					title: "Recupera +40% de tu sanidad (se consume instantaneamente)"
+					type: "command"
+				}
+				{
+					command: "/sanity add @p 40"
+					elevate_perms: true
+					icon: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_night_vision"
+						}
+					}
+					id: "57C7EF2A2816BD27"
+					team_reward: true
+					title: "Recupera +40% de tu sanidad (se consume instantaneamente)"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "Útil en mitat de un boss"
+			tasks: [
+				{
+					consume_items: true
+					id: "4EB38D71944AA30E"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "013BFFCF77BA6218"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "1757CF1FC43041E9"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+			]
+			title: "Poción de sanidad mejorada x3"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6DE4586A4DC32AFE"
+				"765E0E2C72498E4B"
+			]
+			dependency_requirement: "all_started"
+			description: ["Pista: completa \"Descenso a la locura\""]
+			hide: true
+			icon: "minecraft:soul_campfire"
+			id: "60280404B0B31F62"
+			rewards: [{
+				id: "6493DA225AE3B603"
+				item: "third_life_plus:reviver_0"
+				title: "Undead"
+				type: "item"
+			}]
+			size: 0.7d
+			subtitle: "Coloca 3 corazones dorados y revive a un muerto"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "5B7C74A531D3535C"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4D8F7CEF60A2DFE7"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "59FE200FFD553925"
+					item: "minecraft:compass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "5EBA384F5C8F2809"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+			]
+			title: "Te permite revivir a un caido"
+			x: 0.7d
+			y: -0.35d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"60280404B0B31F62"
+				"4717D73AD3D4F4E1"
+				"6DE4586A4DC32AFE"
+			]
+			dependency_requirement: "all_started"
+			hide: true
+			icon: "minecraft:soul_lantern"
+			id: "395F171EB89CF273"
+			rewards: [{
+				count: 2
+				id: "5ED058DC0244AE0F"
+				item: "third_life_plus:heart"
+				title: "Undead"
+				type: "item"
+			}]
+			size: 0.7d
+			subtitle: "Te devuelve vidas (máximo 3 a la vez)"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "5790FD1397E1A184"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "56DC894CB999E4DF"
+					item: "minecraft:compass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "75A9DC2F85A8441A"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0F2A3E57CF1903E9"
+					item: "deeperdarker:heart_of_the_deep"
+					type: "item"
+				}
+				{
+					id: "4D24342D4CB6732B"
+					item: "alexsmobs:skreecher_soul"
+					type: "item"
+				}
+			]
+			title: "Engaña a la muerte"
+			x: -0.7d
+			y: -0.35d
+		}
+	]
+	subtitle: ["Se desbloquean al completar quests"]
+	title: "Favor de los dioses"
+}

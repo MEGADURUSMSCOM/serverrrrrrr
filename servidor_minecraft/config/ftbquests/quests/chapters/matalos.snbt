@@ -1,0 +1,2033 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "matalos"
+	group: "3EE6CB5568052FC7"
+	icon: "minecraft:axolotl_bucket"
+	id: "3E8DF47BF7F413E1"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2FF2DF815B63F530"
+				"4D752989FBF30991"
+			]
+			description: [
+				"Mata a una sombra cuando tu locura enpieza..."
+				"Pero ten MUCHO cuidado"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "765E0E2C72498E4B"
+			rewards: [
+				{
+					id: "422F07589A24641D"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7AE24F03C28853D4"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "6C5A2ED2EF9A8917"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 10
+					id: "5D70D44D461F018F"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "1F556107810A28FA"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "5849B47094A99149"
+					item: "progressivebosses:nether_star_shard"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5B3D07B887AA165C"
+					item: "third_life_plus:temporary_life"
+					type: "item"
+				}
+			]
+			subtitle: "Siempre puede ir a peor... Te atréves?"
+			tasks: [{
+				entity: "sanitydim:rotting_stalker"
+				icon: "minecraft:skeleton_skull"
+				id: "3BBD5B22558D33C2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Descenso a la locura..."
+			x: -19.0d
+			y: -63.0d
+		}
+		{
+			dependencies: [
+				"4D752989FBF30991"
+				"10CBE1506D5DE5F3"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "250E4DE52D153121"
+			rewards: [
+				{
+					id: "7C729265893BFC74"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3A1B178EA857EB87"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "6880491D38443CF2"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "519317E9797DF717"
+					item: "progressivebosses:nether_star_shard"
+					type: "item"
+				}
+			]
+			subtitle: "Desciende a una nueva dimensión..."
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "deeperdarker:heart_of_the_deep"
+				id: "0E64C25E9575216B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Pero si da loot!!"
+			x: -20.5d
+			y: -58.5d
+		}
+		{
+			dependencies: [
+				"4717D73AD3D4F4E1"
+				"4D752989FBF30991"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "3516672019C64D5A"
+			ignore_reward_blocking: true
+			rewards: [
+				{
+					id: "2A65EFFCE20914C4"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "127852D9F340F43F"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "1A9F0B99DD27FD49"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 3
+					id: "677FDA249755F622"
+					item: "majruszsdifficulty:recall_potion"
+					title: "3x Blue Label de Johnnie Walker"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "73C3CF26EDEDCD3C"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "7DD5006077491AE4"
+					item: "progressivebosses:nether_star_shard"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23CF769DD8F0DD3E"
+					table_id: 4645360515797637232L
+					type: "random"
+				}
+			]
+			subtitle: "Alguien a quien vas a odiar"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: "aquamirae:shell_horn"
+				id: "25B2EC20826B76FA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Quien vive en la piña debajo del mar?"
+			x: -18.0d
+			y: -55.0d
+		}
+		{
+			id: "3BAA3F582E894CAC"
+			invisible: true
+			rewards: [
+				{
+					id: "3A7E77D509F137E6"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7EAFE512525C773F"
+					table_id: 6050887230689300844L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				entity: "artifacts:mimic"
+				icon: "artifacts:mimic_spawn_egg"
+				id: "0B5C1DCC54B22972"
+				type: "kill"
+				value: 12L
+			}]
+			title: "¡¡¡VAYA ESTAFA!!!"
+			x: -22.0d
+			y: -57.0d
+		}
+		{
+			dependencies: [
+				"2FF2DF815B63F530"
+				"4D752989FBF30991"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "bonezone:wither_bone_mosaic"
+			id: "5559269783A873A1"
+			rewards: [
+				{
+					id: "61A25B9DF162F11B"
+					item: "minecraft:skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "75B1C2E0316BF8A2"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "1F035C4A3BFE606A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Canta conmigo!"
+			tasks: [
+				{
+					entity: "tinyskeletons:baby_skeleton"
+					icon: "realmrpg_skeletons:duelist_skeleton"
+					id: "66E9A9C160576591"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "tinyskeletons:baby_wither_skeleton"
+					icon: "realmrpg_skeletons:thief_skeleton"
+					id: "2E6868BB32C24B47"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "🎵🎵🎵Teeny, tiny skeletons, send shivers down your spine...🎵🎵🎵"
+			x: -21.0d
+			y: -57.5d
+		}
+		{
+			dependencies: [
+				"4D752989FBF30991"
+				"4717D73AD3D4F4E1"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "762B4F2DCB9C0C65"
+			rewards: [
+				{
+					id: "55D4D16362DF64B0"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "29F060D3A44879F8"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "2B1ED34DCA3213E9"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				icon: "majruszsdifficulty:enderium_shard"
+				id: "2F966344180547FB"
+				type: "kill"
+				value: 1L
+			}]
+			x: -20.0d
+			y: -54.0d
+		}
+		{
+			dependencies: [
+				"10CBE1506D5DE5F3"
+				"4D752989FBF30991"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "cataclysm:monstrous_helm"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0323AEC61DE01B05"
+			rewards: [
+				{
+					id: "22B42342D97C7A96"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					id: "59503E633F577B56"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "66A9B7981723ECB9"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "1BBB78EBEA6E6C5B"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "78F1A4C73F381174"
+					item: "progressivebosses:nether_star_shard"
+					type: "item"
+				}
+			]
+			subtitle: "Tu sanidad se desquebraja. Solo ira a peor..."
+			tasks: [
+				{
+					entity: "cataclysm:netherite_monstrosity"
+					icon: {
+						Count: 1b
+						id: "cataclysm:monstrous_helm"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "154197CD565A9917"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "186C9CB387688622"
+					item: "cataclysm:monstrous_eye"
+					type: "item"
+				}
+			]
+			title: "El inicio del cataclismo"
+			x: -21.0d
+			y: -55.5d
+		}
+		{
+			dependencies: [
+				"4D752989FBF30991"
+				"3DC3F637C9301F74"
+				"14BCC3BF2F415E48"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "cataclysm:altar_of_void"
+			id: "15BA5EBE645BAC73"
+			rewards: [
+				{
+					id: "4C396B6DEF125FF0"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "36B195EA7E723BEC"
+					item: "irons_spellbooks:greater_healing_potion"
+					type: "item"
+				}
+				{
+					id: "70CB28DF0BBEC28C"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 8
+					id: "39C45939BF903236"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "152EFC112B93C835"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "7D601226C1F871C3"
+					item: "progressivebosses:nether_star_shard"
+					type: "item"
+				}
+			]
+			subtitle: "Un guardián espera tras el asesinato de su decadente gobernante"
+			tasks: [
+				{
+					entity: "cataclysm:ender_guardian"
+					icon: "minecraft:end_crystal"
+					id: "5D3EC995F9FBED09"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "4308003022948664"
+					item: "cataclysm:void_eye"
+					type: "item"
+				}
+			]
+			title: "El vacio te reclama..."
+			x: -17.0d
+			y: -55.5d
+		}
+		{
+			dependencies: [
+				"4D752989FBF30991"
+				"3DC3F637C9301F74"
+				"0323AEC61DE01B05"
+			]
+			description: [
+				"La recompensa sirve en parte para recuperar todo lo que vas a perder"
+				""
+				"No coloques el arma (The Incinerator) en la mono secundaria que desaparece!!!!"
+				""
+				"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "cataclysm:altar_of_fire"
+			id: "14BCC3BF2F415E48"
+			rewards: [
+				{
+					id: "7B251776A310DF3D"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "10399EA200138153"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "74197148A73F27B2"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "226ED096743BBB16"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5E81118C0E9EED48"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E2C2C4CAF706123"
+					table_id: 2241193052577304960L
+					title: "Revive a un caido (entragalo a un admin)"
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FC3655B8BC59D43"
+					table_id: 6050887230689300844L
+					type: "choice"
+				}
+			]
+			subtitle: "El jefe final... Pero sólo de el Nether"
+			tasks: [
+				{
+					entity: "cataclysm:ignis"
+					icon: "cataclysm:burning_ashes"
+					id: "6D86748A23A91E43"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "04CD3C708FC2EBFD"
+					item: "cataclysm:flame_eye"
+					type: "item"
+				}
+			]
+			title: "¿Jefe final?"
+			x: -19.0d
+			y: -55.5d
+		}
+		{
+			dependencies: [
+				"4D752989FBF30991"
+				"57397757729D174D"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "minecraft:wither_rose"
+			id: "301C63B8EEA6092E"
+			rewards: [
+				{
+					count: 8
+					id: "1EF0CB7BCCFFDCC9"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "1EEA8F16552ECC7A"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "726891325D6D54EA"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E8A85C8EA2B2ABF"
+					table_id: 2241193052577304960L
+					title: "Revive a un caido (entrega a un admin)"
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0944E40904AB92F5"
+					table_id: 4082850926856813320L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "638B6DBF177F285A"
+					table_id: 4645360515797637232L
+					type: "random"
+				}
+			]
+			subtitle: "¿Una aventura termina, otra enpieza?"
+			tasks: [
+				{
+					entity: "cataclysm:the_harbinger"
+					icon: {
+						Count: 1b
+						id: "simplyswords:harbinger"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "45D27F1F44CFC489"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "03E30655D15F1A32"
+					item: "cataclysm:mech_eye"
+					type: "item"
+				}
+			]
+			title: "¿El fin?"
+			x: -18.0d
+			y: -54.0d
+		}
+		{
+			dependencies: [
+				"4D752989FBF30991"
+				"3DC3F637C9301F74"
+				"15BA5EBE645BAC73"
+				"3516672019C64D5A"
+				"746FCCC380139C7F"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "cataclysm:altar_of_abyss"
+			id: "57397757729D174D"
+			rewards: [
+				{
+					id: "1CB2500F38E6071D"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2CD289928D6C9861"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "2D05F30A928E1344"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 8
+					id: "461564ABCC6C2888"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "656FB4D4B9016077"
+					item: "progressivebosses:nether_star_shard"
+					type: "item"
+				}
+			]
+			subtitle: "Un leviatán ha despertado..."
+			tasks: [
+				{
+					entity: "cataclysm:the_leviathan"
+					icon: "cataclysm:abyssal_sacrifice"
+					id: "5EF174171CCDCF46"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "53BAD36F56D512BE"
+					item: "cataclysm:abyss_eye"
+					type: "item"
+				}
+			]
+			title: "Las mareas resuenan como ecos distantes"
+			x: -22.0d
+			y: -58.5d
+		}
+		{
+			dependencies: [
+				"4D752989FBF30991"
+				"3DC3F637C9301F74"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "cataclysm:crystallized_coral_fragments"
+			id: "746FCCC380139C7F"
+			rewards: [
+				{
+					id: "74CBD4A353CDEC89"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "606B9B423BAD71D6"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "51E8A07A32198349"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "46F60F884C33BD23"
+					item: "progressivebosses:nether_star_shard"
+					type: "item"
+				}
+			]
+			subtitle: "Y salir victorioso"
+			tasks: [{
+				entity: "cataclysm:coralssus"
+				icon: "cataclysm:crystallized_coral"
+				id: "6FCA124ADD882E3E"
+				type: "kill"
+				value: 4L
+			}]
+			title: "Desafia las profundidades"
+			x: -16.0d
+			y: -58.5d
+		}
+		{
+			dependencies: ["10CBE1506D5DE5F3"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "minecraft:dragon_head"
+			id: "47499A11F187F94A"
+			rewards: [
+				{
+					id: "2EFAAFFDA995DDC3"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5086ED54231F5F64"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4F2AEF30FC147D91"
+					item: "minecraft:end_crystal"
+					title: "Otra?"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4FCE0C38038F0621"
+					item: "taxdl:dragon_flesh"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "7D2E4B90B6A7EE53"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "15C99A404AF253A8"
+					item: "progressivebosses:nether_star_shard"
+					type: "item"
+				}
+				{
+					id: "0D9A6BB07AEA84B2"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 3
+					id: "02B3854316830AD9"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4805A02CDCC01FD1"
+					item: "minecraft:totem_of_undying"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28D03BDDBD138914"
+					table_id: 4645360515797637232L
+					type: "random"
+				}
+				{
+					id: "69CB414C0C7FB38C"
+					item: "irons_spellbooks:greater_healing_potion"
+					type: "item"
+				}
+			]
+			subtitle: "Ven preparado"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "3F5B13965B35B33B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "¿Estás listo para subir la dificultad?"
+			x: -19.0d
+			y: -61.0d
+		}
+		{
+			dependencies: ["47499A11F187F94A"]
+			hide: true
+			icon: "minecraft:dragon_egg"
+			id: "05E431651B4AFD42"
+			rewards: [
+				{
+					id: "021549A4EE97705E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 10
+					id: "451DBA708D4BA5A3"
+					item: "majruszsdifficulty:golden_bandage"
+					type: "item"
+				}
+				{
+					id: "04462D765029E73E"
+					item: "majruszsdifficulty:recall_potion"
+					title: "Blue Label de Johnnie Walker"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "55C4A96074FD10A2"
+					item: "taxdl:dragon_flesh"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5024676744DC887F"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "5EB48C815BDAC2C3"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "59DA22640BEB3B81"
+					item: "progressivebosses:nether_star_shard"
+					type: "item"
+				}
+				{
+					id: "434DC4B0A975CBCB"
+					item: "third_life_plus:golden_heart"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_egg"
+				id: "43FAAAD55981317F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "¡¡¡Orta otra otra!!!"
+			x: -19.0d
+			y: -60.0d
+		}
+		{
+			description: [
+				"Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?Ban?"
+				""
+				"SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI SI "
+				""
+				"https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+			]
+			icon: "minecraft:sniffer_egg"
+			id: "19B08585E6222C7A"
+			invisible: true
+			rewards: [
+				{
+					id: "7835B0B31359D7F4"
+					item: "toughasnails:dirty_water_bottle"
+					title: "Muere"
+					type: "item"
+				}
+				{
+					id: "45A4D01D200B021C"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_poison"
+						}
+					}
+					title: "Muere"
+					type: "item"
+				}
+				{
+					id: "0F3B7B5B5022F7D1"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_harming"
+						}
+					}
+					title: "Muere"
+					type: "item"
+				}
+				{
+					id: "267711228AD676F2"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "biomemakeover:darkness"
+						}
+					}
+					title: "Muere"
+					type: "item"
+				}
+				{
+					id: "4F5D50E0CD38FAD6"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "majruszsdifficulty:strong_wither"
+						}
+					}
+					title: "Muere"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:sniffer"
+					id: "6F705C8D638020BD"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:wolf"
+					id: "4135A8FC098F1A92"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "Ban?"
+			x: -16.0d
+			y: -57.0d
+		}
+		{
+			id: "696DEE221875A05D"
+			invisible: true
+			rewards: [
+				{
+					count: 5
+					id: "3473925716D6A965"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					id: "31E9CBA13D169B8A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "El administrador te da las gracias"
+			tasks: [{
+				entity: "minecraft:wandering_trader"
+				icon: "minecraft:blue_carpet"
+				id: "0F9CBB2A003B2ECA"
+				type: "kill"
+				value: 2L
+			}]
+			title: "¡Gracias!"
+			x: -17.5d
+			y: -60.0d
+		}
+		{
+			id: "55BB790CCC99A5AC"
+			invisible: true
+			rewards: [
+				{
+					count: 2
+					id: "6B3F242ED7657B8D"
+					item: "minecraft:golden_apple"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "7254B52857ABBC31"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "minecraft:vex"
+				icon: "alexscaves:vesper_wing"
+				id: "51E0FC658E05321F"
+				type: "kill"
+				value: 20L
+			}]
+			title: "¡Qué asqueroso!"
+			x: -14.5d
+			y: -58.5d
+		}
+		{
+			dependencies: [
+				"4D752989FBF30991"
+				"2FF2DF815B63F530"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "54964CE65B297450"
+			rewards: [
+				{
+					id: "2BB3A96FFE24B084"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "71C2AC4A510B9E3B"
+					item: "majruszsdifficulty:golden_bandage"
+					type: "item"
+				}
+				{
+					id: "7D9BD0860E90A008"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "No... ¡Algo mejor!"
+			tasks: [{
+				entity: "minecraft:evoker"
+				icon: "minecraft:totem_of_undying"
+				id: "1ECBD8A8C57859F1"
+				type: "kill"
+				value: 3L
+			}]
+			title: "¿Un tótem?"
+			x: -20.5d
+			y: -62.5d
+		}
+		{
+			dependencies: ["4D752989FBF30991"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "minecraft:carved_pumpkin"
+			id: "19774EBB98F51A89"
+			rewards: [
+				{
+					count: 24
+					id: "2E2C13DE308C78BF"
+					item: "majruszsdifficulty:bandage"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0610FBE846624163"
+					table_id: 7191532406964630749L
+					type: "random"
+				}
+				{
+					id: "60F9203904BE9F0F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Jajaja"
+			tasks: [
+				{
+					entity: "minecraft:iron_golem"
+					icon: "minecraft:iron_ingot"
+					id: "305C9C0A0D40FFD4"
+					type: "kill"
+					value: 10L
+				}
+				{
+					entity: "minecraft:snow_golem"
+					icon: "minecraft:carved_pumpkin"
+					id: "31E8BDD2DB218CC9"
+					type: "kill"
+					value: 30L
+				}
+			]
+			title: "Los aldeanos me adoran"
+			x: -17.5d
+			y: -62.5d
+		}
+		{
+			dependencies: [
+				"4D752989FBF30991"
+				"2FF2DF815B63F530"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "157712A8E92F3984"
+			rewards: [
+				{
+					id: "6EB3C36168A3AB95"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					id: "16F39389463C176C"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cave_dweller:cave_dweller"
+				icon: "deeperdarker:sculk_bone"
+				id: "3F16BB61B7D0B4DE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Quién acecha en las cavernas..."
+			x: -20.0d
+			y: -56.5d
+		}
+		{
+			id: "4E8F46112B76553E"
+			invisible: true
+			rewards: [{
+				count: 50
+				id: "303478F871A59A63"
+				item: "supplementaries:soap"
+				random_bonus: 50
+				type: "item"
+			}]
+			tasks: [
+				{
+					entity: "mca:male_villager"
+					id: "3B5772D493221DE8"
+					type: "kill"
+					value: 50L
+				}
+				{
+					entity: "mca:female_villager"
+					id: "1FF07EE0E182FFF7"
+					type: "kill"
+					value: 50L
+				}
+			]
+			title: "Genocida"
+			x: -23.5d
+			y: -58.5d
+		}
+		{
+			id: "1AE6A43513842F81"
+			invisible: true
+			rewards: [
+				{
+					count: 3
+					id: "712DDCC6CF79287C"
+					item: "paraglider:stamina_vessel"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7F671909F6FEC9E7"
+					item: "minecraft:diamond"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					count: 5
+					id: "3A0125FD9ECAC0A2"
+					item: "minecraft:iron_ingot"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6DAE1B05FE724248"
+					item: "minecraft:emerald"
+					random_bonus: 32
+					type: "item"
+				}
+				{
+					id: "5DDC14FA7D746E65"
+					item: "minecraft:emerald_block"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:trader_llama"
+				icon: "minecraft:purple_carpet"
+				id: "576BFCC810D5FAD2"
+				type: "kill"
+				value: 8L
+			}]
+			title: "¡Asaltante de caminos!"
+			x: -20.5d
+			y: -60.0d
+		}
+		{
+			dependencies: [
+				"4D752989FBF30991"
+				"4717D73AD3D4F4E1"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "bonezone:spinal_skull_bull"
+			id: "797F2E5AFF1CD5B3"
+			rewards: [
+				{
+					count: 15
+					id: "5FD07511743B679D"
+					item: "majruszsdifficulty:bandage"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "25B24D3478252397"
+					item: "majruszsdifficulty:golden_bandage"
+					type: "item"
+				}
+				{
+					id: "203771B46FF03FB0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					advancement: "majruszsdifficulty:progressive_difficulty/undead_army"
+					criterion: ""
+					id: "2B2DB0A72C62BC10"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:nether/get_wither_skull"
+					criterion: ""
+					id: "558426C59B39BAAF"
+					type: "advancement"
+				}
+			]
+			title: "Interesante..."
+			x: -17.0d
+			y: -57.5d
+		}
+		{
+			dependencies: [
+				"4D752989FBF30991"
+				"2FF2DF815B63F530"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "minecraft:trident"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5ED33EA55C51EFDC"
+			rewards: [
+				{
+					id: "15688650E9325D56"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					count: 8
+					id: "239BE16325CFEE96"
+					item: "farmersdelight:salmon_roll"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "27BB5EA5E10BE44E"
+					item: "farmersdelight:kelp_roll_slice"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "443AD079F1ABA5F8"
+					item: "farmersdelight:kelp_roll"
+					type: "item"
+				}
+				{
+					id: "131DA47F04F34BDA"
+					item: "progressivebosses:nether_star_shard"
+					type: "item"
+				}
+				{
+					id: "0063463BD048C8C1"
+					item: {
+						Count: 1b
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Tenedor muy grande"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4B61B2E8A9E359D0"
+					item: "paraglider:stamina_vessel"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "137A7351450FF52F"
+					table_id: 1140077508870799999L
+					type: "random"
+				}
+			]
+			subtitle: "Meto cuchillo saco tripas"
+			tasks: [
+				{
+					entity: "minecraft:elder_guardian"
+					icon: "alexsmobs:blobfish"
+					id: "3AF8ABA36B06127C"
+					type: "kill"
+					value: 3L
+				}
+				{
+					id: "36A96F0CC14F389C"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_water_breathing"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "¡Es hora de comer!"
+			x: -17.5d
+			y: -58.5d
+		}
+		{
+			dependencies: [
+				"4717D73AD3D4F4E1"
+				"4D752989FBF30991"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "4A6FC64A8C6608B1"
+			rewards: [
+				{
+					id: "61ECCEEC79676334"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "43C5A0A19A037434"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					id: "5441A382A596A86E"
+					item: "progressivebosses:nether_star_shard"
+					type: "item"
+				}
+			]
+			subtitle: "Dale un buen machetazo"
+			tasks: [{
+				entity: "mca:grim_reaper"
+				icon: {
+					Count: 1b
+					id: "mca:scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7685C91B108E330D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "El diablo"
+			x: -20.0d
+			y: -55.0d
+		}
+		{
+			dependencies: [
+				"4D752989FBF30991"
+				"4717D73AD3D4F4E1"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "minecraft:emerald_block"
+			id: "7AE271B22E812EFD"
+			rewards: [
+				{
+					count: 4
+					id: "3E76648B8061A8C6"
+					item: "majruszsdifficulty:golden_bandage"
+					type: "item"
+				}
+				{
+					id: "16AC26F2F8637076"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7AB8D4298D0AD037"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "majruszsdifficulty:cerberus"
+				icon: "majruszsdifficulty:cerberus_fang"
+				id: "28D58650FB6B9CB7"
+				type: "kill"
+				value: 4L
+			}]
+			title: "¡Chico malo!"
+			x: -20.0d
+			y: -61.5d
+		}
+		{
+			dependencies: ["4D752989FBF30991"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "minecraft:emerald_block"
+			id: "3072266C5F59E4B9"
+			rewards: [
+				{
+					count: 16
+					id: "315AFB985539F5E5"
+					item: "minecraft:pumpkin_pie"
+					type: "item"
+				}
+				{
+					id: "24DEC5E5D44E4BCE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "107C9DC6BD6BBF85"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "majruszsdifficulty:cursed_armor"
+				icon: {
+					Count: 1b
+					id: "minecraft:golden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "62C34B6BFECB3D3E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Que susto"
+			x: -18.0d
+			y: -61.5d
+		}
+		{
+			dependencies: ["765E0E2C72498E4B"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "endrem:cursed_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "39D0EDE0179F9810"
+			rewards: [
+				{
+					id: "51BDC5CA13202809"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					id: "7D0782C5BC311F57"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3ED4C3E1B697BD2F"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "5D5ACB603FC4ED16"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					count: 3
+					id: "62FF61D056337A05"
+					item: "paraglider:stamina_vessel"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7A604A56AF4A1585"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					command: "/sanity add @p 60"
+					elevate_perms: true
+					icon: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "illagerinvasion:strong_berserking"
+						}
+					}
+					id: "414504D1EAB24BAD"
+					title: "Poción de sanidad Superior (+60% de sanidad). Se consume instantaniamente"
+					type: "command"
+				}
+				{
+					id: "07830DF0EE438651"
+					item: "progressivebosses:nether_star_shard"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "258201D42C44E5D9"
+					table_id: 4645360515797637232L
+					type: "random"
+				}
+			]
+			subtitle: "¡¡¡¡Detrás de ti, HUYE!!!!"
+			tasks: [{
+				entity: "sanitydim:sneaking_terror"
+				icon: "graveyard:hanged_skeleton"
+				id: "4574B4C6A0CF5BC2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "ALÉJATE, ALÉJATE, ALÉJATE..."
+			x: -19.0d
+			y: -62.0d
+		}
+		{
+			dependencies: ["01B2936FA3A0075F"]
+			description: [
+				"No se permiten armas a distancia ni arrojadizas."
+				""
+				"Las misiones se desbloquean avanzando en la sección de aventuras."
+			]
+			hide: true
+			icon: "endrem:undead_soul"
+			id: "4D752989FBF30991"
+			rewards: [{
+				id: "1558856C467EB53C"
+				item: "majruszsdifficulty:bandage"
+				type: "item"
+			}]
+			subtitle: "Los arcos y ballestas no están permitidos para el combate, a menos que una mecánica de jefe lo requiera."
+			tasks: [{
+				id: "16DFA2FADA16952D"
+				title: "Bosses"
+				type: "checkmark"
+			}]
+			x: -19.0d
+			y: -58.5d
+		}
+		{
+			dependencies: [
+				"4D752989FBF30991"
+				"4717D73AD3D4F4E1"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "4B95BC7972149084"
+			rewards: [
+				{
+					count: 3
+					id: "49A1DA012E8135E0"
+					item: "farmersdelight:milk_bottle"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "18E43EA398E083B4"
+					item: "majruszsdifficulty:golden_bandage"
+					type: "item"
+				}
+				{
+					id: "404B5DC8D1DE9D4B"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "graveyard:wither_skull_pile"
+				id: "1DE38028016E725B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Decadencia..."
+			x: -19.0d
+			y: -56.5d
+		}
+		{
+			dependencies: ["14BCC3BF2F415E48"]
+			icon: "cataclysm:the_incinerator"
+			id: "2BC6FB09A477EEF7"
+			rewards: [
+				{
+					id: "429AF3F768A89EE5"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "649EE62722A56635"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+				{
+					id: "68717E4D6E7531D6"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "combatroll:multi_roll"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "24F7572A3FB534AF"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4385A59278BAA9F8"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:looting"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63323A2C359BB087"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:fortune"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "29EEB7A475BF98F3"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "73F0197292951B36"
+					item: "minecraft:totem_of_undying"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1E960244F0FF9934"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3B7C5AEC291B8B30"
+					item: "majruszsdifficulty:recall_potion"
+					title: "4x Blue Label de Johnnie Walker"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "6E8B46A88FE4C012"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Quieres tener el conjunto completo, ¿no?"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:ignitium_ingot"
+				id: "380D2CEFFC639C2A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ah shit, here we go again"
+			x: -19.0d
+			y: -53.5d
+		}
+		{
+			dependencies: [
+				"4D752989FBF30991"
+				"057EB2A549709F84"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "14C993C0E7C7CA98"
+			rewards: [
+				{
+					count: 3
+					id: "1113F340EC37CCC1"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "42B3F2090098D916"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "35D5C0609F7D44E9"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27BB8518CA88E093"
+					table_id: 4082850926856813320L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FE12561C5C2B005"
+					table_id: 4645360515797637232L
+					type: "random"
+				}
+			]
+			subtitle: "Adquiere el poder de desafiar a la muerte"
+			tasks: [{
+				entity: "graveyard:lich"
+				icon: "graveyard:upper_bone_staff"
+				id: "102F52D1008D9B38"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Rey del más allá"
+			x: -19.5d
+			y: -57.5d
+		}
+		{
+			dependencies: [
+				"4D752989FBF30991"
+				"4717D73AD3D4F4E1"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "graveyard:leaning_wither_skeleton"
+			id: "2CDB98C4FFDFB2A9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B558565052D9E7F"
+					table_id: 4645360515797637232L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D3DB176657C6E07"
+					table_id: 2409118067992150210L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FA5061B68CE63D0"
+					table_id: 4082850926856813320L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "7C34EF81ADEDEEF8"
+					item: "third_life_plus:golden_heart"
+					type: "item"
+				}
+			]
+			subtitle: "The Overlord"
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: {
+					Count: 1b
+					id: "irons_spellbooks:blood_staff"
+					tag: {
+						ISB_spellbook: {
+							activeSpellIndex: 0
+							spellSlots: 5
+							spells: [
+								{
+									level: 6
+									sid: "irons_spellbooks:wither_skull"
+									slot: 0
+								}
+								{
+									level: 6
+									sid: "irons_spellbooks:ray_of_siphoning"
+									slot: 1
+								}
+								{
+									level: 3
+									sid: "irons_spellbooks:blood_step"
+									slot: 2
+								}
+								{
+									level: 6
+									sid: "irons_spellbooks:blood_slash"
+									slot: 3
+								}
+								{
+									level: 6
+									sid: "irons_spellbooks:blaze_storm"
+									slot: 4
+								}
+							]
+						}
+					}
+				}
+				id: "0268AD2292D47EE8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Muerte al rey hechicero"
+			x: -18.5d
+			y: -57.5d
+		}
+		{
+			dependencies: [
+				"4D752989FBF30991"
+				"2FF2DF815B63F530"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "75CE46D86A1583D2"
+			rewards: [
+				{
+					id: "24E5C4B1C4B52A39"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "60A9AB993C03005E"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "man:managgresive"
+				icon: "man:tearoftheman"
+				id: "6DB1F6D1FB287CFF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Observando desde la niebla..."
+			x: -18.0d
+			y: -56.5d
+		}
+		{
+			dependencies: [
+				"01B2936FA3A0075F"
+				"4D752989FBF30991"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "6C488A10CE8B6DAB"
+			rewards: [
+				{
+					count: 4
+					id: "46C3036BF15C6C08"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "686E0833143660D3"
+					item: "paraglider:heart_container"
+					title: "Los dioses agradecen tu trabajo como jardinero."
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0AF34F37FFB05EB1"
+					table_id: 7191532406964630749L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "201B46921FF56E78"
+					item: "bosses_of_mass_destruction:void_lily"
+					type: "item"
+				}
+				{
+					entity: "bosses_of_mass_destruction:void_blossom"
+					icon: "bosses_of_mass_destruction:crystal_fruit"
+					id: "3BDA56CE86411D05"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Herbicida"
+			x: -21.0d
+			y: -56.5d
+		}
+		{
+			dependencies: [
+				"4D752989FBF30991"
+				"6C488A10CE8B6DAB"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "6720DE8B2B9C0B27"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "670CA9CC5BA058C4"
+					table_id: 4082850926856813320L
+					type: "random"
+				}
+				{
+					id: "213B4B96830D56AD"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:lich"
+					icon: "bosses_of_mass_destruction:ancient_anima"
+					id: "1A5F8C9887E19A80"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "5DEECDB1CA858B4F"
+					item: "bosses_of_mass_destruction:soul_star"
+					type: "item"
+				}
+			]
+			title: "La luz se abre paso"
+			x: -17.0d
+			y: -56.5d
+		}
+		{
+			dependencies: [
+				"4D752989FBF30991"
+				"10CBE1506D5DE5F3"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "460E58086D8A9A7F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6FDF1146F7B8A8C7"
+					table_id: 4082850926856813320L
+					type: "choice"
+				}
+				{
+					count: 12
+					id: "5C45575EFEE827B2"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "14155763B8272402"
+					item: "third_life_plus:golden_heart"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:gauntlet"
+					icon: "bosses_of_mass_destruction:blazing_eye"
+					id: "69A61824A127DD55"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "798012D2DCC8DBF4"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "rompe"
+					type: "item"
+				}
+			]
+			title: "Ojos que no ven..."
+			x: -23.0d
+			y: -57.5d
+		}
+		{
+			dependencies: [
+				"4D752989FBF30991"
+				"10CBE1506D5DE5F3"
+				"47499A11F187F94A"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "170C42EE97E9BCAB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C160FC84C99B0A5"
+					table_id: 1140077508870799999L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "391A634DC5389AC5"
+					item: "third_life_plus:heart"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:obsidilith"
+					icon: "bosses_of_mass_destruction:obsidian_heart"
+					id: "20F98F74532E866D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "1ED5EB869B98CA05"
+					item: "minecraft:ender_eye"
+					title: "invoca"
+					type: "item"
+				}
+			]
+			title: "Desde el vacío"
+			x: -15.0d
+			y: -57.5d
+		}
+	]
+	subtitle: [
+		"Los arcos y ballestas no están permitidos a menos que sean necesarios para la mecánica del jefe."
+		"Cualquier arma a distancia en resumen"
+		"Recomiendo 2-3 personas mínimo por jefe si acabas de desbloquearlo."
+	]
+	title: "¡MÁTALOS! Si puedes..."
+}

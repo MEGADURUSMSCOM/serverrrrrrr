@@ -1,0 +1,18 @@
+{
+	id: "0FD25E7434A8027F"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ count: 6, item: "minecraft:netherite_scrap" }
+		{ count: 2, item: "minecraft:diamond_block" }
+		{ count: 16, item: "minecraft:gold_block" }
+		{ count: 24, item: "minecraft:iron_block" }
+		{
+			type: "xp_levels"
+			xp_levels: 20
+		}
+		{ item: "minecraft:enchanted_golden_apple" }
+		{ count: 3, item: "minecraft:totem_of_undying" }
+	]
+	title: "Extras SUPERIOR"
+}

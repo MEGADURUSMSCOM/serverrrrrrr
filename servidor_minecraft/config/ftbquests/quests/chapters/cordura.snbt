@@ -1,0 +1,419 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cordura"
+	group: "15453F4053D67D06"
+	icon: {
+		Count: 1b
+		id: "sanitydim:garland"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "24B5681C66F735C8"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3CA3876EAAC1C52E"]
+			description: [
+				""
+				"El simbolo a la izquierda de tu salud es tu estado mental, que se ve afectado:"
+				""
+				"-&2Positivamente:&f"
+				"Comiendo, durmiendo, tradeando, estando con mascotas, luz, escuchar música..."
+				""
+				"-&4Negativamente:&f"
+				"Estar cerca de enemigos, recibir daño, oscuridad, mojarte (porque eres otaku supongo), atacando seres pasivos..."
+				"{@pagebreak}"
+			]
+			hide: true
+			icon: "minecraft:wither_rose"
+			id: "1C5CF252D8D4FB7F"
+			tasks: [{
+				id: "4206A4B983329934"
+				title: "Locura"
+				type: "checkmark"
+			}]
+			title: "Sistema de salud mental"
+			x: 1.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1C5CF252D8D4FB7F"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Este item te puede ayudar a aumentar y conservar tu cordura."
+				"Se craftea con 8 flóres en forma de círculo"
+			]
+			icon: {
+				Count: 1b
+				id: "sanitydim:garland"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "03AAB7F336B0D0AD"
+			rewards: [{
+				id: "4DB601FFD11F2867"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "..."
+			tasks: [{
+				consume_items: false
+				id: "71EE36CF35617242"
+				item: {
+					Count: 1b
+					id: "sanitydim:garland"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Cabeza despejada"
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1C5CF252D8D4FB7F"]
+			description: [
+				"Las antórchas se craftean sin estar prendidas, haz una caja de crillas para prenderlas"
+				"La caja de cerillas se craftea con 3x papel y 3x losas de madera"
+			]
+			icon: "realistictorches:unlit_torch"
+			id: "511633392DE0D533"
+			tasks: [{
+				id: "14312FCA4C8BDD9F"
+				item: "realistictorches:unlit_torch"
+				type: "item"
+			}]
+			title: "Antórchas"
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["511633392DE0D533"]
+			id: "2C2187CDF5498293"
+			rewards: [{
+				id: "5DAD03B0A307EB97"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Para encender antochas"
+			tasks: [{
+				id: "027EBBE36669E4F6"
+				item: {
+					Count: 1b
+					id: "realistictorches:matchbox"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Enciendelas"
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["03AAB7F336B0D0AD"]
+			description: ["Recuerda que si vas acompañado te sentirás mejor."]
+			id: "0D058B65E96C250B"
+			rewards: [
+				{
+					id: "046381CBAC4F9934"
+					item: "farmersdelight:dog_food"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "1740388F271B6753"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "..."
+			tasks: [
+				{
+					advancement: "minecraft:husbandry/tame_an_animal"
+					criterion: ""
+					id: "6FACB05C6DA63D37"
+					type: "advancement"
+				}
+				{
+					id: "655792DDCAE847CD"
+					item: "revampedwolf:iron_wolf_armor"
+					type: "item"
+				}
+			]
+			title: "Canis Lupus"
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0D058B65E96C250B"]
+			hide: true
+			id: "5C577DF5601F6A32"
+			rewards: [
+				{
+					count: 8
+					id: "36557329AD01E8F0"
+					item: "farmersdelight:dog_food"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "3C7DC11DDD225CB7"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "6FFA56836E7ECD53"
+				item: "revampedwolf:diamond_wolf_armor"
+				type: "item"
+			}]
+			title: "Best friends"
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5C577DF5601F6A32"]
+			hide: true
+			id: "35824AB2C4B9234A"
+			rewards: [
+				{
+					count: 16
+					id: "05FF06A0532B4A3E"
+					item: "farmersdelight:dog_food"
+					type: "item"
+				}
+				{
+					id: "6E9509B347C0058C"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					id: "021F655FE2889E11"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+			]
+			subtitle: "..."
+			tasks: [{
+				id: "13F2500E751A9A95"
+				item: "revampedwolf:netherite_wolf_armor"
+				type: "item"
+			}]
+			title: "BFF"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1C5CF252D8D4FB7F"]
+			id: "388AB5367EAF8653"
+			rewards: [{
+				id: "3BDBA5C44D622B5C"
+				item: "farmersdelight:apple_pie_slice"
+				type: "item"
+			}]
+			subtitle: "Duérme"
+			tasks: [{
+				advancement: "minecraft:adventure/sleep_in_bed"
+				criterion: ""
+				id: "38CE5C53807C1F99"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["388AB5367EAF8653"]
+			id: "5F757859EA763C6B"
+			rewards: [{
+				id: "7EA9591A7BEE8B38"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "goblintraders:levitation"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "🎵 I belive i can fly... 🎵"
+			tasks: [{
+				entity: "minecraft:phantom"
+				icon: "minecraft:phantom_membrane"
+				id: "59732CFE46FC8D4C"
+				type: "kill"
+				value: 2L
+			}]
+			title: "Va siendo hora de dormir"
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"5F757859EA763C6B"
+				"4D27C24B55FCB4F9"
+			]
+			hide: true
+			id: "380A3F5724A164C2"
+			rewards: [
+				{
+					id: "2DC37455067BB2E3"
+					item: "minecraft:white_bed"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "338DDEFA815F64D5"
+					table_id: 4645360515797637232L
+					type: "random"
+				}
+			]
+			subtitle: "Me voy a dormir."
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				icon: "deeperdarker:echo_log"
+				id: "3B3C2F1914D28132"
+				title: "Oscuridad permanente..."
+				type: "dimension"
+			}]
+			title: "Estoy soñando?"
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2C2187CDF5498293"]
+			id: "6A5A87F884A700D5"
+			rewards: [
+				{
+					count: 5
+					id: "2C0AD84BB1D53DE9"
+					item: "realistictorches:glowstone_crystal"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "5DA35550ABE2583F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "..."
+			tasks: [{
+				count: 4L
+				id: "2F71F992F9512E8C"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			title: "Un clássico"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6A5A87F884A700D5"]
+			id: "4EE7FC41C2953B37"
+			rewards: [{
+				id: "103BAE40397D7EB1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "..."
+			tasks: [{
+				count: 3L
+				id: "29145430B2EF9D1E"
+				item: "supplementaries:sconce"
+				type: "item"
+			}]
+			title: "Con estilo"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1C5CF252D8D4FB7F"]
+			id: "4200B5A54368FE0C"
+			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E7806659A3B656E"
+				table_id: 7191532406964630749L
+				type: "random"
+			}]
+			subtitle: "..."
+			tasks: [{
+				advancement: "minecraft:husbandry/allay_deliver_item_to_player"
+				criterion: ""
+				id: "423BEE1890B937D4"
+				title: "Angel guardia"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["380A3F5724A164C2"]
+			id: "1A153BE8E98624E9"
+			rewards: [{
+				id: "0632C9345E425725"
+				item: "third_life_plus:golden_heart"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:shriek_worm"
+				icon: "born_in_chaos_v1:fried_maggot"
+				id: "20EF1CB24FD6458D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Un...  gusanote"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["380A3F5724A164C2"]
+			id: "573CD0A261370F80"
+			rewards: [{
+				id: "322FE6B86ACA4601"
+				item: "third_life_plus:golden_heart"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				icon: "deeperdarker:soul_crystal"
+				id: "6B29D65EB5316CA5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "No gracias"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["380A3F5724A164C2"]
+			id: "4883F6CCD9E99669"
+			rewards: [{
+				id: "67A4B3489380D77B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				icon: "deeperdarker:ancient_vase"
+				id: "24629486E36CD7E2"
+				observe_type: 0
+				timer: 0L
+				title: "Y esto?"
+				to_observe: "deeperdarker:ancient_vase"
+				type: "observation"
+			}]
+			title: "Me llevare 10"
+			x: 1.0d
+			y: -2.0d
+		}
+	]
+	title: "Cordura y iluminación"
+}

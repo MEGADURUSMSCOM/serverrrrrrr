@@ -1,0 +1,196 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hidratacin"
+	group: "15453F4053D67D06"
+	icon: {
+		Count: 1b
+		id: "toughasnails:purified_water_canteen"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "76E6291BEBE56A9F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3CA3876EAAC1C52E"]
+			description: [
+				"Puedes beber de:"
+				""
+				"- Botellas de agua."
+				"-Cantimploras."
+				"-Directamente de un bloque de agua con shift + click derecho."
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:water"
+				}
+			}
+			id: "786CFF7CA4A15B43"
+			rewards: [{
+				id: "509CFF4F6C358698"
+				item: "minecraft:stick"
+				type: "item"
+			}]
+			subtitle: "Hidrátate"
+			tasks: [{
+				id: "3995AE58F447C799"
+				title: "Beber"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["786CFF7CA4A15B43"]
+			description: ["Usa un purificador para limpiar el agua de una cantimplora y que no te siente mal."]
+			id: "2A653C4407A18CD5"
+			rewards: [{
+				id: "39FE3D580BD596EB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Consige agua y hiérvela!"
+			tasks: [{
+				id: "2F0BC2E4E76154D1"
+				item: "toughasnails:empty_canteen"
+				type: "item"
+			}]
+			title: "Agua al alcance"
+			x: -3.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["5F6B648C006F57B0"]
+			description: ["Obtén una cantimplora con agua purificada."]
+			hide: true
+			id: "62A21526FAEE0E15"
+			rewards: [
+				{
+					count: 24
+					id: "18C775098FB155CE"
+					item: "realistictorches:lit_torch"
+					type: "item"
+				}
+				{
+					id: "22F02EA05974CD8A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Listo para la aventura?"
+			tasks: [{
+				id: "5658EA65D365638C"
+				item: {
+					Count: 1b
+					id: "toughasnails:purified_water_canteen"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Refrescante"
+			x: -2.0d
+			y: -16.0d
+		}
+		{
+			dependencies: [
+				"62A21526FAEE0E15"
+				"45F573953E4EB579"
+			]
+			hide: true
+			id: "3A04EC252DF85FE6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "199DCD80CDA7A16E"
+					table_id: 7191532406964630749L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D3E9DA506D192CF"
+					table_id: 2409118067992150210L
+					type: "random"
+				}
+			]
+			subtitle: "glup glup"
+			tasks: [
+				{
+					id: "55B3E01767D7A929"
+					item: "majruszsdifficulty:ender_pouch"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2D1A02C3E69FC476"
+					item: "toughasnails:chorus_fruit_juice"
+					type: "item"
+				}
+			]
+			title: "Yo soy la hidratación"
+			x: -5.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["2A653C4407A18CD5"]
+			description: ["Coloca un bloque de agua y llena la cantimplóra las veces que haga falta."]
+			hide: true
+			icon: "minecraft:water_bucket"
+			id: "45F573953E4EB579"
+			rewards: [
+				{
+					id: "3AFF65FCBFC36A70"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BB28E25FDDAA678"
+					table_id: 7191532406964630749L
+					type: "random"
+				}
+			]
+			subtitle: "¿Dónde está la física?"
+			tasks: [
+				{
+					id: "2A91BB372F2AFC72"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "6B82DCC8950223EB"
+					item: {
+						Count: 1b
+						id: "toughasnails:water_canteen"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Agua infinita"
+			x: -5.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["2A653C4407A18CD5"]
+			id: "5F6B648C006F57B0"
+			tasks: [{
+				id: "570B20F3F3FD4A80"
+				item: "toughasnails:water_purifier"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -18.5d
+		}
+	]
+	title: "Hidratación"
+}

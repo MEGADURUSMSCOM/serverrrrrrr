@@ -1,0 +1,7 @@
+{
+	id: "1F1A5134FBF19180"
+	loot_size: 1
+	order_index: 3
+	rewards: [{ count: 3, item: "third_life_plus:golden_heart" }]
+	title: "Revive a un caido"
+}

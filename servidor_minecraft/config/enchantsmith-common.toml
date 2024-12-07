@@ -17,11 +17,11 @@ treasure_only_cost = 5
 #Cost for discoverable enchants
 is_discoverable_cost = -1
 #Cost for curse enchants
-is_curse_cost = -2
+is_curse_cost = -6
 #Cost for tradeable enchants
 is_tradeable_cost = -1
 #Multiplier for emerald cost
 emerald_cost_multp = 1
 #Multiplier for experience cost
-experience_cost_multp = 4
+experience_cost_multp = 12
 

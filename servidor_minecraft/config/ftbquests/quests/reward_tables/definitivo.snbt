@@ -1,0 +1,170 @@
+{
+	id: "3F5C18704B5B3F46"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			count: 2
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 7s
+					}]
+				}
+			}
+			title: "2x Sharpness 7"
+		}
+		{
+			count: 2
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "farmersdelight:backstabbing"
+						lvl: 10s
+					}]
+				}
+			}
+			title: "2x Backstabbing 10"
+		}
+		{
+			count: 3
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:quick_charge"
+						lvl: 9s
+					}]
+				}
+			}
+			title: "3x Quick charge 9"
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:power"
+						lvl: 7s
+					}]
+				}
+			}
+			title: "1x Power 7"
+		}
+		{
+			count: 2
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sweeping"
+						lvl: 5s
+					}]
+				}
+			}
+			title: "2x Sweeping edge"
+		}
+		{
+			count: 4
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:thorns"
+						lvl: 5s
+					}]
+				}
+			}
+			title: "4x Thorns"
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:swift_sneak"
+						lvl: 5s
+					}]
+				}
+			}
+			title: "Swift sneak 5"
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:soul_speed"
+						lvl: 9s
+					}]
+				}
+			}
+			title: "Soul speed 9"
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:depth_strider"
+						lvl: 9s
+					}]
+				}
+			}
+			title: "Depht strider"
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:aqua_affinity"
+						lvl: 5s
+					}]
+				}
+			}
+			title: "Aqua affinity 5"
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:feather_falling"
+						lvl: 9s
+					}]
+				}
+			}
+			title: "Feather falling 9"
+		}
+		{
+			count: 4
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 6s
+					}]
+				}
+			}
+			title: "4x Protection 6"
+		}
+	]
+	title: "Definitivo"
+}

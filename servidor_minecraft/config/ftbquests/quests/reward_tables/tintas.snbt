@@ -1,0 +1,13 @@
+{
+	id: "1D0B38BAE0CF5C1F"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ count: 12, item: "irons_spellbooks:common_ink" }
+		{ count: 8, item: "irons_spellbooks:uncommon_ink" }
+		{ count: 5, item: "irons_spellbooks:rare_ink" }
+		{ count: 2, item: "irons_spellbooks:epic_ink" }
+		{ item: "irons_spellbooks:legendary_ink", weight: 0.5f }
+	]
+	title: "Tintas"
+}

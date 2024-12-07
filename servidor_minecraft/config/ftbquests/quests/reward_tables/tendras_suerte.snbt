@@ -1,0 +1,13 @@
+{
+	id: "63CD749F2BD634DD"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ count: 2, item: "minecraft:diamond", random_bonus: 1, title: "2-3 Diamantes?", weight: 0.5f }
+		{ count: 4, item: "minecraft:iron_ingot", random_bonus: 3, title: "4-7 Hierro?", weight: 0.98f }
+		{ item: "minecraft:netherite_scrap", random_bonus: 4, title: "1-4 Chatarra?", weight: 0.3f }
+		{ count: 9, item: "minecraft:gold_ingot", random_bonus: 7, title: "9-16 Oro?", weight: 0.76f }
+		{ item: "netherdungeons:reinforced_gold_ingot", title: "Oro reforzado", weight: 0.08f }
+	]
+	title: "Tendras suerte?"
+}

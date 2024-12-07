@@ -1,0 +1,73 @@
+{
+	icon: "minecraft:dragon_egg"
+	id: "4BD4E71DEDB6B675"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "taxdl:dragon_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "taxdl:dragon_armor_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "taxdl:dragon_armor_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "taxdl:dragon_armor_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "taxdl:dragon_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "taxdl:dragon_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "taxdl:dragon_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:dragon_egg" }
+	]
+	title: "Dragon Born"
+}

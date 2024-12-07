@@ -24,9 +24,6 @@
 
 	[types.wood_type]
 
-		[types.wood_type.born_in_chaos_v1]
-			scorched = true
-
 		[types.wood_type.deeperdarker]
 			echo = true
 
@@ -35,6 +32,9 @@
 
 		[types.wood_type.netherdungeons]
 			ginger = true
+
+		[types.wood_type.born_in_chaos_v1]
+			scorched = true
 
 [entries]
 
@@ -51,33 +51,33 @@
 		[entries.wood_type.cfm]
 			stripped_kitchen_sink_light = true
 			table = true
-			kitchen_counter = true
 			coffee_table = true
-			upgraded_gate = true
 			park_bench = true
-			stripped_park_bench = true
-			cabinet = true
 			stripped_kitchen_counter = true
-			stripped_table = true
-			mail_box = true
 			stripped_cabinet = true
 			kitchen_drawer = true
 			desk = true
 			stripped_bedside_cabinet = true
-			blinds = true
 			desk_cabinet = true
 			stripped_kitchen_drawer = true
-			stripped_chair = true
 			upgraded_fence = true
+			kitchen_sink_dark = true
+			stripped_desk_cabinet = true
+			kitchen_counter = true
+			upgraded_gate = true
+			stripped_park_bench = true
+			cabinet = true
+			stripped_table = true
+			mail_box = true
+			blinds = true
+			stripped_chair = true
 			crate = true
 			chair = true
 			stripped_mail_box = true
 			stripped_blinds = true
-			kitchen_sink_dark = true
 			stripped_kitchen_sink_dark = true
 			bedside_cabinet = true
 			stripped_upgraded_fence = true
-			stripped_desk_cabinet = true
 			stripped_desk = true
 			kitchen_sink_light = true
 			stripped_coffee_table = true
@@ -86,6 +86,9 @@
 
 		[entries.wood_type.farmersdelight]
 			cabinet = true
+
+		[entries.wood_type.twigs]
+			table = true
 
 		[entries.wood_type.mcwdoors]
 			nether_door = true
@@ -133,7 +136,4 @@
 			pyramid_gate = true
 			stockade_fence = true
 			wired_fence = true
-
-		[entries.wood_type.twigs]
-			table = true
 

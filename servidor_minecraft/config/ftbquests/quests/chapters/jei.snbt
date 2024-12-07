@@ -1,0 +1,395 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "jei"
+	group: "15453F4053D67D06"
+	icon: "minecraft:name_tag"
+	id: "3CA3876EAAC1C52E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["58A0CAC26853F8D0"]
+			description: [
+				""
+				"Estando sobre un item presiona &b\"u\"&r para ver sus usos o presiona &b\"r\"&r para ver sus recetas (como crear lo)."
+				""
+				"Si en la barra de búsqueda usas &3\"@\"&f segido del nombre de un mod (sin espacios) podrás &9filtrar&f por mod. Si luego del nombre del mod pones espacio y escribes un nombre de item, lo buscará dentro del mod filtrado."
+				""
+				"Si usas &3\"#\"&f filtrará por descipción de item (lo que pone debajo del nombre)"
+				"{@pagebreak}"
+			]
+			hide: true
+			icon: "minecraft:emerald"
+			id: "60694F93087A7D7D"
+			rewards: [{
+				id: "4B65451A04942B1C"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "Just enought items es el mod del catálogo de items de la derecha cuando abres tu inventario"
+			tasks: [{
+				id: "581FF05D74399989"
+				title: "JEI"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2DC18199259DB4C1"]
+			hide: true
+			icon: "minecraft:anvil"
+			id: "4F5D90A2B6B29195"
+			rewards: [{
+				id: "3AB0A3F779382D33"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "Haz click derecho al yunque con un ligote de hierro en la mano para repararlo."
+			tasks: [{
+				id: "536AE336CC9B62A0"
+				title: "Yunque"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4CD869D594D2E751"
+				"6BA56AF902DE78FD"
+			]
+			dependency_requirement: "one_completed"
+			description: ["(No es minecraft vanilla, en Fearful las mecanicas han cambiado,  ve con cuidado)"]
+			hide: true
+			icon: "deeperdarker:echo_sapling"
+			id: "5378201B0A380E53"
+			rewards: [{
+				id: "3DF377626E86D8D3"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			subtitle: "No supongas que las cosas siguen igual, muchas cosas han cambiado..."
+			tasks: [{
+				id: "0B4586323B2347D4"
+				title: "Formating codes"
+				type: "checkmark"
+			}]
+			title: "Nuevo mundo"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0418F0937666AEC5"]
+			description: ["Si encuentras ojos misteriosos y extrabagantes, guárdalos cuidadosamente, servirán..."]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "endrem:magical_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6BA56AF902DE78FD"
+			rewards: [
+				{
+					id: "425C90745285FC67"
+					item: "majruszsdifficulty:bandage"
+					type: "item"
+				}
+				{
+					id: "01996D2BD337023E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Guárdalos, son importantes!"
+			tasks: [{
+				id: "00EE20009625FB6B"
+				title: "Guardalos, son importantes!"
+				type: "checkmark"
+			}]
+			title: "Ojos extraños?"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C94296DCCED2794"]
+			dependency_requirement: "one_completed"
+			description: ["Increible cuando el sentido común funciona"]
+			hide: true
+			icon: "minecraft:torch"
+			id: "171B2F0631A7C244"
+			rewards: [{
+				id: "5709015621F7C113"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			subtitle: "Tira algo que haga luz y hara luz, ten en la mano algo que haga luz y emitirá luz"
+			tasks: [{
+				id: "79BD5D3BD518EE25"
+				title: "Luces dinámicas"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["171B2F0631A7C244"]
+			hide: true
+			icon: "minecraft:spyglass"
+			id: "63553940AB7A638B"
+			rewards: [{
+				id: "0A7064C76BF5AEB2"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "Presiona \"z\" con el catalego en el inventaro para usarlo directamente."
+			tasks: [{
+				id: "6C6E23A7EFF1477F"
+				title: "Mesa de encantamientos"
+				type: "checkmark"
+			}]
+			title: "Catalejo"
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["171B2F0631A7C244"]
+			hide: true
+			icon: "minecraft:grindstone"
+			id: "62C609CDB44AE1A3"
+			rewards: [{
+				id: "5349A8D5DC4E22C7"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "Haz Shift+click derecho para afilar una heramienta y hacer más daño en los próximos ataques."
+			tasks: [{
+				id: "26C40688C5E55F27"
+				title: "Grindstone/Afilador"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["60694F93087A7D7D"]
+			hide: true
+			icon: "minecraft:fletching_table"
+			id: "24A1721E307EEA33"
+			rewards: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "53CB2E7A6A5D17E3"
+				item: "minecraft:stick"
+				title: "Nedheride Swort"
+				type: "item"
+			}]
+			subtitle: "Mejor forma de hacer flechas con efectos, y puedes dividir plumas para hacer maás flechas usando menos recursos."
+			tasks: [{
+				id: "1A4ACA48A0FD1E9D"
+				title: "Comparar armadura/herramienta"
+				type: "checkmark"
+			}]
+			title: "Mesa de flechas con mecanicas nuevas..."
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5BFE0C386C421955"]
+			hide: true
+			icon: "supplementaries:candle_holder"
+			id: "5E366D58097C8702"
+			rewards: [{
+				id: "1E5CB657336A7C41"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			subtitle: "Ve acompañado. Si caes, alguien te podrá reanimar, pero estarás a 3 de vida y muy hambriento."
+			tasks: [{
+				id: "32DA1FD47599F27E"
+				title: "Revivir Jugdores"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4F5D90A2B6B29195"]
+			description: ["Cosecha tus cultivos con click derecho!"]
+			hide: true
+			icon: "minecraft:wheat"
+			id: "0B830B3F289C05CD"
+			rewards: [{
+				id: "5FB88543EBB952B9"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DC674EAB1313E3A"
+				title: "Cosecha cultivos con click derecho"
+				type: "checkmark"
+			}]
+			title: "Cosechar Cultivos"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5E366D58097C8702"]
+			description: [
+				"Los escudos pueden hacer parry bloqueando en el momento justo."
+				""
+				""
+				"Presiona \"r\" para rodar."
+				""
+				"NO presiones \"f\" si llevas una arma a dos manos, o desaparecera, has sido avisado."
+				""
+				"Puedes ajustar la 3ª persona con las flechas del teclado, si estas en la camara de 3ª persona correcta."
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4CD869D594D2E751"
+			rewards: [{
+				id: "492EBADCB8163B9A"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "Los ecudos pueden hacer parry blockeando en el momento justo. Si presionas \"r\" puedes rodar. En combate utilizas las armas en tu mano primaria y secundaria (espadas dobles y eso)"
+			tasks: [{
+				id: "4DB29C1EF7FE689D"
+				title: "ESCUDOS"
+				type: "checkmark"
+			}]
+			title: "Combate!"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5BFE0C386C421955"]
+			description: [
+				"Abre tu inventario y en la esquina superior izquierda veras el icono de &1Grupos&f, haz click y crea un grupo para añadir gente"
+				""
+				"Crea un &1Grupo&f con tus compañeros para avanzar en las misiones &6conjuntamente&6!"
+			]
+			hide: true
+			icon: "minecraft:writable_book"
+			id: "58A0CAC26853F8D0"
+			rewards: [{
+				id: "2CD8004CC947351C"
+				item: "minecraft:writable_book"
+				title: "Para apuntar coordenadas"
+				type: "item"
+			}]
+			subtitle: "Abre tu inventario y en la esquina superior izquierda veras el icono, haz click y crea un grupo para añadir gente"
+			tasks: [{
+				id: "15F2BB8E674C3308"
+				title: "Hacer grupos de jugadores"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5BFE0C386C421955"]
+			description: [
+				"El &2mapa&f sirve para orientarte dentro del mundo, podiendo crear &2señales (waypoints)&f para guardar fijado en el mapa lugares como podría ser tu casa."
+				""
+				"Se pueden reclamar &5zonas&f (chunks) para hacer distintos lugares como puede ser tu casa de tu propiedad, y protegerla."
+			]
+			hide: true
+			icon: "minecraft:map"
+			id: "3C94296DCCED2794"
+			subtitle: "Abre el mapa con la \"m\" y para reclamar zonas presiona la \"c\" dentro de él."
+			tasks: [{
+				id: "1A3EFE24F1F6B384"
+				type: "checkmark"
+			}]
+			title: "Mapa y reclamar zonas"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5BFE0C386C421955"]
+			description: [
+				"&bBetter HUD&f hace que puedas ver tu inventario, armadura y otra &6información importante&f sin tener que acceder directamente. "
+				""
+				"Presiona la &3\"j\"&f para desactivar o activar la previsualicación del inventario."
+				"Presiona la &3\"o\"&f para configurarlo."
+			]
+			hide: true
+			icon: "bagofholding:leather_bag_of_holding"
+			id: "2DC18199259DB4C1"
+			subtitle: "Presiona la \"o\" para acceder y \"j\" para desactivar"
+			tasks: [{
+				id: "6ABE19B3274CE14E"
+				title: "Better HUD"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5BFE0C386C421955"]
+			description: [
+				"Mod: TrimsEffects"
+				""
+				"Para tener un efecto en la armadura necesitas el &nset entero con el mismo tipo de molde de herreria&r, revisa si el material usado te da el efecto o no (si tienes dudas &7mira la wiki del mod&r)."
+				""
+				"Necesitas de material &cdiamante&r para effectos nivel 1 o lingote de &cnetherita&r effecto nivel 2 (set completo con diseño de ojos, con diamante como material, regeneración 1)."
+			]
+			hide: true
+			icon: "stalwart_dungeons:blaze_armor_scrap"
+			id: "0418F0937666AEC5"
+			subtitle: "Cada uno tiene un effecto especial"
+			tasks: [{
+				id: "4CCC5D76E4FB1EB6"
+				title: "TrimsEffects"
+				type: "checkmark"
+			}]
+			title: "Los moldes de herreria tienen efectos "
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"&7Bienvenido a &cFearful&7, aventurero."
+				"&7Esta línea de misiones tutoriales te enseñará los conceptos básicos del modpack."
+				""
+				"&7Esto es una &emisión&7, requiere una o más &etareas&7 para ser completadas, y puede dar una recompensa."
+				""
+				"&7En este caso, esta misión solo tendrá una &etarea de check&7 que puedes hacer clic, ya que esto es solo información, pero pueden haber tareas de obtener o entregar objetos a la misión."
+				""
+				"&6&oDespués de completar una misión, desbloquearás más misiones o un nuevo capítulo."
+			]
+			icon: "ftbquests:book"
+			id: "5BFE0C386C421955"
+			rewards: [{
+				id: "64EFD3011F3A6535"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DD1DC8F17948591"
+				title: "Misiones"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+	]
+	subtitle: ["Presiona \"i\" para ver tus vidas"]
+	title: "Tips importantes"
+}

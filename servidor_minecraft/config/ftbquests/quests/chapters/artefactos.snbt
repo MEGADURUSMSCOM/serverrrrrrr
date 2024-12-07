@@ -1,0 +1,804 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "artefactos"
+	group: "00AD71BCA4D1B411"
+	icon: "artifacts:mimic_spawn_egg"
+	id: "59B20D61D83C4AA9"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "188828BE7A1439E9"
+			rewards: [{
+				id: "6C4DC36E6A318321"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2045D5CC583CEA80"
+				item: "artifacts:umbrella"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -25.0d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "6148FAA85C528707"
+			rewards: [{
+				id: "79435D1AE93238B5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "622B05DDB6CC8740"
+				item: "artifacts:villager_hat"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -27.5d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "0E7C17C44E88A865"
+			rewards: [{
+				id: "4A2A15E92C539C95"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "465326F0615C2491"
+				item: "artifacts:superstitious_hat"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "4062E953745B9704"
+			rewards: [{
+				id: "24C323104E77E7CA"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "695BD7E67791446F"
+				item: "artifacts:night_vision_goggles"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -28.0d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "4CD638837FEC8732"
+			rewards: [{
+				id: "2C21964379888411"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6B601FAF3F34AB03"
+				item: "artifacts:snorkel"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -26.5d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "40A7C8CFA2D77988"
+			rewards: [{
+				id: "3593C881145C04A5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "505C9780CEE2D992"
+				item: "artifacts:plastic_drinking_hat"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "56CA448D3F60EE9C"
+			rewards: [{
+				id: "786D4BB85F65CBD2"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "2D0D4FEA78E0EC55"
+				item: "artifacts:novelty_drinking_hat"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -27.5d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "7B12521741818B70"
+			rewards: [{
+				id: "74488D005E8B401B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4934D49B4A239849"
+				item: "artifacts:everlasting_beef"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "1C2D9FE13DED82AA"
+			rewards: [{
+				id: "1597265C1AA6F323"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6A716B3839067BA9"
+				item: "artifacts:eternal_steak"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "6A8EC6CC4BA4640A"
+			rewards: [{
+				id: "04C6E2F7D335EEE6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "2AC323D06232268B"
+				item: "artifacts:lucky_scarf"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -25.0d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "17EA4E09AF1A683E"
+			rewards: [{
+				id: "04787721FC2DFB65"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "2141CAD89CC9ACFC"
+				item: "artifacts:scarf_of_invisibility"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "5A093B6FDB31CF11"
+			rewards: [{
+				id: "147649648656231E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "1E9AFCF10B703CC1"
+				item: "artifacts:cross_necklace"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "16C1603298605B30"
+			rewards: [{
+				id: "708EA6DC62C925F5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "588A80739CE21B14"
+				item: "artifacts:panic_necklace"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "4ED3C0ACC887718E"
+			rewards: [{
+				id: "166CEECF7C866AC4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "73B74C5BC9162D92"
+				item: "artifacts:shock_pendant"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "3FB8A78B8FA2745A"
+			rewards: [{
+				id: "2BB9FA00DAE9E008"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "52BCA356D926E61B"
+				item: "artifacts:flame_pendant"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "3BB6428296A2D841"
+			rewards: [{
+				id: "0E8019375AD7B52D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "1FF7600D839F969C"
+				item: "artifacts:thorn_pendant"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "3DD32B8C7F98C1B6"
+			rewards: [{
+				id: "4A06C94C9E3FEE77"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "551ABF52668B6C13"
+				item: "artifacts:charm_of_sinking"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "683F3F28954934AF"
+			rewards: [{
+				id: "6925389881FBA548"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "75252E8E19B6D8AF"
+				item: "artifacts:cloud_in_a_bottle"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -22.5d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "6184C8432AB2B7A6"
+			rewards: [{
+				id: "75C2D5DB0E1B0D62"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "09BC2CCC68DB1E01"
+				item: "artifacts:obsidian_skull"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -22.5d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "1B5001BBA77BBC64"
+			rewards: [{
+				id: "39EB24352DC65C4A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "076C4A5A00B83818"
+				item: "artifacts:antidote_vessel"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -24.5d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "08069CBED2937A93"
+			rewards: [{
+				id: "1357690F5764006F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3D6570C1A2E0A393"
+				item: "artifacts:universal_attractor"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -22.0d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "6B7EC7F1F7984803"
+			rewards: [{
+				id: "2C9FFCBDDBE67E80"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "00A78A1F4C7F445C"
+				item: "artifacts:crystal_heart"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -24.5d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "012F593ADEF70DD0"
+			rewards: [{
+				id: "180FE943FFC3DE62"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4860A3B5533463E6"
+				item: "artifacts:helium_flamingo"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -23.5d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "6FB1AF0A7DA39B08"
+			rewards: [{
+				id: "5715DEACA4F7DFA7"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "064C6B22F82980EC"
+				item: "artifacts:digging_claws"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -23.5d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "78A967E93EF7A3C6"
+			rewards: [{
+				id: "5F20293E9B23945D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "4DD45F53875F497C"
+				item: "artifacts:feral_claws"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "6ED6716AB9457411"
+			rewards: [{
+				id: "25F6DAC5638E087B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "01C69A4F9A7FBE9B"
+				item: "artifacts:power_glove"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "15115C3F39159C49"
+			rewards: [{
+				id: "386353A5A72E1748"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "21F65DD054F70744"
+				item: "artifacts:fire_gauntlet"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -20.5d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "55D75C52D1BA80A4"
+			rewards: [{
+				id: "67BC8A5FC8885562"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "7C805512B897EFB0"
+				item: "artifacts:pocket_piston"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -23.5d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "5EF5E95707845871"
+			rewards: [{
+				id: "26E9AB74EFA36FD5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "5BCF600E348D6728"
+				item: "artifacts:vampiric_glove"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "6BA6B4CADFCF59CC"
+			rewards: [{
+				id: "4807862E55CEEB24"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "5ED5FB324CE81C38"
+				item: "artifacts:golden_hook"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -22.0d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "343C24262E2B3DC2"
+			rewards: [{
+				id: "60181051AB7B9DD6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "30D165E6B891D82C"
+				item: "artifacts:aqua_dashers"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -25.0d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "4729BDE45D363152"
+			rewards: [{
+				id: "554504667F4D8839"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "53D085430221D67F"
+				item: "artifacts:bunny_hoppers"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -23.5d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "3F7EC9605268D2A0"
+			rewards: [{
+				id: "1C69CCBB68136F68"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "683892B55179485A"
+				item: "artifacts:running_shoes"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -23.5d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "7ACA0938FE642ED3"
+			rewards: [{
+				id: "3E1028B9053BF559"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "13339B55C19D089F"
+				item: "artifacts:kitty_slippers"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "7DD3AF33533FBA71"
+			rewards: [{
+				id: "3A6D02602EA7E0B7"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "2C9306C31440E432"
+				item: "artifacts:steadfast_spikes"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "1FD5E5417F60E41F"
+			rewards: [{
+				id: "5A574937C2470BB1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "15A38E1AE31F0AC3"
+				item: "artifacts:flippers"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -22.0d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			hide: true
+			id: "7392E586101D81E4"
+			rewards: [{
+				id: "38F84E84CCB8E65E"
+				item: "artifacts:whoopee_cushion"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B15774409C8C00D"
+				item: "artifacts:whoopee_cushion"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -23.5d
+		}
+		{
+			dependencies: [
+				"3B18A79771AFEF06"
+				"7096B3238D6CD605"
+			]
+			hide: true
+			icon: "minecraft:end_crystal"
+			id: "54191E45B187ACEB"
+			invisible: true
+			rewards: [
+				{
+					id: "326CA5A4012A0038"
+					item: "paraglider:anti_vessel"
+					type: "item"
+				}
+				{
+					id: "3BD7B1884C7B3844"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					id: "46AC7C29470D7E49"
+					table_id: 5626439786863542760L
+					type: "random"
+				}
+				{
+					id: "31C45DBA56747EFD"
+					table_id: 2241193052577304960L
+					title: "Revive a un compañero caido"
+					type: "random"
+				}
+				{
+					id: "353A5B938AC346DE"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "combatroll:multi_roll"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4B06D2238F4126A7"
+					item: "paraglider:stamina_vessel"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "281C66A60C9FADDE"
+					item: "supplementaries:bomb_blue"
+					random_bonus: 20
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1827DEC2D0A30AEB"
+					item: "aquamirae:luminescent_lamp"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E0631BE2983035E"
+					table_id: 5626439786863542760L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "626B67FF59692426"
+					table_id: 4645360515797637232L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "Quien és el artefacto ahora?"
+			tasks: [
+				{
+					advancement: "minecraft:story/shiny_gear"
+					criterion: ""
+					id: "7826FE5442852A6F"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:nether/netherite_armor"
+					criterion: ""
+					id: "5259B57760783FB5"
+					type: "advancement"
+				}
+				{
+					advancement: "deeperdarker:main/warden_armor"
+					criterion: ""
+					id: "01B3EDBEEBC08CE9"
+					type: "advancement"
+				}
+				{
+					id: "4655B9F42565BC72"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "517AB72411E5F7A3"
+					item: {
+						Count: 1b
+						id: "cataclysm:ignitium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7507E33200B8AB4B"
+					item: {
+						Count: 1b
+						id: "cataclysm:ignitium_elytra_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4CAE7C369BA1CCBE"
+					item: {
+						Count: 1b
+						id: "cataclysm:ignitium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "314F7FD50E775791"
+					item: {
+						Count: 1b
+						id: "cataclysm:ignitium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EA01A39E0868A76"
+					item: "cataclysm:bulwark_of_the_flame"
+					type: "item"
+				}
+				{
+					id: "6F213275DF28D6D4"
+					item: "cataclysm:the_incinerator"
+					type: "item"
+				}
+			]
+			title: "Malversación de fondos"
+			x: -16.5d
+			y: -23.5d
+		}
+	]
+	title: "Artefactos"
+}

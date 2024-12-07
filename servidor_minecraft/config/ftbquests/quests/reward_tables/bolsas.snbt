@@ -1,0 +1,15 @@
+{
+	id: "4E15212D0E2041E8"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "majruszsdifficulty:fishing_treasure_bag", weight: 0.2f }
+		{ item: "majruszsdifficulty:undead_army_treasure_bag" }
+		{ item: "majruszsdifficulty:pillager_treasure_bag" }
+		{ item: "majruszsdifficulty:elder_guardian_treasure_bag", weight: 0.2f }
+		{ item: "majruszsdifficulty:warden_treasure_bag" }
+		{ item: "majruszsdifficulty:wither_treasure_bag" }
+		{ item: "majruszsdifficulty:ender_dragon_treasure_bag" }
+	]
+	title: "Bolsas"
+}

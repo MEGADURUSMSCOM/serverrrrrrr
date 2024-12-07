@@ -33,7 +33,7 @@
   "babyItemGrowUpTime": 24000,
   "villagerMaxAgeTime": 384000,
   "villagerMaxHealth": 20,
-  "allowVillagerTeleporting": false,
+  "allowVillagerTeleporting": true,
   "villagerMinTeleportationDistance": 64.0,
   "childInitialHearts": 100,
   "greetHeartsThreshold": 75,
@@ -79,7 +79,7 @@
   "villagerProcreationChancePerMinute": 0.05,
   "bountyHunterInterval": 48000,
   "bountyHunterHearts": -150,
-  "innSpawnsAdventurers": true,
+  "innSpawnsAdventurers": false,
   "innSpawnsCultists": true,
   "innSpawnsWanderingTraders": true,
   "fractionOfVanillaVillages": 0.0,
@@ -117,11 +117,11 @@
     "minecraft:dirt"
   ],
   "launchIntoDestiny": true,
-  "allowDestinyCommandOnce": true,
+  "allowDestinyCommandOnce": false,
   "allowDestinyCommandMoreThanOnce": false,
-  "allowDestinyTeleportation": true,
+  "allowDestinyTeleportation": false,
   "enablePlayerShaders": true,
-  "enableVillagerPlayerModel": true,
+  "enableVillagerPlayerModel": false,
   "forceVillagerPlayerModel": false,
   "allowLimitedPlayerEditor": true,
   "allowFullPlayerEditor": false,
@@ -136,14 +136,14 @@
     "minecraft:illusioner": 3,
     "minecraft:pillager": 3,
     "minecraft:ravager": 3,
-    "minecraft:vex": 0,
+    "minecraft:vex": 1,
     "minecraft:vindicator": 4,
     "minecraft:zoglin": 2,
     "minecraft:zombie": 4,
     "minecraft:zombie_villager": 3,
-    "minecraft:spider": 0,
-    "minecraft:skeleton": 0,
-    "minecraft:slime": 0,
+    "minecraft:spider": 1,
+    "minecraft:skeleton": 1,
+    "minecraft:slime": 1,
     "mca:female_zombie_villager": 3,
     "mca:male_zombie_villager": 3
   },
@@ -191,36 +191,36 @@
     "minecraft:ancient_city"
   ],
   "destinyLocationsToTranslationMap": {
-    "minecraft:shipwreck_beached": "destiny.story.sailing",
-    "default": "destiny.story.travelling"
+    "default": "destiny.story.travelling",
+    "minecraft:shipwreck_beached": "destiny.story.sailing"
   },
   "professionConversionsMap": {},
   "shaderLocationsMap": {
-    "sirben": "mca:shaders/post/sirben.json",
-    "color_blind": "minecraft:shaders/post/desaturate.json"
+    "color_blind": "minecraft:shaders/post/desaturate.json",
+    "sirben": "mca:shaders/post/sirben.json"
   },
   "playerRendererBlacklist": {
+    "epicfight": "all",
     "morph": "arms",
     "firstperson": "arms",
-    "firstpersonmod": "arms",
-    "epicfight": "all"
+    "firstpersonmod": "arms"
   },
   "enabledTraits": {
-    "SIRBEN": true,
+    "SIRBEN": false,
     "RAINBOW": true,
-    "DIABETES": true,
+    "DIABETES": false,
     "HOMOSEXUAL": true,
     "ALBINISM": true,
     "LEFT_HANDED": true,
-    "COLOR_BLIND": true,
-    "LACTOSE_INTOLERANCE": true,
+    "COLOR_BLIND": false,
+    "LACTOSE_INTOLERANCE": false,
     "BISEXUAL": true,
-    "VEGETARIAN": true,
+    "VEGETARIAN": false,
     "HETEROCHROMIA": true,
-    "ELECTRIFIED": true,
-    "COELIAC_DISEASE": true,
-    "UNKNOWN": true,
-    "DWARFISM": true
+    "ELECTRIFIED": false,
+    "COELIAC_DISEASE": false,
+    "DWARFISM": true,
+    "UNKNOWN": true
   },
   "taxesMap": {
     "minecraft:emerald": 1.0

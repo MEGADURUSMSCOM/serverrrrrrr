@@ -1,0 +1,3479 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "antes_de_empezar_tu_aventura"
+	group: "3EE6CB5568052FC7"
+	icon: "minecraft:lantern"
+	id: "31A4A3F9987E506D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["01B2936FA3A0075F"]
+			description: ["Consigue un kit entero de hierro y antorchas."]
+			icon: {
+				Count: 1b
+				id: "shieldexp:iron_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2FF2DF815B63F530"
+			rewards: [
+				{
+					id: "24016D31D7935D7A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 10
+					id: "685689B0A7CECA47"
+					item: "farmersdelight:egg_sandwich"
+					type: "item"
+				}
+				{
+					id: "7D3CBDF92FBB688C"
+					item: "paraglider:stamina_vessel"
+					type: "item"
+				}
+				{
+					id: "31A91A6D153EC1B3"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "goblintraders:levitation"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36808BC9677CE650"
+					item: "comforts:sleeping_bag_white"
+					type: "item"
+				}
+			]
+			subtitle: "Consigue el kit de hierro antes de que anochezca..."
+			tasks: [
+				{
+					id: "4A1F05A82DC4C66E"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78042168E4B01C17"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "288CB70D541C2AB8"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60E6ED13F940B977"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3932A21C680B354B"
+					item: {
+						Count: 1b
+						id: "shieldexp:iron_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01A8D282C636A27D"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "0F5576D5AE35F520"
+					item: "realistictorches:lit_torch"
+					type: "item"
+				}
+			]
+			title: "Antes del anochecer"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3B18A79771AFEF06"]
+			description: [
+				"Los &ccuchillos&f dan mas comida al matar un animal y recolectar alimentos."
+				""
+				"El &6planeador&f es útil para lanzarte de muy alto."
+				""
+				"Un &3escudo&f siempre está bien, puedes hacer un parry (proyectiles incluidos)!"
+			]
+			icon: "paraglider:paraglider"
+			id: "01B2936FA3A0075F"
+			rewards: [
+				{
+					id: "01EF07AE524B1C8B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 12
+					id: "173514AC30880D47"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					id: "0DD5E88AB052A491"
+					item: {
+						Count: 1b
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "27745B83350DCFCE"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "5F2B5D8D7EDE6A61"
+					item: {
+						Count: 1b
+						id: "minecraft:leather_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F92FE7F83A21EBA"
+					item: "minecraft:clock"
+					type: "item"
+				}
+				{
+					id: "6AF22ACA39E6CF9C"
+					item: "third_life_plus:temporary_life"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "523C26B3CA98828E"
+					item: "paraglider:paraglider"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "30089343B8A90F25"
+					item: "realistictorches:unlit_torch"
+					type: "item"
+				}
+				{
+					id: "4A4E5819BFADF513"
+					item: {
+						Count: 1b
+						id: "shieldexp:wooden_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1126A48E874D76F2"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C773EF9A9147481"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F4A553CA68C8C5D"
+					item: {
+						Count: 1b
+						id: "farmersdelight:flint_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CAEBCE908A86119"
+					item: {
+						Count: 1b
+						id: "immersive_armors:wooden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Kit básico"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2FF2DF815B63F530"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "shieldexp:diamond_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4717D73AD3D4F4E1"
+			rewards: [
+				{
+					id: "4E42A586DF155858"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "1F5D8C9248C9BA99"
+					item: "farmersdelight:fruit_salad"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "191FC805D1D5CAA6"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "7258C0A0CB88611D"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "combatroll:multi_roll"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "407CE4237D63F070"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "goblintraders:extended_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E36BE542A9D4CE7"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "combatroll:acrobat"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Consigue un kit avanzado de diamante con accesorios necesarios."
+			tasks: [
+				{
+					id: "17035337170D796F"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FAE5B59C0F8E6C1"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06FC64929955E905"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0EF80029179C53B8"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A06E9886128D161"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "177214B7D959DF76"
+					item: {
+						Count: 1b
+						id: "shieldexp:diamond_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05F1B4225B6D9B8E"
+					item: {
+						Count: 1b
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "44D52397E178AEC6"
+					item: "majruszsdifficulty:bandage"
+					type: "item"
+				}
+				{
+					id: "4AA20B0C7E100D9C"
+					item: "bagofholding:iron_bag_of_holding"
+					type: "item"
+				}
+			]
+			title: "🎵 Preparado pa' la gerra... 🎵"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4717D73AD3D4F4E1"]
+			description: ["Consigue el kit avanzado de netherite."]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "shieldexp:netherite_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "10CBE1506D5DE5F3"
+			rewards: [
+				{
+					id: "1EAF624684137E1D"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					id: "69F938ADDA127986"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "697F0D1ADE7D893A"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:flame"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69B3A630AE20A43E"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_night_vision"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30A27D16FA5D7725"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "illagerinvasion:long_berserking"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F3FB56F94EFC270"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "combatroll:multi_roll"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D709E604E2DAC1E"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "combatroll:acrobat"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3460248D9A7D5711"
+					item: "third_life_plus:golden_heart"
+					type: "item"
+				}
+			]
+			subtitle: "En verdad no... No te olvides la vaselina!"
+			tasks: [
+				{
+					id: "012D098ADEA03176"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C62A005058B1F94"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68A4E0FA9A3A602F"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F656A7D924592B3"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D6E8FF789647D8E"
+					item: {
+						Count: 1b
+						id: "shieldexp:netherite_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56FC31F3C340948D"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4007A21527B9935E"
+					item: {
+						Count: 1b
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "172412C780B65054"
+					item: "bagofholding:golden_bag_of_holding"
+					type: "item"
+				}
+			]
+			title: "Soy intocable!"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2FF2DF815B63F530"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "22B5B7EFBCD079D4"
+			rewards: [
+				{
+					id: "08D0C7FBC18E9A2F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "4E00D1EBFFE72195"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0435246D6F352E80"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:fortune"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04C5D3AEE64A0C50"
+					item: "third_life_plus:heart"
+					type: "item"
+				}
+			]
+			subtitle: "Consigue todas las herramientas básicas de diamante."
+			tasks: [
+				{
+					id: "004BFF82FD0A417B"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "276DDBFA8CA38364"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A01FF4F5F377911"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E38EB19A487FDBD"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "315B24705C75ECD5"
+					item: {
+						Count: 1b
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "🎵 Así farmeaba así así 🎵"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["22B5B7EFBCD079D4"]
+			hide: true
+			icon: "farmersdelight:cutting_board"
+			id: "6C606F5CE960690A"
+			rewards: [
+				{
+					count: 8
+					id: "0EA88ECAA8943425"
+					item: "farmersdelight:organic_compost"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					count: 6
+					id: "02C62AB8B91B8118"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3F1ED0254372B5BE"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "farmersdelight:backstabbing"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "¡Consigue todos los objetos y sé un auténtico chef!"
+			tasks: [
+				{
+					id: "44143A6362630761"
+					item: {
+						Count: 1b
+						id: "farmersdelight:diamond_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A7F53F63B98B198"
+					item: {
+						Count: 1b
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E05B135913182AB"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					id: "68340DE94A98050C"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "21FE49B80A90405B"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "61DCF3E9A92E477D"
+					item: "farmersdelight:straw"
+					type: "item"
+				}
+			]
+			title: "A cocinar!"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"22B5B7EFBCD079D4"
+				"6C606F5CE960690A"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7188D3A02AA12B04"
+			rewards: [
+				{
+					id: "30B628910BAFD35D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "43A5FB9FC6843001"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:fortune"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B5F42F1BA2382FA"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:silk_touch"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D408ECA367E39F3"
+					item: "third_life_plus:heart"
+					type: "item"
+				}
+			]
+			subtitle: "Equipo completo de netherite."
+			tasks: [
+				{
+					id: "3D5C7D78B20C5256"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CE700D2455994B0"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D2C982232D3A2DC"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CB54478828A2160"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A1F67D1FFF7A2B0"
+					item: {
+						Count: 1b
+						id: "farmersdelight:netherite_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Dedicación enfermiza"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"10CBE1506D5DE5F3"
+				"4D27C24B55FCB4F9"
+			]
+			hide: true
+			icon: "deeperdarker:heart_of_the_deep"
+			id: "3DC3F637C9301F74"
+			rewards: [
+				{
+					id: "01148A6F53EED490"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47C1CC5EF65F5A55"
+					table_id: 4408523739398957338L
+					type: "choice"
+				}
+				{
+					id: "640F471C9143D1A2"
+					item: "majruszsdifficulty:recall_potion"
+					random_bonus: 1
+					title: "Blue Label de Johnnie Walker"
+					type: "item"
+				}
+				{
+					id: "4184B604BF37474C"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "combatroll:longfooted"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "468481E35B907863"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "combatroll:multi_roll"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2FBAAE902FE5B442"
+					item: "third_life_plus:golden_heart"
+					type: "item"
+				}
+			]
+			subtitle: "¿Cómo conseguirás esto...?"
+			tasks: [
+				{
+					id: "13EE7CC9505840FB"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DF644C984D40584"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F6EA92C52523C4D"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CAF3712304D3A8C"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45BA1CEFD3475880"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0516ECAB059E2245"
+					item: "deeperdarker:warden_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			title: "El cordero se viste de lobo..."
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"10CBE1506D5DE5F3"
+				"4D27C24B55FCB4F9"
+				"420AF9DC2A8B766D"
+			]
+			hide: true
+			icon: "cataclysm:bulwark_of_the_flame"
+			id: "44DBB2E1A03E5BAF"
+			rewards: [
+				{
+					id: "2122FFB4D0A0B661"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "40CE55C6B639E194"
+					item: "minecraft:nether_star"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2544073FAA8DDF25"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03AFAFAA66B6D0C8"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "hunters_return:bounce"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B64D04A4780E737"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 7s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38BDA6BA594E854B"
+					item: "majruszsdifficulty:recall_potion"
+					random_bonus: 2
+					title: "Blue Label de Johnnie Walker"
+					type: "item"
+				}
+				{
+					id: "46DA7855E60A8407"
+					item: "third_life_plus:golden_heart"
+					type: "item"
+				}
+			]
+			subtitle: "Er diaaablo loco"
+			tasks: [
+				{
+					id: "41A487F459FBBDB1"
+					item: {
+						Count: 1b
+						id: "cataclysm:ignitium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06377943BDAE4A55"
+					item: {
+						Count: 1b
+						id: "cataclysm:ignitium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33F6E730F8377AEB"
+					item: {
+						Count: 1b
+						id: "cataclysm:ignitium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "194D32FF2360EED5"
+					item: {
+						Count: 1b
+						id: "cataclysm:ignitium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "467D6233BA2188BF"
+					item: "cataclysm:the_incinerator"
+					type: "item"
+				}
+				{
+					id: "4673C717A624529B"
+					item: "cataclysm:bulwark_of_the_flame"
+					type: "item"
+				}
+				{
+					id: "018378B307448AB5"
+					item: "cataclysm:ignitium_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			title: "Estás enfermo, ¿no?"
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"3DC3F637C9301F74"
+				"573CD0A261370F80"
+			]
+			hide: true
+			hide_dependent_lines: true
+			id: "420AF9DC2A8B766D"
+			rewards: [
+				{
+					id: "28F332F4E4626EFC"
+					item: "bygonenether:netherite_bell"
+					type: "item"
+				}
+				{
+					id: "0A96E3BB150B0A79"
+					item: "majruszsdifficulty:recall_potion"
+					random_bonus: 4
+					title: "Blue Label de Johnnie Walker"
+					type: "item"
+				}
+				{
+					id: "7A19742911FEAB7E"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}]
+						}
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B4794FF939F9DC0"
+					table_id: 4645360515797637232L
+					type: "random"
+				}
+				{
+					id: "276D19975F309606"
+					item: "third_life_plus:heart"
+					type: "item"
+				}
+			]
+			subtitle: "Reparte sculk desde el cielo"
+			tasks: [{
+				id: "5BDFCA249ED5A911"
+				item: {
+					Count: 1b
+					id: "deeperdarker:soul_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Propagación aerea"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["44DBB2E1A03E5BAF"]
+			hide: true
+			id: "7096B3238D6CD605"
+			rewards: [
+				{
+					id: "42C157B2206F8B77"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:swift_sneak"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B13B7825FF2F911"
+					table_id: 4645360515797637232L
+					type: "random"
+				}
+			]
+			subtitle: "\"The cherry on top\""
+			tasks: [{
+				id: "6D915D769B66109C"
+				item: {
+					Count: 1b
+					id: "cataclysm:ignitium_elytra_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Para mayor placer"
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7188D3A02AA12B04"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "deeperdarker:warden_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "03AAD764870FA186"
+			rewards: [
+				{
+					id: "74F31FBF364B6B0A"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "483B19F54947D725"
+					item: {
+						Count: 1b
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1805EC422A485DEE"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BD9AF13F173C6C7"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:fortune"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FE6989D2AA239E1"
+					item: "third_life_plus:heart"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0A10E84DBEEDA1A5"
+					item: "third_life_plus:golden_heart"
+					type: "item"
+				}
+			]
+			subtitle: "Locura"
+			tasks: [
+				{
+					id: "02AEFF048AB1DAA4"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F0DA92E1DE37A42"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "423EFF9954AFE85B"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E1ECA6A4B97B0F5"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Dedicación macabra 💀"
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6C606F5CE960690A"]
+			icon: "farmersdelight:hamburger"
+			id: "2F0FA16C587062AA"
+			rewards: [
+				{
+					id: "0E8483F312840F0C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 4
+					id: "19D3FC3A1148B780"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+			]
+			subtitle: "¡Oído cocina!"
+			tasks: [
+				{
+					id: "1406521D4D0CBBCC"
+					item: "farmersdelight:apple_cider"
+					type: "item"
+				}
+				{
+					id: "1A823F3AB18BD80F"
+					item: "farmersdelight:hamburger"
+					type: "item"
+				}
+				{
+					id: "7129E14DC3D5DCC3"
+					item: "farmersdelight:honey_glazed_ham_block"
+					type: "item"
+				}
+			]
+			title: "Cocina casera"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3CA3876EAAC1C52E"]
+			description: [
+				"Dimensiones, enemigos, recursos, armaduras, heramientas y muchas aventuras."
+				""
+				"¿Estás preparado para tu odisea?"
+			]
+			hide: true
+			icon: "minecraft:dandelion"
+			id: "3B18A79771AFEF06"
+			rewards: [
+				{
+					count: 3
+					id: "54D8E95B22EC7765"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					id: "2AE15F3F50D089E2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "..."
+			tasks: [{
+				id: "7A2BA74CB2A25E88"
+				title: "Un mundo nuevo"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2F0FA16C587062AA"]
+			id: "4F5F07696DE22F55"
+			rewards: [
+				{
+					id: "31550ABD78D6A985"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "4EA1B85D03D00652"
+					item: "third_life_plus:temporary_life"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Da regeneración!!!"
+			tasks: [
+				{
+					count: 8L
+					id: "6E1D3DBA6E466671"
+					item: "farmersdelight:mixed_salad"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0907198D864B5642"
+					item: "farmersdelight:fruit_salad"
+					type: "item"
+				}
+			]
+			title: "Comida muy sana!"
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["10CBE1506D5DE5F3"]
+			description: [
+				""
+				"Si te regeneras no moriras"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "aquamirae:abyssal_heaume"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "669C1C73ECDA5C3A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0554ADDB08BD7566"
+					table_id: 4408523739398957338L
+					type: "choice"
+				}
+				{
+					id: "5DE9782E86542B4F"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			subtitle: "Este set de armadura retrasa un golpe fatal 90s, retrasando la muerte!"
+			tasks: [
+				{
+					id: "3040E01AD0E2F42E"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_heaume"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "226632D8F9784E00"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_brigantine"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BB911AA48B654D2"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10F4819C4266D1B1"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "168298CBC32558D4"
+					item: {
+						Count: 1b
+						id: "aquamirae:whisper_of_the_abyss"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Abnegación de la muerte"
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["669C1C73ECDA5C3A"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "aquamirae:coral_lance"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 4s
+					}]
+				}
+			}
+			id: "1BDDA45C3A93C10D"
+			rewards: [
+				{
+					id: "4B6C21A925F39097"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 3
+					id: "29584ADFB3876E40"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AB5916B1F6B8F1A"
+					table_id: 4645360515797637232L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "5B17C04719B950D1"
+					item: "third_life_plus:heart"
+					type: "item"
+				}
+			]
+			subtitle: "Soy leyenda"
+			tasks: [
+				{
+					id: "0A9F4117AC4FBC85"
+					item: {
+						Count: 1b
+						id: "aquamirae:coral_lance"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C110387F2733A82"
+					item: {
+						Count: 1b
+						id: "aquamirae:abyssal_tiara"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A57EF49EC03B100"
+					item: {
+						Count: 1b
+						id: "aquamirae:poisoned_chakra"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "obscure_api:distance"
+									lvl: 3s
+								}
+								{
+									id: "obscure_api:fast_spin"
+									lvl: 5s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Tritón!"
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4717D73AD3D4F4E1"
+				"22B5B7EFBCD079D4"
+			]
+			hide: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1b
+				id: "minecraft:turtle_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "020C24A231EC837F"
+			invisible: true
+			rewards: [
+				{
+					count: 2
+					id: "4BEED073680D35A3"
+					item: "minecraft:totem_of_undying"
+					title: "Hiciste lo correcto Bob"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7B4814019BDC605E"
+					item: "minecraft:netherite_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Conviértete en una tortuga ninja."
+			tasks: [
+				{
+					id: "6F38ECF327BCE440"
+					item: {
+						Count: 1b
+						id: "minecraft:turtle_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72FA544974462D2E"
+					item: {
+						Count: 1b
+						id: "turtlearmor:turtle_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D292BF7F740F94C"
+					item: {
+						Count: 1b
+						id: "turtlearmor:turtle_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "362AA559563E3BC5"
+					item: {
+						Count: 1b
+						id: "turtlearmor:turtle_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Tortuga Ninja"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5A950C614B93E366"]
+			hide: true
+			icon: "supplementaries:globe_sepia"
+			id: "7465D2BA18C24C6B"
+			rewards: [
+				{
+					id: "171EC81E5109D245"
+					item: "securitycraft:admin_tool"
+					title: "(Entregalo a un dios)"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10CD69FE9EABC7BA"
+					table_id: 4565550992826515270L
+					title: "Dile a un admin que te aplique el encantamiento gratis"
+					type: "choice"
+				}
+				{
+					count: 3
+					id: "12B18F7C06D945A3"
+					item: "third_life_plus:golden_heart"
+					type: "item"
+				}
+			]
+			subtitle: "Un gran poder..."
+			tasks: [
+				{
+					id: "7A85A42803F50229"
+					title: "Un admin aplicara alguno de los sigientes encantamientos gratis"
+					type: "checkmark"
+				}
+				{
+					entity: "minecraft:warden"
+					icon: "deeperdarker:heart_of_the_deep"
+					id: "3F7DD14600BE7DF3"
+					type: "kill"
+					value: 15L
+				}
+				{
+					entity: "cataclysm:ignis"
+					icon: "cataclysm:burning_ashes"
+					id: "4FC69BC0B064350D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Reformula las leyes del mundo"
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3CA3876EAAC1C52E"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "farmersdelight:flint_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "701025BFAF57881E"
+			invisible: true
+			rewards: [
+				{
+					count: 6
+					id: "0BCAA759B02FA93C"
+					item: "majruszsdifficulty:golden_bandage"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2275261EDF3C89AE"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "237D38B7EC4665CC"
+					item: "third_life_plus:temporary_life"
+					type: "item"
+				}
+			]
+			subtitle: "Que continue así"
+			tasks: [{
+				id: "703BA74F26812784"
+				stat: "minecraft:time_since_death"
+				type: "stat"
+				value: 72000
+			}]
+			title: "Sobrevive 1h"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["701025BFAF57881E"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:stone_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4A4B2AEA989AA338"
+			invisible: true
+			rewards: [
+				{
+					id: "010D9247CA925812"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "6928DE80FBCF0E4A"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "24815D8B0C12D6CD"
+					item: "minecraft:allay_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "37AA3FDD5FE8AC45"
+					item: "third_life_plus:golden_heart"
+					type: "item"
+				}
+			]
+			subtitle: "Need some help?"
+			tasks: [{
+				id: "46D6DE4163F124D6"
+				stat: "minecraft:time_since_death"
+				type: "stat"
+				value: 720000
+			}]
+			title: "Sobrevive 10h"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A4B2AEA989AA338"]
+			hide: true
+			id: "582971546A8AB4F8"
+			invisible: true
+			rewards: [
+				{
+					count: 3
+					id: "4C27AEA9547A4DED"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "0551165CAB4FE1B5"
+					item: "third_life_plus:heart"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "36171BFD4175E1B1"
+				stat: "minecraft:time_since_death"
+				type: "stat"
+				value: 1728000
+			}]
+			title: "Sobrevive 24h"
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3CA3876EAAC1C52E"]
+			hide: true
+			icon: "endrem:undead_soul"
+			id: "1590F4C2EADCBFC9"
+			invisible: true
+			rewards: [
+				{
+					id: "2FFBD6A897C66A42"
+					item: "farmersdelight:hamburger"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "34A855A08EB3E2E7"
+					item: "toughasnails:purified_water_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "Los demas deben hacer una ofrenda a los dioses..."
+			tasks: [{
+				id: "2A2B0470869F07F9"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 1
+			}]
+			title: "Volveras de entre los muertos?"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["582971546A8AB4F8"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0DC42E2C602B11A3"
+			invisible: true
+			rewards: [
+				{
+					count: 2
+					id: "49A3C03CF1395F7D"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "3711BBF07E4FA786"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67638C9B048D3F58"
+					table_id: 4082850926856813320L
+					type: "choice"
+				}
+				{
+					count: 2
+					id: "177127F132E35D04"
+					item: "third_life_plus:heart"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7511D93B7FD597F6"
+				stat: "minecraft:time_since_death"
+				type: "stat"
+				value: 2592000
+			}]
+			title: "Vivo x36h"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0DC42E2C602B11A3"]
+			description: ["https://www.youtube.com/watch?v=6dYWe1c3OyU"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "620028F459EBF126"
+			invisible: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F0882417DA97482"
+					table_id: 1140077508870799999L
+					type: "choice"
+				}
+				{
+					id: "3F69C13217677457"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 18
+					id: "6793958CB995C37E"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "557DD4E1C1B3FB39"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "2F6225463A6C4DAC"
+					item: "irons_spellbooks:greater_healing_potion"
+					type: "item"
+				}
+			]
+			subtitle: "I will survive"
+			tasks: [{
+				id: "63B60649A9E97088"
+				stat: "minecraft:time_since_death"
+				type: "stat"
+				value: 3456000
+			}]
+			title: "Vivo x48?"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["620028F459EBF126"]
+			icon: {
+				Count: 1b
+				id: "simplyswords:netherite_longsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "28231D31EEC0C5E0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "217B4D4E29119035"
+					table_id: 4565550992826515270L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "309CC86DB5DFB562"
+					table_id: 4082850926856813320L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BE002667E424594"
+					table_id: 1140077508870799999L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DD8E125FE273774"
+					table_id: 2241193052577304960L
+					title: "Revive a un caido"
+					type: "choice"
+				}
+				{
+					id: "607F6DB05165303C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "36FBF5505CBF7CF2"
+					item: "minecraft:enchanted_golden_apple"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					count: 2
+					id: "55D0247260841C3C"
+					item: "irons_spellbooks:greater_healing_potion"
+					type: "item"
+				}
+			]
+			subtitle: "todo bien?"
+			tasks: [
+				{
+					id: "055FEF0AF7148B64"
+					stat: "minecraft:time_since_death"
+					title: "vivo 48h"
+					type: "stat"
+					value: 3456000
+				}
+				{
+					id: "2F6FF7FD1C926FBA"
+					stat: "minecraft:time_since_rest"
+					title: "Sin dormir 24h"
+					type: "stat"
+					value: 1728000
+				}
+			]
+			title: "Experto Kamikaze"
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2ED6BF06AD8F40B4"]
+			dependency_requirement: "all_started"
+			hide: true
+			icon: "alexsmobs:skreecher_soul"
+			id: "725B7EE01216FBD1"
+			invisible: true
+			rewards: [
+				{
+					count: 3
+					id: "262A2A6417EB7AA9"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2DBF06EB4643D640"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Eso ha de doler"
+			tasks: [{
+				id: "521BBCA25E7E96E9"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 3
+			}]
+			title: "Pesima racha"
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"658021762527D077"
+				"725B7EE01216FBD1"
+			]
+			dependency_requirement: "one_completed"
+			hide: true
+			icon: "minecraft:jukebox"
+			id: "574E4B1A36393FED"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1C38082312A43381"
+					table_id: 1140077508870799999L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12D38CE29F878A14"
+					table_id: 1140077508870799999L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1596635811BFF570"
+					table_id: 4565550992826515270L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60A01B69669DD314"
+					table_id: 2241193052577304960L
+					title: "Revive a un caido"
+					type: "choice"
+				}
+				{
+					count: 12
+					id: "53D4DFF98CADDF7B"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0C37794D26E156F3"
+					item: "majruszsdifficulty:pillager_treasure_bag"
+					type: "item"
+				}
+				{
+					id: "5EFFC14CDDFB59D9"
+					item: "minecraft:sniffer_egg"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "335E0C5F42330EA1"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "aquamirae:potion_of_tenacity"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4D8F25DF15508323"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_turtle_master"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "12FCF4C31B106027"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "biomemakeover:adrenaline"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0B5B5E74BDCED682"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "illagerinvasion:strong_berserking"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F38A3548A9B7706"
+					table_id: 4645360515797637232L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "62BDC2F59F15FF95"
+					item: "minecraft:music_disc_13"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "10739FA1A8E04F8C"
+					item: "minecraft:music_disc_cat"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6A41233169743A68"
+					item: "minecraft:music_disc_blocks"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "53B4D697FCEB5AB4"
+					item: "minecraft:music_disc_chirp"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "31E8863169D7EFD7"
+					item: "minecraft:music_disc_far"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "14345ABF0B18F0A6"
+					item: "minecraft:music_disc_mall"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "368654402CA7C47C"
+					item: "minecraft:music_disc_mellohi"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "46BA0464286FAA3B"
+					item: "minecraft:music_disc_stal"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4290E36A10D6E171"
+					item: "minecraft:music_disc_strad"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7565F2716AF6C9F9"
+					item: "minecraft:music_disc_ward"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7FB5709CC906DD5A"
+					item: "minecraft:music_disc_11"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2C9953A75B477753"
+					item: "minecraft:music_disc_wait"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3158F682CA2E2FB3"
+					item: "minecraft:music_disc_otherside"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7F5895BA1E9948F8"
+					item: "minecraft:music_disc_5"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "289D2A018C1637F7"
+					item: "minecraft:music_disc_pigstep"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3DBEEA98443C38E2"
+					item: "minecraft:music_disc_relic"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2072B4C06210C531"
+					item: "bygonenether:wither_waltz_music_disc"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4AA62733811C23C5"
+					item: "cataclysm:music_disc_netherite_monstrosity"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5EE2814739682412"
+					item: "cataclysm:music_disc_ender_guardian"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0C093D21BA021F12"
+					item: "cataclysm:music_disc_ignis"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "50D6F60FB4B00D42"
+					item: "cataclysm:music_disc_the_harbinger"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3DB700F8067A5079"
+					item: "cataclysm:music_disc_the_leviathan"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "74A5984543757460"
+					item: "aquamirae:music_disc_horizon"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1A3AF31BA11AFB57"
+					item: "aquamirae:music_disc_forsaken_drownage"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2CC9CF80E9D0198D"
+					item: "netherdungeons:music_disc_a_long_way"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0F00D4C05CE069ED"
+					item: "graveyard:incarnated_evil_music_disc"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "48B90A498BD92323"
+					item: "alexsmobs:music_disc_thime"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3F5187D32886E745"
+					item: "sons_of_sins:sins_music_disc"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1E4BDA1BCC7CBA4D"
+					item: "born_in_chaos_v1:anluka_doors"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "02E05AEDAB119655"
+					item: "born_in_chaos_v1:serpumpkinhead_m"
+					type: "item"
+				}
+			]
+			title: "Musica maestro"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["658021762527D077"]
+			id: "09566039EC1B5420"
+			invisible: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "59BAE20B4268F68A"
+					table_id: 4565550992826515270L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21CA072FAA351BD7"
+					table_id: 4565550992826515270L
+					type: "choice"
+				}
+				{
+					count: 12
+					id: "60B7D9D9FF53F6ED"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "Pero aun no termina"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:netherite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "780B6AD7FC49B1F3"
+				stat: "minecraft:damage_taken"
+				title: "Mil millones"
+				type: "stat"
+				value: 1000000000
+			}]
+			title: "A sido un largo camino..."
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5A950C614B93E366"]
+			icon: "minecraft:nether_star"
+			id: "4FED20609C8FE17C"
+			rewards: [{
+				id: "17FB508892AD5851"
+				item: "taxdl:dragon_scale"
+				title: "Prueba de tu valia"
+				type: "item"
+			}]
+			subtitle: "Vuélvete la mano derecha de dios"
+			tasks: [
+				{
+					entity: "aquamirae:captain_cornelia"
+					icon: "aquamirae:shell_horn"
+					id: "7B085BC76536A7FC"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:ender_dragon"
+					icon: "irons_spellbooks:dragonskin"
+					id: "7FD9A778AA9C71A5"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "sanitydim:sneaking_terror"
+					icon: "born_in_chaos_v1:nightmare_stalker_skull"
+					id: "78CE88FEA12F2B8D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "The Hero of our Time"
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5A950C614B93E366"]
+			description: [
+				"Parece que a ocurrido un error, no deberias tener eso."
+				""
+				"Retarás a dios? Enterega a dios el alma de sus emisarios"
+				""
+				"¿Enfrentarás a aquel que observa?"
+			]
+			icon: "minecraft:beacon"
+			id: "2884DB39321B03E3"
+			invisible: true
+			rewards: [
+				{
+					command: "/effect give @p minecraft:bad_omen infinite 255 false"
+					icon: {
+						Count: 1b
+						id: "minecraft:lingering_potion"
+						tag: {
+							Potion: "biomemakeover:darkness"
+						}
+					}
+					id: "02BE4385794F39E2"
+					title: "Mal augurio"
+					type: "command"
+				}
+				{
+					id: "5B1F67D4FE5E5ACE"
+					item: {
+						Count: 1b
+						id: "majruszsdifficulty:soul_jar"
+						tag: {
+							SoulJar: {
+								BonusCount: 3
+								BonusMask: 0
+							}
+						}
+					}
+					title: "Entrega las almas de los caidos a dios"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77A3A6B674A5CB77"
+					table_id: 4645360515797637232L
+					type: "random"
+				}
+			]
+			subtitle: "Ese poder... no te pertenece."
+			tasks: [
+				{
+					id: "09109DF30B436E78"
+					item: {
+						Count: 1b
+						id: "taxdl:dragon_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29BAB8B57B9A6EAC"
+					item: {
+						Count: 1b
+						id: "taxdl:dragon_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C7247728D036255"
+					item: {
+						Count: 1b
+						id: "taxdl:dragon_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D43BEE814C976BF"
+					item: {
+						Count: 1b
+						id: "taxdl:dragon_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6974471B7D8716FA"
+					item: {
+						Count: 1b
+						id: "taxdl:dragon_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53A69DA615D8F31A"
+					item: {
+						Count: 1b
+						id: "taxdl:dragon_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52F3023EE0AE63C9"
+					item: {
+						Count: 1b
+						id: "taxdl:dragon_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F4037F41C0CDB12"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+			]
+			title: "Aquel que desafia a los dioses..."
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5A950C614B93E366"]
+			hide: true
+			icon: "cataclysm:mechanical_fusion_anvil"
+			id: "0A9069341DE95D03"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C3D3BE80F1DDF82"
+				table_id: 5464246363635496565L
+				title: "Dragon Born"
+				type: "choice"
+			}]
+			subtitle: "El siguiente paso para ascender a algo más."
+			tasks: [
+				{
+					consume_items: true
+					id: "17674317547A0E6A"
+					item: "taxdl:dragon_scale"
+					type: "item"
+				}
+				{
+					id: "140701DEA83F0E7E"
+					item: "cataclysm:mechanical_fusion_anvil"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "2A7B4AF404C8BE0B"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "51063695E5130A59"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "6E3650F2A4831B35"
+					item: "minecraft:fire_charge"
+					type: "item"
+				}
+				{
+					id: "359701C8537855CF"
+					item: "cataclysm:wither_assault_shoulder_weapon"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "71DDE61CDEB484C1"
+					item: "cataclysm:witherite_ingot"
+					type: "item"
+				}
+				{
+					id: "1944E4239B95A92F"
+					item: "nourished_nether:netherite_scrap_block"
+					type: "item"
+				}
+			]
+			title: "Forga dracónica"
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1590F4C2EADCBFC9"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "betterarcheology:soul_totem"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2ED6BF06AD8F40B4"
+			invisible: true
+			rewards: [
+				{
+					id: "5E856E5F7BCC3F80"
+					item: "toughasnails:apple_juice"
+					type: "item"
+				}
+				{
+					id: "0032685CA9692D71"
+					item: "minecraft:pumpkin_pie"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09B36E05EB5FD580"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 2
+			}]
+			title: "Un alma en pena"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4717D73AD3D4F4E1"]
+			id: "50EEB8C3A44468A1"
+			rewards: [
+				{
+					count: 3
+					id: "7C636CC5574E0348"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "695278612F68DDF1"
+					item: {
+						Count: 1b
+						id: "illagerinvasion:platinum_infused_hatchet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "01D1977BDABEC492"
+					item: "illagerinvasion:lost_candle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53163609A18A47A8"
+					table_id: 7191532406964630749L
+					type: "choice"
+				}
+				{
+					id: "235D4177BFE53B74"
+					item: "third_life_plus:golden_heart"
+					type: "item"
+				}
+			]
+			subtitle: "Consigue todos los tipos de cuernos (cornudo)."
+			tasks: [
+				{
+					consume_items: true
+					id: "65DB58F09E08AA1B"
+					item: {
+						Count: 1b
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:feel_goat_horn"
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2F703F982CCD50DF"
+					item: {
+						Count: 1b
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:seek_goat_horn"
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5F43A920353499FD"
+					item: {
+						Count: 1b
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:ponder_goat_horn"
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1BBFB4DB4BD82FA0"
+					item: {
+						Count: 1b
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:sing_goat_horn"
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "093EF3073411E048"
+					item: {
+						Count: 1b
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:admire_goat_horn"
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6FB189705DD3448B"
+					item: {
+						Count: 1b
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:call_goat_horn"
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3F3046E86AB2D4E1"
+					item: {
+						Count: 1b
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:yearn_goat_horn"
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "247B386428736E85"
+					item: {
+						Count: 1b
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:dream_goat_horn"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C926AF5354AB033"
+					item: "illagerinvasion:horn_of_sight"
+					type: "item"
+				}
+			]
+			title: "Cornudo"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3CA3876EAAC1C52E"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:iron_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "658021762527D077"
+			invisible: true
+			rewards: [
+				{
+					count: 3
+					id: "5DB2CE3B2ECA5F01"
+					item: "irons_spellbooks:greater_healing_potion"
+					type: "item"
+				}
+				{
+					id: "0EB712F6DD6383B4"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3E518BED3D03E288"
+				stat: "minecraft:damage_taken"
+				type: "stat"
+				value: 100000
+			}]
+			title: "You shall not pass"
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2FF2DF815B63F530"]
+			icon: "minecraft:spyglass"
+			id: "1DCA98A4783DD142"
+			rewards: [
+				{
+					id: "430A184F3C674456"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "386B822DA208E564"
+					item: "paraglider:stamina_vessel"
+					type: "item"
+				}
+				{
+					id: "25C3FA89F3544714"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "24DA091809AF3449"
+					item: "third_life_plus:temporary_life"
+					type: "item"
+				}
+			]
+			subtitle: "Consigue el kit de explorador."
+			tasks: [
+				{
+					id: "76580DEA2CC60B90"
+					item: "minecraft:spyglass"
+					type: "item"
+				}
+				{
+					id: "04DC70937C95A168"
+					item: "supplementaries:altimeter"
+					type: "item"
+				}
+				{
+					id: "5CFA87A097EDC520"
+					item: "bagofholding:leather_bag_of_holding"
+					type: "item"
+				}
+			]
+			title: "A explorar!"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"47499A11F187F94A"
+				"59B20D61D83C4AA9"
+				"68749783B9FF805E"
+				"03AAD764870FA186"
+				"7096B3238D6CD605"
+				"020C24A231EC837F"
+			]
+			hide: true
+			icon: "alexscaves:gazing_pearl"
+			id: "5A950C614B93E366"
+			rewards: [
+				{
+					count: 2
+					id: "11B7ADA2102B3FE5"
+					item: "third_life_plus:golden_heart"
+					title: "Vida"
+					type: "item"
+				}
+				{
+					id: "536FEE80A452FA2C"
+					table_id: 4645360515797637232L
+					title: "Que la diosa de la fortuna te sonria"
+					type: "random"
+				}
+			]
+			subtitle: "..."
+			tasks: [{
+				id: "68D3C27A2FEE7306"
+				title: "El mayor insensato... Un grandioso heroe"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"57397757729D174D"
+				"2884DB39321B03E3"
+			]
+			hide_dependency_lines: true
+			icon: "dreadsteel:dreadsteel_shield"
+			id: "7A7CD6E44492E678"
+			rewards: [
+				{
+					count: 8
+					id: "51C02E969B016C52"
+					item: "dreadsteel:dreadsteel_ingot"
+					type: "item"
+				}
+				{
+					id: "344F6B717EF85161"
+					type: "xp"
+					xp: 1600
+				}
+			]
+			subtitle: "El fin se acerca"
+			tasks: [
+				{
+					consume_items: true
+					id: "5418D645D4442E6D"
+					item: "aquamirae:rune_of_the_storm"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "7343647EF821A6A8"
+					item: "alexsmobs:mimicream"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "2B005F1CC9721870"
+					item: "alexscaves:uranium"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "0D456D027BEC7D76"
+					item: "irons_spellbooks:upgrade_orb"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "51BC5CB64018AF26"
+					item: "starmetal:star_metal"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5D7484552692BB5C"
+					item: "alexsmobs:void_worm_eye"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "59706A356C4B95D3"
+					item: "sons_of_sins:crystallized_ether"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "409897930C3D02AF"
+					item: {
+						Count: 1b
+						id: "simplyswords:runefused_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "50CDA7891C016D24"
+					item: "irons_spellbooks:dragonskin"
+					type: "item"
+				}
+				{
+					id: "20B8AEBB1F304551"
+					item: "irons_spellbooks:arcane_anvil"
+					title: "Moldea"
+					type: "item"
+				}
+				{
+					id: "04382940A5150045"
+					item: {
+						Count: 1b
+						id: "cataclysm:void_forge"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Forja"
+					type: "item"
+				}
+			]
+			title: "Prepárate para el fin de los tiempos"
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7A7CD6E44492E678"]
+			dependency_requirement: "all_started"
+			id: "159F2E5803691701"
+			invisible: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "69F3778E52E958D1"
+					table_id: 4645360515797637232L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07F431263A4AF222"
+					table_id: 4645360515797637232L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D2087D13AAF3DB5"
+					table_id: 4645360515797637232L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "786EAE5698772CBF"
+					item: "dreadsteel:dreadsteel_helmet"
+					type: "item"
+				}
+				{
+					id: "22D6156D269105B6"
+					item: "dreadsteel:dreadsteel_chestplate"
+					type: "item"
+				}
+				{
+					id: "55E468FFF33B463A"
+					item: "dreadsteel:dreadsteel_leggings"
+					type: "item"
+				}
+				{
+					id: "065ED55B6A156676"
+					item: "dreadsteel:dreadsteel_boots"
+					type: "item"
+				}
+				{
+					id: "0C19C31594770B90"
+					item: "dreadsteel:dreadsteel_scythe"
+					type: "item"
+				}
+			]
+			title: "Preparado?"
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"159F2E5803691701"
+				"24B5681C66F735C8"
+				"3E8DF47BF7F413E1"
+				"76E6291BEBE56A9F"
+				"68749783B9FF805E"
+				"3B18A79771AFEF06"
+			]
+			hide: true
+			icon: "witherstormmod:wooden_command_block_sword"
+			id: "63A5DB31EE1AA3BA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42EAAECC55AEE649"
+				table_id: 4565550992826515270L
+				type: "choice"
+			}]
+			size: 1.0d
+			subtitle: "..."
+			tasks: [{
+				id: "3601839C26F2E4B9"
+				title: "El primcipio del fin..."
+				type: "checkmark"
+			}]
+			title: "El fin de tu aventura."
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["63A5DB31EE1AA3BA"]
+			hide: true
+			id: "78D0B0E0DCFC2626"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CFB03270FD3AB73"
+				table_id: 1140077508870799999L
+				type: "choice"
+			}]
+			size: 1.0d
+			subtitle: "¿Qué es esto?"
+			tasks: [{
+				id: "5A868812669A46C2"
+				item: {
+					Count: 1b
+					id: "witherstormmod:phasometer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "A no ser..."
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["78D0B0E0DCFC2626"]
+			hide: true
+			icon: "witherstormmod:tainted_skeleton_wall"
+			id: "2DCB1A78C74612BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76F9ECE855DAF425"
+				table_id: 4645360515797637232L
+				type: "random"
+			}]
+			size: 1.0d
+			subtitle: "..."
+			tasks: [
+				{
+					entity: "witherstormmod:withered_symbiont"
+					id: "4A25B86A0B9B0261"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "6271E5E28A5A4F37"
+					item: "witherstormmod:command_block_book"
+					type: "item"
+				}
+			]
+			title: "....que pruebes....."
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2DCB1A78C74612BD"]
+			hide: true
+			id: "346D734C2838A1F7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04320A6F9DF2B588"
+				table_id: 4645360515797637232L
+				type: "random"
+			}]
+			size: 1.0d
+			subtitle: "..."
+			tasks: [{
+				id: "54B421AFD24E492D"
+				item: "witherstormmod:super_tnt"
+				type: "item"
+			}]
+			title: "...tu VALíA..."
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["346D734C2838A1F7"]
+			hide: true
+			id: "75C84CCA6E1E1DCD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A79282A44B1ABC9"
+				table_id: 4645360515797637232L
+				type: "random"
+			}]
+			size: 1.0d
+			subtitle: "¿Serás capaz de demostrarlo?"
+			tasks: [{
+				id: "223F263263FF2095"
+				item: {
+					Count: 1b
+					id: "witherstormmod:formidibomb"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "...A TODO EL MUNDO!!!"
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["75C84CCA6E1E1DCD"]
+			hide: true
+			id: "2F575C1386D0C5B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "724F6CD4D6956EB7"
+				table_id: 4645360515797637232L
+				type: "random"
+			}]
+			size: 1.0d
+			subtitle: "La leyenda, eres tú."
+			tasks: [{
+				entity: "witherstormmod:command_block"
+				icon: "minecraft:command_block"
+				id: "0CF8F43640AC2067"
+				type: "kill"
+				value: 1L
+			}]
+			title: "¡¡Y VIVAS PARA CONTARLO!!"
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2DCB1A78C74612BD"]
+			hide: true
+			hide_dependency_lines: true
+			hide_text_until_complete: true
+			id: "44EA38B819DA3F32"
+			optional: true
+			rewards: [
+				{
+					id: "4FBAF7F2C17589BE"
+					item: "minecraft:command_block_minecart"
+					type: "item"
+				}
+				{
+					command: "/setlives @a 6"
+					id: "5D7C19AFC7505B50"
+					type: "command"
+				}
+			]
+			size: 0.15d
+			tasks: [{
+				id: "392DF436AE80658B"
+				item: "witherstormmod:wooden_command_block_hoe"
+				type: "item"
+			}]
+			title: "...espera que????????????????????????????????????????????"
+			x: 0.02d
+			y: -9.4965d
+		}
+		{
+			dependencies: ["4717D73AD3D4F4E1"]
+			icon: "bagofholding:leather_bag_of_holding"
+			id: "3B421FCEA1BE8BB2"
+			tasks: [{
+				count: 6L
+				id: "5B148774A2549F73"
+				item: "bagofholding:golden_bag_of_holding"
+				title: "Sigolomania"
+				type: "item"
+			}]
+			title: "Silogomanía"
+			x: -2.0d
+			y: 1.5d
+		}
+	]
+	subtitle: ["Avanza para desbloquear bosses"]
+	title: "Empezando tu aventura"
+}

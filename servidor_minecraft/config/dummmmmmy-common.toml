@@ -23,5 +23,5 @@
 
 [mobs_damage_numbers]
 	enabled = false
-	player_only = false
+	player_only = true
 

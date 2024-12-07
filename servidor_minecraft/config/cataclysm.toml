@@ -279,30 +279,6 @@
 	#Range: 0.0 ~ 1000000.0
 	BabyLeviathanDamageMultiplier = 1.0
 
-["Amethyst Crab"]
-	#Amethyst Crab's Health Multiplier
-	#Range: 0.0 ~ 1000000.0
-	AmethystCrabHealthMultiplier = 1.0
-	#Amethyst Crab's Damage Multiplier
-	#Range: 0.0 ~ 1000000.0
-	AmethystCrabDamageMultiplier = 1.0
-
-["Ancient Remnant"]
-	#Ancient Remnant's Health Multiplier
-	#Range: 0.0 ~ 1000000.0
-	AncientRemnantHealthMultiplier = 1.0
-	#Ancient Remnant's Damage Multiplier
-	#Range: 0.0 ~ 1000000.0
-	AncientRemnantDamageMultiplier = 1.0
-	#Ancient Remnant's Immune to Long distance attack range.
-	#Range: 1.0 ~ 1000000.0
-	"Ancient Remnant's prevent attacks from far away Range" = 15.0
-	#Ancient Remnant's DamageCap
-	#Range: 0 ~ 1000000
-	AncientRemnantCap = 21
-	#Ancient Remnant's block breaking ignore the MobGriefing
-	AncientRemnantBlockBreaking = true
-
 [spawning]
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	#Range: 0 ~ 1000
@@ -328,4 +304,28 @@
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	#Range: > 0
 	AmethystCrabSpawnRolls = 100
+
+["Amethyst Crab"]
+	#Amethyst Crab's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	AmethystCrabHealthMultiplier = 1.0
+	#Amethyst Crab's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	AmethystCrabDamageMultiplier = 1.0
+
+["Ancient Remnant"]
+	#Ancient Remnant's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	AncientRemnantHealthMultiplier = 1.0
+	#Ancient Remnant's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	AncientRemnantDamageMultiplier = 1.0
+	#Ancient Remnant's Immune to Long distance attack range.
+	#Range: 1.0 ~ 1000000.0
+	"Ancient Remnant's prevent attacks from far away Range" = 15.0
+	#Ancient Remnant's DamageCap
+	#Range: 0 ~ 1000000
+	AncientRemnantCap = 21
+	#Ancient Remnant's block breaking ignore the MobGriefing
+	AncientRemnantBlockBreaking = true
 

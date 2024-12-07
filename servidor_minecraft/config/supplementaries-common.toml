@@ -15,12 +15,12 @@
 		enabled = true
 		#Enable/disable speaker block narrator mode
 		narrator_enabled = true
-		#Max text
-		#Range: 0 ~ 10000
-		max_text = 32
 		#Maximum block range
 		#Range: 0 ~ 100000000
 		range = 64
+		#Max text
+		#Range: 0 ~ 10000
+		max_text = 32
 
 	[redstone.bellows]
 		enabled = true
@@ -330,12 +330,6 @@
 		#Arrows you pickup will try to go in a quiver if available provided it has some arrow of the same type
 		quiver_pickup = true
 
-	[tools.slice_map]
-		enabled = true
-		#Multiplier that will be applied by slice maps to lower their range compared to normal maps
-		#Range: 0.0 ~ 1.0
-		range_multiplier = 0.25
-
 	[tools.bubble_blower]
 		enabled = true
 		#Amount of soap consumed per bubble block placed
@@ -419,6 +413,12 @@
 	[tools.antique_ink]
 		enabled = true
 		cartographer_trades = true
+
+	[tools.slice_map]
+		enabled = true
+		#Multiplier that will be applied by slice maps to lower their range compared to normal maps
+		#Range: 0.0 ~ 1.0
+		range_multiplier = 0.25
 
 #General settings
 [general]
@@ -532,9 +532,6 @@
 		random_adventurer_maps = true
 		#Enables beacons, lodestones, respawn anchors, beds, conduits, portals to be displayed on maps by clicking one of them with a map
 		block_map_markers = true
-		#Shows a death marker on your map when you die. Requires a recovery compass in player inventory or similar
-		#Allowed Values: OFF, WITH_COMPASS, ALWAYS
-		death_marker = "WITH_COMPASS"
 		#If Quark is installed adventurer maps will be replaced by adventurer quills. These will not lag the server when generating
 		quill_adventurer_maps = true
 		#If Quark is installed replaces buried treasure and mansion maps with their equivalent quill form. This removes the lag spike they create when generating
@@ -548,6 +545,9 @@
 		#Miminum search radius for quill. Used to incrase the radius of vanilla searches. For reference buried treasures are at 50 and locate is at 100 chunks
 		#Range: 10 ~ 600
 		min_search_radius = 75
+		#Shows a death marker on your map when you die. Requires a recovery compass in player inventory or similar
+		#Allowed Values: OFF, WITH_COMPASS, ALWAYS
+		death_marker = "WITH_COMPASS"
 		#Makes blocks tagged as 'tinted_on_map' use their tint color. This allows for accurate biome colors for water and grass as well as other custom block that use any tint
 		tinted_blocks_on_maps = true
 

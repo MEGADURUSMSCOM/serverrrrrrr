@@ -1,0 +1,394 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "salud"
+	group: "15453F4053D67D06"
+	icon: "majruszsdifficulty:golden_bandage"
+	id: "4438CFA703EADB72"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["30AFB9E25AA792F0"]
+			description: [
+				"Las &6vendas&f sirven para curar el &4sangrado. "
+				""
+				"&4El sangrado&f te quita salud poco a poco hasta poder matarte. Aparece cuando eres atacado o golpeado."
+			]
+			id: "4D667500D9D57115"
+			rewards: [{
+				count: 3
+				id: "25ED34B323B92851"
+				item: "majruszsdifficulty:bandage"
+				type: "item"
+			}]
+			subtitle: "Cura el sangrado."
+			tasks: [{
+				id: "4B1E38625C9031C2"
+				item: "majruszsdifficulty:bandage"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4D667500D9D57115"]
+			description: ["La &6venda dorada&f aparte de parar el sangrado, te hacen inmune a él durante 1:30min"]
+			hide: true
+			id: "71EC2BA319BFA6E3"
+			rewards: [
+				{
+					count: 24
+					id: "67A25F8B1F5A2D6A"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "0F610BD40376EEFB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Tu mejor amiga."
+			tasks: [{
+				id: "71A00066BD472106"
+				item: "majruszsdifficulty:golden_bandage"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["162C50CCDC37500F"]
+			id: "396571B1890D1C1C"
+			rewards: [{
+				id: "556C7C450829797D"
+				item: "minecraft:golden_apple"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "325F13ED074214DE"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["396571B1890D1C1C"]
+			hide: true
+			id: "0EF5912908512F74"
+			rewards: [{
+				count: 8
+				id: "374D613D3A714B6D"
+				item: "minecraft:raw_gold"
+				random_bonus: 16
+				type: "item"
+			}]
+			tasks: [{
+				id: "584F6E821511C805"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1DADC6F7B1057164"]
+			id: "513C2BDA6831111C"
+			rewards: [
+				{
+					id: "3A0B7DFF2A899F39"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "5A3C2709E8BB6436"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "78479A276E81A0DB"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			title: "Morir duele"
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2E34DC5ACA67EA32"]
+			description: ["Crea un circulo capaz de curar a los que se mantienen en su interior."]
+			id: "32DC225F1A1CCFAC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43D0BB3978242401"
+				table_id: 2409118067992150210L
+				type: "random"
+			}]
+			tasks: [{
+				id: "66FB993509EFCFCE"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_spell: {
+							id: "irons_spellbooks:healing_circle"
+							level: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2E34DC5ACA67EA32"]
+			id: "5D88906FB1E1B778"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A12440CE2112555"
+				table_id: 2092828827130485791L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7D4C9404E41B8598"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_spell: {
+							id: "irons_spellbooks:heal"
+							level: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2E34DC5ACA67EA32"]
+			hide: true
+			id: "3AC4A9C216193BA7"
+			rewards: [{
+				id: "3FA4974D8D54B17E"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EDECFC2B07E12F3"
+				item: {
+					Count: 1b
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_spell: {
+							id: "irons_spellbooks:greater_heal"
+							level: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["162C50CCDC37500F"]
+			id: "31895FA3D6C7BE96"
+			rewards: [{
+				count: 12
+				id: "5127FB5D92F94694"
+				item: "minecraft:melon_slice"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14E1BB60CB33855B"
+				item: "farmersdelight:melon_juice"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"162C50CCDC37500F"
+				"658327434A89A4DC"
+			]
+			id: "5D7654454B2A3F64"
+			rewards: [{
+				count: 3
+				id: "2EBC509073D06609"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Utiliza la mesa de alquimia para fabricar más posiciones."
+			tasks: [{
+				id: "064421047BB0DB8A"
+				item: "irons_spellbooks:greater_healing_potion"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"30AFB9E25AA792F0"
+				"6F2F1319EAC322EA"
+			]
+			hide: true
+			icon: "minecraft:writable_book"
+			id: "2E34DC5ACA67EA32"
+			subtitle: "Existen hechizos capaces de curar."
+			tasks: [{
+				id: "636947E52E68B540"
+				title: "Hechizos curativos"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3CA3876EAAC1C52E"]
+			description: ["Solamente cuentas con &23 vidas&f iniciales base, si las pierdes, morirás definitivamente y tendrás que ser revivido de forma especial."]
+			hide: true
+			icon: "artifacts:crystal_heart"
+			id: "30AFB9E25AA792F0"
+			subtitle: "Ve bien equipado"
+			tasks: [{
+				id: "10A331A5335CD55D"
+				title: "Prepárate para no morir"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["30AFB9E25AA792F0"]
+			icon: "farmersdelight:mixed_salad"
+			id: "162C50CCDC37500F"
+			tasks: [{
+				id: "49A1ADD9A84A8E30"
+				title: "Alimentos"
+				type: "checkmark"
+			}]
+			title: "Alimentos útiles"
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["30AFB9E25AA792F0"]
+			description: ["Los \"Bundles\" de pociones permiten ahorrar espacio en el inventario."]
+			id: "1DADC6F7B1057164"
+			rewards: [
+				{
+					id: "4790478641EE709D"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "2A9E108D038B5DEB"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Se utiliza del mismo modo que las demás pociones"
+			tasks: [{
+				id: "0D048278E3ADA963"
+				item: {
+					Count: 1b
+					id: "potionbundles:splash_potion_bundle"
+					tag: {
+						Potion: "goblintraders:powerful_instant_health"
+						String: {
+							Count: 0b
+							id: "minecraft:air"
+						}
+						Uses: 3
+					}
+				}
+				type: "item"
+			}]
+			title: "¡¡¡¡Más en menos!!!!"
+			x: 7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["30AFB9E25AA792F0"]
+			description: ["Las &cvidas temporales&f al consumirlas te añaden una vida extra durante &35min.&f Al morir durante ese rango de tiempo, solamente perderás la &cvida temporal.&f"]
+			hide: true
+			icon: "third_life_plus:temporary_life"
+			id: "034878BB9E43CC95"
+			rewards: [{
+				id: "04FBF85181F2618A"
+				item: "third_life_plus:temporary_life"
+				title: "Vida temporal "
+				type: "item"
+			}]
+			subtitle: "Tienes 3 vidas, úsalas con cuidado."
+			tasks: [{
+				id: "090BF19CE5A5E330"
+				title: "Vidas"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["034878BB9E43CC95"]
+			description: ["Pista: completa la misión \"¡A explorar!\""]
+			hide: true
+			id: "4FB10791B99AFA91"
+			subtitle: "Sirve para revivir a un jugador al encajar 3 corazones dorados en el revividor"
+			tasks: [{
+				id: "362FBD4A7D52DB67"
+				item: "third_life_plus:reviver_0"
+				type: "item"
+			}]
+			title: "Revividor"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["034878BB9E43CC95"]
+			description: [
+				"Con una &4vida roja&f, recuperarás una vida base perdida."
+				""
+				"Pista: mejora tu armadura"
+			]
+			id: "2B7341796616A4F0"
+			subtitle: "Recupera una vida perdida"
+			tasks: [{
+				id: "7E6A2F2DB2911DDE"
+				item: "third_life_plus:heart"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["034878BB9E43CC95"]
+			description: ["Puedes llegar a tener &23 vidas&f permanentes extras a las 3 base con las &6vidas doradas&f, consiguiendo así hasta &a6 vidas&a permanentes."]
+			id: "4619C2B091E5E005"
+			subtitle: "Añade hasta 3 vidas extra (para un total de 6)"
+			tasks: [{
+				id: "18ADC58AF9044926"
+				item: "third_life_plus:golden_heart"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+	]
+	title: "Salud"
+}
