@@ -2126,3 +2126,148 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [07Dec2024 18:08:43.493] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MEGAnonimo lost connection: Disconnected
 [07Dec2024 18:08:43.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGAnonimo left the game
 [07Dec2024 18:08:43.499] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client MEGAnonimo
+[07Dec2024 18:12:58.778] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7d9af468[id=<null>,name=MEGAnonimo,properties={},legacy=false] (/127.55.96.55:48537) lost connection: Disconnected
+[07Dec2024 18:13:04.760] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MEGAnonimo[/127.55.96.55:40149] logged in with entity id 4486 at (-2510.501330647894, -49.0, 1558.0924190860212)
+[07Dec2024 18:13:04.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGAnonimo joined the game
+[07Dec2024 18:13:04.869] [Server thread/INFO] [Jade/]: Syncing config to MEGAnonimo (51eef381-e4a5-3a16-bd26-2d992c8e958f)
+[07Dec2024 18:13:06.790] [Netty Epoll Server IO #3/INFO] [simplelogin/]: Player meganonimo has successfully logged in.
+[07Dec2024 18:13:06.825] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/4490, l='ServerLevel[world]', x=-2512.87, y=43.06, z=1500.12]
+[07Dec2024 18:13:06.827] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/4491, l='ServerLevel[world]', x=-2512.70, y=44.00, z=1503.51]
+[07Dec2024 18:13:06.828] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/4493, l='ServerLevel[world]', x=-2510.45, y=44.00, z=1501.42]
+[07Dec2024 18:13:06.830] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/4504, l='ServerLevel[world]', x=-2505.50, y=28.00, z=1463.50]
+[07Dec2024 18:13:06.831] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/4507, l='ServerLevel[world]', x=-2531.50, y=-7.00, z=1502.50]
+[07Dec2024 18:13:06.831] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/4508, l='ServerLevel[world]', x=-2533.50, y=-7.00, z=1502.50]
+[07Dec2024 18:13:06.832] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/4510, l='ServerLevel[world]', x=-2517.52, y=50.00, z=1567.11]
+[07Dec2024 18:13:06.834] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/4518, l='ServerLevel[world]', x=-2480.50, y=67.00, z=1567.50]
+[07Dec2024 18:13:06.835] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/4520, l='ServerLevel[world]', x=-2502.50, y=63.00, z=1557.50]
+[07Dec2024 18:13:06.837] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/4529, l='ServerLevel[world]', x=-2512.50, y=53.00, z=1595.50]
+[07Dec2024 18:13:06.921] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/4530, l='ServerLevel[world]', x=-2506.65, y=43.00, z=1505.49]
+[07Dec2024 18:13:06.925] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/4550, l='ServerLevel[world]', x=-2507.50, y=17.00, z=1605.50]
+[07Dec2024 18:13:06.926] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/4555, l='ServerLevel[world]', x=-2471.51, y=67.00, z=1574.49]
+[07Dec2024 18:13:06.939] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of MEGAnonimo (17)
+[07Dec2024 18:13:06.941] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to MEGAnonimo
+[07Dec2024 18:13:06.989] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[07Dec2024 18:13:07.007] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/4578, l='ServerLevel[world]', x=-2574.50, y=21.00, z=1567.50]
+[07Dec2024 18:13:07.010] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/4595, l='ServerLevel[world]', x=-2459.56, y=17.00, z=1492.44]
+[07Dec2024 18:13:07.011] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/4596, l='ServerLevel[world]', x=-2458.96, y=17.00, z=1493.25]
+[07Dec2024 18:13:07.109] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/4599, l='ServerLevel[world]', x=-2428.50, y=32.00, z=1575.50]
+[07Dec2024 18:13:11.854] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 51eef381-e4a5-3a16-bd26-2d992c8e958f
+[07Dec2024 18:13:12.854] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 51eef381-e4a5-3a16-bd26-2d992c8e958f
+[07Dec2024 18:13:12.855] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player MEGAnonimo (51eef381-e4a5-3a16-bd26-2d992c8e958f) successfully connected to voice chat
+[07Dec2024 18:13:17.932] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/4767, l='ServerLevel[world]', x=-2556.50, y=61.00, z=1520.50]
+[07Dec2024 18:13:19.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGAnonimo was slain by Warden
+[07Dec2024 18:13:21.131] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/4770, l='ServerLevel[world]', x=-2551.50, y=55.00, z=1513.50]
+[07Dec2024 18:13:23.048] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MEGAnonimo was kicked for floating too long!
+[07Dec2024 18:13:23.094] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MEGAnonimo lost connection: Flying is not enabled on this server
+[07Dec2024 18:13:23.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGAnonimo left the game
+[07Dec2024 18:13:23.096] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client MEGAnonimo
+[07Dec2024 18:13:30.044] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MEGAnonimo[/127.55.96.55:41281] logged in with entity id 4771 at (-2507.763019413143, -48.74779665974627, 1555.2401089856226)
+[07Dec2024 18:13:30.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGAnonimo joined the game
+[07Dec2024 18:13:30.078] [Server thread/INFO] [Jade/]: Syncing config to MEGAnonimo (51eef381-e4a5-3a16-bd26-2d992c8e958f)
+[07Dec2024 18:13:31.624] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/4773, l='ServerLevel[world]', x=-2506.65, y=43.00, z=1505.49]
+[07Dec2024 18:13:31.807] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/4776, l='ServerLevel[world]', x=-2517.52, y=50.00, z=1567.11]
+[07Dec2024 18:13:31.885] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/4788, l='ServerLevel[world]', x=-2480.50, y=67.00, z=1567.50]
+[07Dec2024 18:13:31.886] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/4790, l='ServerLevel[world]', x=-2502.50, y=63.00, z=1559.59]
+[07Dec2024 18:13:31.887] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/4796, l='ServerLevel[world]', x=-2512.50, y=53.00, z=1595.50]
+[07Dec2024 18:13:31.944] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/4808, l='ServerLevel[world]', x=-2507.50, y=17.00, z=1605.50]
+[07Dec2024 18:13:31.945] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/4814, l='ServerLevel[world]', x=-2551.50, y=55.00, z=1513.50]
+[07Dec2024 18:13:31.945] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/4816, l='ServerLevel[world]', x=-2556.52, y=62.00, z=1521.43]
+[07Dec2024 18:13:31.946] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/4827, l='ServerLevel[world]', x=-2466.47, y=68.00, z=1577.53]
+[07Dec2024 18:13:31.948] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/4841, l='ServerLevel[world]', x=-2575.90, y=22.00, z=1566.62]
+[07Dec2024 18:13:31.949] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/4848, l='ServerLevel[world]', x=-2531.50, y=-7.00, z=1502.50]
+[07Dec2024 18:13:31.949] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/4849, l='ServerLevel[world]', x=-2533.50, y=-7.00, z=1502.50]
+[07Dec2024 18:13:31.949] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/4851, l='ServerLevel[world]', x=-2513.04, y=43.06, z=1499.98]
+[07Dec2024 18:13:31.950] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/4852, l='ServerLevel[world]', x=-2512.70, y=44.00, z=1503.51]
+[07Dec2024 18:13:31.950] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/4853, l='ServerLevel[world]', x=-2512.85, y=43.06, z=1500.65]
+[07Dec2024 18:13:31.993] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/4872, l='ServerLevel[world]', x=-2463.86, y=18.00, z=1489.55]
+[07Dec2024 18:13:32.031] [Netty Epoll Server IO #4/INFO] [simplelogin/]: Player meganonimo has successfully logged in.
+[07Dec2024 18:13:32.055] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/4873, l='ServerLevel[world]', x=-2428.50, y=32.00, z=1575.50]
+[07Dec2024 18:13:32.067] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of MEGAnonimo (17)
+[07Dec2024 18:13:32.068] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to MEGAnonimo
+[07Dec2024 18:13:32.121] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Spruce Creeper'/4905, l='ServerLevel[world]', x=-2485.50, y=66.00, z=1530.50]
+[07Dec2024 18:13:32.133] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/4889, l='ServerLevel[world]', x=-2458.44, y=19.00, z=1484.50]
+[07Dec2024 18:13:35.080] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 51eef381-e4a5-3a16-bd26-2d992c8e958f
+[07Dec2024 18:13:36.081] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 51eef381-e4a5-3a16-bd26-2d992c8e958f
+[07Dec2024 18:13:36.082] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player MEGAnonimo (51eef381-e4a5-3a16-bd26-2d992c8e958f) successfully connected to voice chat
+[07Dec2024 18:13:42.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGAnonimo died
+[07Dec2024 18:13:47.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGAnonimo died
+[07Dec2024 18:13:56.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGAnonimo died
+[07Dec2024 18:14:08.486] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/5073, l='ServerLevel[world]', x=-2506.50, y=7.00, z=1606.50]
+[07Dec2024 18:14:08.932] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/5077, l='ServerLevel[world]', x=-2536.50, y=42.00, z=1498.50]
+[07Dec2024 18:14:16.984] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/5096, l='ServerLevel[world]', x=-2580.50, y=29.00, z=1588.50]
+[07Dec2024 18:14:18.981] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper PhantomCreeperEntity['Phantom Creeper'/5102, l='ServerLevel[world]', x=-2492.50, y=43.00, z=1507.50]
+[07Dec2024 18:14:24.983] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper PhantomCreeperEntity['Phantom Creeper'/5111, l='ServerLevel[world]', x=-2489.50, y=43.00, z=1496.50]
+[07Dec2024 18:14:31.328] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/5118, l='ServerLevel[world]', x=-2576.50, y=22.00, z=1566.50]
+[07Dec2024 18:14:43.431] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/5142, l='ServerLevel[world]', x=-2522.50, y=43.00, z=1500.50]
+[07Dec2024 18:14:44.688] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/5144, l='ServerLevel[world]', x=-2552.50, y=41.00, z=1510.50]
+[07Dec2024 18:14:51.538] [Worker-Main-32/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[07Dec2024 18:14:51.538] [Worker-Main-32/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[07Dec2024 18:14:51.538] [Worker-Main-32/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[07Dec2024 18:14:55.449] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5772ms or 115 ticks behind
+[07Dec2024 18:15:05.182] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/5179, l='ServerLevel[world]', x=-2518.50, y=5.00, z=1621.50]
+[07Dec2024 18:15:12.631] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/5203, l='ServerLevel[world]', x=-2479.50, y=66.00, z=1570.50]
+[07Dec2024 18:15:16.830] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/5219, l='ServerLevel[world]', x=-2520.50, y=50.00, z=1568.50]
+[07Dec2024 18:15:18.532] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/5224, l='ServerLevel[world]', x=-2456.50, y=17.00, z=1590.50]
+[07Dec2024 18:15:18.533] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/5225, l='ServerLevel[world]', x=-2456.50, y=17.00, z=1587.50]
+[07Dec2024 18:15:37.080] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/5255, l='ServerLevel[world]', x=-2574.50, y=21.00, z=1566.50]
+[07Dec2024 18:15:39.287] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/5261, l='ServerLevel[world]', x=-2506.50, y=4.00, z=1611.50]
+[07Dec2024 18:15:40.879] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/5262, l='ServerLevel[world]', x=-2439.50, y=54.00, z=1552.50]
+[07Dec2024 18:15:42.680] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper PhantomCreeperEntity['Phantom Creeper'/5266, l='ServerLevel[world]', x=-2511.50, y=17.00, z=1608.50]
+[07Dec2024 18:15:44.380] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/5267, l='ServerLevel[world]', x=-2556.50, y=38.00, z=1502.50]
+[07Dec2024 18:15:49.280] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/5283, l='ServerLevel[world]', x=-2483.50, y=44.00, z=1622.50]
+[07Dec2024 18:15:53.581] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/5288, l='ServerLevel[world]', x=-2475.50, y=66.00, z=1568.50]
+[07Dec2024 18:15:57.582] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/5295, l='ServerLevel[world]', x=-2568.50, y=30.00, z=1567.50]
+[07Dec2024 18:16:01.029] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/5305, l='ServerLevel[world]', x=-2500.50, y=43.00, z=1514.50]
+[07Dec2024 18:16:02.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGAnonimo was not rescued in time
+[07Dec2024 18:16:40.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown game mode: 1
+[07Dec2024 18:16:40.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gamemode 1 MEGAnonimo<--[HERE]
+[07Dec2024 18:16:46.838] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/5334, l='ServerLevel[world]', x=-2475.50, y=66.00, z=1568.50]
+[07Dec2024 18:16:46.839] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/5345, l='ServerLevel[world]', x=-2456.50, y=17.00, z=1590.50]
+[07Dec2024 18:16:46.841] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/5360, l='ServerLevel[world]', x=-2506.60, y=4.00, z=1611.30]
+[07Dec2024 18:16:46.922] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/5370, l='ServerLevel[world]', x=-2500.50, y=43.00, z=1514.50]
+[07Dec2024 18:16:46.923] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/5374, l='ServerLevel[world]', x=-2483.66, y=44.00, z=1622.34]
+[07Dec2024 18:16:46.926] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper PhantomCreeperEntity['Phantom Creeper'/5402, l='ServerLevel[world]', x=-2512.49, y=18.00, z=1609.45]
+[07Dec2024 18:16:47.360] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/5444, l='ServerLevel[world]', x=-2531.99, y=-7.00, z=1502.50]
+[07Dec2024 18:16:47.495] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/5469, l='ServerLevel[world]', x=-2548.42, y=41.00, z=1507.49]
+[07Dec2024 18:16:47.496] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/5478, l='ServerLevel[world]', x=-2574.50, y=21.00, z=1566.50]
+[07Dec2024 18:16:47.496] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/5479, l='ServerLevel[world]', x=-2568.84, y=30.00, z=1567.50]
+[07Dec2024 18:16:49.829] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Spruce Creeper'/5621, l='ServerLevel[world]', x=-2478.50, y=69.00, z=1557.50]
+[07Dec2024 18:16:52.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown game mode: 1
+[07Dec2024 18:16:52.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gamemode 1 MEGAnonimo<--[HERE]
+[07Dec2024 18:17:15.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[07Dec2024 18:17:15.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGAnonimo gamemode 1<--[HERE]
+[07Dec2024 18:17:20.430] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/5679, l='ServerLevel[world]', x=-2399.50, y=5.00, z=1556.50]
+[07Dec2024 18:17:20.432] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/5680, l='ServerLevel[world]', x=-2397.50, y=5.00, z=1555.50]
+[07Dec2024 18:17:22.531] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/5689, l='ServerLevel[world]', x=-2476.50, y=71.00, z=1582.50]
+[07Dec2024 18:17:27.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown game mode: 1
+[07Dec2024 18:17:27.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gamemode 1 MEGAnonimo<--[HERE]
+[07Dec2024 18:17:27.330] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/5706, l='ServerLevel[world]', x=-2512.50, y=24.00, z=1617.50]
+[07Dec2024 18:17:28.484] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/5710, l='ServerLevel[world]', x=-2407.50, y=-9.00, z=1655.50]
+[07Dec2024 18:17:28.485] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/5711, l='ServerLevel[world]', x=-2406.50, y=-9.00, z=1656.50]
+[07Dec2024 18:17:28.486] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/5712, l='ServerLevel[world]', x=-2406.50, y=-9.00, z=1654.50]
+[07Dec2024 18:17:33.280] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/5719, l='ServerLevel[world]', x=-2389.50, y=10.00, z=1577.50]
+[07Dec2024 18:17:39.030] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/5732, l='ServerLevel[world]', x=-2516.50, y=12.00, z=1627.50]
+[07Dec2024 18:17:39.031] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/5733, l='ServerLevel[world]', x=-2516.50, y=12.00, z=1623.50]
+[07Dec2024 18:17:39.130] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/5736, l='ServerLevel[world]', x=-2493.50, y=65.00, z=1542.50]
+[07Dec2024 18:17:46.430] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/5744, l='ServerLevel[world]', x=-2481.50, y=44.00, z=1622.50]
+[07Dec2024 18:17:47.583] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/5748, l='ServerLevel[world]', x=-2506.50, y=58.00, z=1562.50]
+[07Dec2024 18:17:47.585] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/5749, l='ServerLevel[world]', x=-2505.50, y=58.00, z=1561.50]
+[07Dec2024 18:17:51.836] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/5754, l='ServerLevel[world]', x=-2436.50, y=13.00, z=1584.50]
+[07Dec2024 18:17:54.580] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/5759, l='ServerLevel[world]', x=-2431.50, y=30.00, z=1531.50]
+[07Dec2024 18:17:57.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set MEGAnonimo's game mode to Creative Mode
+[07Dec2024 18:18:07.982] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/5814, l='ServerLevel[world]', x=-2397.50, y=10.00, z=1569.50]
+[07Dec2024 18:18:12.578] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/5830, l='ServerLevel[world]', x=-2404.50, y=3.00, z=1638.50]
+[07Dec2024 18:18:39.967] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.heightproviders.BiasedToBottomHeight/]: Empty height range: biased[-3 absolute--5 absolute inner: 1]
+[07Dec2024 18:18:41.484] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MEGAnonimo moved too quickly! 9.77628422881935,-1.713744068098066,-3.8714568116242845
+[07Dec2024 18:18:41.944] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/5942, l='ServerLevel[world]', x=-2353.50, y=43.00, z=1499.50]
+[07Dec2024 18:18:42.781] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[07Dec2024 18:18:43.173] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/5977, l='ServerLevel[world]', x=-2475.50, y=68.00, z=1579.50]
+[07Dec2024 18:18:44.279] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/5980, l='ServerLevel[world]', x=-2438.50, y=25.00, z=1653.50]
+[07Dec2024 18:18:54.084] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/6010, l='ServerLevel[world]', x=-2305.50, y=-39.00, z=1588.50]
+[07Dec2024 18:18:55.257] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 51eef381-e4a5-3a16-bd26-2d992c8e958f timed out
+[07Dec2024 18:18:55.257] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player MEGAnonimo
+[07Dec2024 18:18:55.258] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to MEGAnonimo
+[07Dec2024 18:18:59.451] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MEGAnonimo lost connection: Disconnected
+[07Dec2024 18:18:59.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGAnonimo left the game
+[07Dec2024 18:18:59.452] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client MEGAnonimo
+[07Dec2024 18:18:59.540] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
