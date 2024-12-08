@@ -2,9 +2,7 @@
 	id: "51eef381-e4a5-3a16-bd26-2d992c8e958f"
 	type: "player"
 	player_name: "MEGAnonimo"
-	ranks: {
-		51eef381-e4a5-3a16-bd26-2d992c8e958f: "owner"
-	}
+	ranks: { }
 	properties: {
 		"ftbteams:display_name": "MEGAnonimo"
 		"ftbteams:description": ""

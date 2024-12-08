@@ -3605,3 +3605,246 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [08Dec2024 09:15:53.569] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/1483, l='ServerLevel[world]', x=-150.50, y=-35.00, z=-32.50]
 [08Dec2024 09:15:54.116] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/1491, l='ServerLevel[world]', x=-172.50, y=-35.00, z=5.50]
 [08Dec2024 09:15:58.215] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/1512, l='ServerLevel[world]', x=-163.50, y=-25.00, z=-33.50]
+[08Dec2024 09:16:18.415] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper PufferfishCreeper['Ocean Creeper'/1597, l='ServerLevel[world]', x=6.50, y=54.00, z=-36.50]
+[08Dec2024 09:16:19.765] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/1608, l='ServerLevel[world]', x=-139.50, y=-33.00, z=-30.50]
+[08Dec2024 09:16:19.766] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/1609, l='ServerLevel[world]', x=-133.50, y=-33.00, z=-32.50]
+[08Dec2024 09:16:30.064] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/1648, l='ServerLevel[world]', x=-166.50, y=-36.00, z=-13.50]
+[08Dec2024 09:16:31.965] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/1654, l='ServerLevel[world]', x=-106.50, y=-42.00, z=40.50]
+[08Dec2024 09:16:31.967] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/1655, l='ServerLevel[world]', x=-106.50, y=-42.00, z=39.50]
+[08Dec2024 09:16:42.515] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/1699, l='ServerLevel[world]', x=-103.50, y=-39.00, z=-79.50]
+[08Dec2024 09:16:42.966] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/1703, l='ServerLevel[world]', x=-59.50, y=24.00, z=37.50]
+[08Dec2024 09:16:45.264] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/1715, l='ServerLevel[world]', x=-131.50, y=-30.00, z=-77.50]
+[08Dec2024 09:16:46.766] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/1728, l='ServerLevel[world]', x=-124.50, y=24.00, z=-137.50]
+[08Dec2024 09:16:47.167] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/1733, l='ServerLevel[world]', x=-164.50, y=-23.00, z=-35.50]
+[08Dec2024 09:16:48.964] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/1734, l='ServerLevel[world]', x=-141.50, y=-31.00, z=-45.50]
+[08Dec2024 09:16:48.965] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/1735, l='ServerLevel[world]', x=-136.50, y=-31.00, z=-43.50]
+[08Dec2024 09:16:54.264] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper PhantomCreeperEntity['Phantom Creeper'/1754, l='ServerLevel[world]', x=-55.50, y=-22.00, z=-51.50]
+[08Dec2024 09:16:55.468] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/1759, l='ServerLevel[world]', x=-157.50, y=-28.00, z=-39.50]
+[08Dec2024 09:16:56.765] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/1765, l='ServerLevel[world]', x=-146.50, y=-34.00, z=-36.50]
+[08Dec2024 09:16:56.766] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/1766, l='ServerLevel[world]', x=-148.50, y=-34.00, z=-35.50]
+[08Dec2024 09:17:01.027] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/1822, l='ServerLevel[world]', x=-209.50, y=68.00, z=-11.50]
+[08Dec2024 09:17:01.379] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/1828, l='ServerLevel[world]', x=-130.50, y=-33.00, z=51.50]
+[08Dec2024 09:17:04.520] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper PufferfishCreeper['Ocean Creeper'/1932, l='ServerLevel[world]', x=-61.50, y=59.00, z=63.50]
+[08Dec2024 09:17:04.768] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/1947, l='ServerLevel[world]', x=-182.50, y=-50.00, z=-15.50]
+[08Dec2024 09:17:05.151] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/1956, l='ServerLevel[world]', x=-71.50, y=4.00, z=-40.50]
+[08Dec2024 09:17:05.789] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/1969, l='ServerLevel[world]', x=-174.50, y=-31.00, z=22.50]
+[08Dec2024 09:17:06.467] [Worker-Main-24/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-63, y=21, z=219}
+[08Dec2024 09:17:06.610] [Worker-Main-23/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-27, y=18, z=217}
+[08Dec2024 09:17:09.604] [Worker-Main-24/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=115}
+[08Dec2024 09:17:09.605] [Worker-Main-24/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=119}
+[08Dec2024 09:17:09.605] [Worker-Main-24/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=8, y=-59, z=123}
+[08Dec2024 09:17:13.375] [Worker-Main-25/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-15, y=15, z=236}
+[08Dec2024 09:17:13.376] [Worker-Main-25/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-16, y=15, z=236}
+[08Dec2024 09:17:13.615] [Worker-Main-24/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=101, y=-54, z=298}
+[08Dec2024 09:17:15.691] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/2063, l='ServerLevel[world]', x=-84.50, y=-18.00, z=55.50]
+[08Dec2024 09:17:17.783] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/2073, l='ServerLevel[world]', x=-221.50, y=7.00, z=51.50]
+[08Dec2024 09:17:23.467] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/2081, l='ServerLevel[world]', x=-80.50, y=22.00, z=-26.50]
+[08Dec2024 09:17:23.667] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/2082, l='ServerLevel[world]', x=-160.50, y=18.00, z=91.50]
+[08Dec2024 09:17:34.015] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/2100, l='ServerLevel[world]', x=-255.50, y=67.00, z=69.50]
+[08Dec2024 09:17:49.216] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/2181, l='ServerLevel[world]', x=-248.50, y=65.00, z=-10.50]
+[08Dec2024 09:17:51.865] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/2202, l='ServerLevel[world]', x=-175.50, y=67.00, z=11.50]
+[08Dec2024 09:17:57.816] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/2246, l='ServerLevel[world]', x=-175.50, y=5.00, z=-55.50]
+[08Dec2024 09:17:58.016] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/2250, l='ServerLevel[world]', x=-156.50, y=32.00, z=29.50]
+[08Dec2024 09:17:58.515] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/2254, l='ServerLevel[world]', x=-203.50, y=65.00, z=50.50]
+[08Dec2024 09:18:02.118] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/2277, l='ServerLevel[world]', x=-267.50, y=64.00, z=44.50]
+[08Dec2024 09:18:02.121] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/2278, l='ServerLevel[world]', x=-271.50, y=64.00, z=42.50]
+[08Dec2024 09:18:02.122] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/2279, l='ServerLevel[world]', x=-268.50, y=64.00, z=44.50]
+[08Dec2024 09:18:04.665] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/2307, l='ServerLevel[world]', x=-204.50, y=64.00, z=-0.50]
+[08Dec2024 09:18:04.666] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/2308, l='ServerLevel[world]', x=-207.50, y=64.00, z=-3.50]
+[08Dec2024 09:18:05.872] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/2331, l='ServerLevel[world]', x=-259.50, y=20.00, z=58.50]
+[08Dec2024 09:18:06.676] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/2341, l='ServerLevel[world]', x=-199.50, y=-48.00, z=-44.50]
+[08Dec2024 09:18:09.334] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/2397, l='ServerLevel[world]', x=-155.50, y=-9.00, z=51.50]
+[08Dec2024 09:18:12.467] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/2430, l='ServerLevel[world]', x=-129.50, y=-28.00, z=-88.50]
+[08Dec2024 09:18:12.971] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/2437, l='ServerLevel[world]', x=-128.50, y=-29.00, z=-30.50]
+[08Dec2024 09:18:14.266] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/2454, l='ServerLevel[world]', x=-209.50, y=72.00, z=83.50]
+[08Dec2024 09:18:17.317] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/2484, l='ServerLevel[world]', x=-128.50, y=-27.00, z=-8.50]
+[08Dec2024 09:18:22.285] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.285] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.286] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.286] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.286] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.286] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.286] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.286] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[08Dec2024 09:18:22.286] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.286] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.287] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.287] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.287] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.287] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.287] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.287] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.287] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.287] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.287] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.288] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[08Dec2024 09:18:22.288] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.288] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.288] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[08Dec2024 09:18:22.288] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.288] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[08Dec2024 09:18:22.288] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CEnumParameter
+[08Dec2024 09:18:22.288] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.289] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.289] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.289] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.289] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.289] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.289] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.289] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.289] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.290] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:22.290] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class forge.net.mca.entity.ZombieVillagerEntityMCA from class forge.net.mca.util.network.datasync.CDataParameter
+[08Dec2024 09:18:24.264] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/2510, l='ServerLevel[world]', x=-218.50, y=42.00, z=35.50]
+[08Dec2024 09:18:26.614] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/2519, l='ServerLevel[world]', x=-255.50, y=26.00, z=28.50]
+[08Dec2024 09:18:35.817] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/2532, l='ServerLevel[world]', x=-209.50, y=37.00, z=-117.50]
+[08Dec2024 09:18:35.818] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/2533, l='ServerLevel[world]', x=-206.50, y=37.00, z=-117.50]
+[08Dec2024 09:18:38.165] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/2535, l='ServerLevel[world]', x=-113.50, y=-26.00, z=-76.50]
+[08Dec2024 09:18:42.968] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/2553, l='ServerLevel[world]', x=-214.50, y=3.00, z=54.50]
+[08Dec2024 09:18:42.971] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/2554, l='ServerLevel[world]', x=-214.50, y=3.00, z=53.50]
+[08Dec2024 09:18:42.973] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/2555, l='ServerLevel[world]', x=-214.50, y=3.00, z=55.50]
+[08Dec2024 09:18:46.270] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/2565, l='ServerLevel[world]', x=-178.50, y=-12.00, z=69.50]
+[08Dec2024 09:18:47.565] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/2566, l='ServerLevel[world]', x=-263.50, y=64.00, z=30.50]
+[08Dec2024 09:18:47.566] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/2567, l='ServerLevel[world]', x=-264.50, y=64.00, z=31.50]
+[08Dec2024 09:18:53.814] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2252ms or 45 ticks behind
+[08Dec2024 09:18:53.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MEGAnonimo: Made MEGAnonimo no longer a server operator]
+[08Dec2024 09:19:05.416] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/2673, l='ServerLevel[world]', x=-213.50, y=68.00, z=-17.50]
+[08Dec2024 09:19:06.813] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/2683, l='ServerLevel[world]', x=-316.50, y=42.00, z=-23.50]
+[08Dec2024 09:19:10.615] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/2693, l='ServerLevel[world]', x=-122.50, y=-22.00, z=-65.50]
+[08Dec2024 09:19:13.264] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/2695, l='ServerLevel[world]', x=-280.50, y=6.00, z=-63.50]
+[08Dec2024 09:19:21.437] [SimpleLogin-Worker-0/INFO] [simplelogin/]: Auto saving entries
+[08Dec2024 09:19:21.439] [SimpleLogin-Worker-0/INFO] [simplelogin/]: Done! Took 1ms.
+[08Dec2024 09:19:24.764] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/2782, l='ServerLevel[world]', x=-212.50, y=-46.00, z=-17.50]
+[08Dec2024 09:19:25.914] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/2803, l='ServerLevel[world]', x=-180.50, y=-37.00, z=-3.50]
+[08Dec2024 09:19:25.916] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/2804, l='ServerLevel[world]', x=-179.50, y=-37.00, z=-3.50]
+[08Dec2024 09:19:26.714] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/2813, l='ServerLevel[world]', x=-136.50, y=-29.00, z=-73.50]
+[08Dec2024 09:19:28.219] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/2824, l='ServerLevel[world]', x=-186.50, y=25.00, z=55.50]
+[08Dec2024 09:19:28.842] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/2832, l='ServerLevel[world]', x=-136.50, y=-25.00, z=-75.50]
+[08Dec2024 09:19:31.121] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/2885, l='ServerLevel[world]', x=-155.50, y=-32.00, z=16.50]
+[08Dec2024 09:19:36.015] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/2946, l='ServerLevel[world]', x=-181.50, y=-49.00, z=-6.50]
+[08Dec2024 09:19:38.664] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/2948, l='ServerLevel[world]', x=-237.50, y=67.00, z=-19.50]
+[08Dec2024 09:19:45.614] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/2963, l='ServerLevel[world]', x=-123.50, y=-28.00, z=-83.50]
+[08Dec2024 09:19:48.165] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/2966, l='ServerLevel[world]', x=-95.50, y=6.00, z=-70.50]
+[08Dec2024 09:19:48.167] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/2967, l='ServerLevel[world]', x=-92.50, y=6.00, z=-70.50]
+[08Dec2024 09:19:50.216] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/2969, l='ServerLevel[world]', x=-265.50, y=65.00, z=-74.50]
+[08Dec2024 09:20:02.314] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/3001, l='ServerLevel[world]', x=-209.50, y=24.00, z=52.50]
+[08Dec2024 09:20:04.214] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3006, l='ServerLevel[world]', x=-160.50, y=70.00, z=0.50]
+[08Dec2024 09:20:05.465] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3011, l='ServerLevel[world]', x=-223.50, y=64.00, z=31.50]
+[08Dec2024 09:20:05.466] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3012, l='ServerLevel[world]', x=-224.50, y=64.00, z=28.50]
+[08Dec2024 09:20:05.467] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3013, l='ServerLevel[world]', x=-226.50, y=64.00, z=32.50]
+[08Dec2024 09:20:05.914] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3014, l='ServerLevel[world]', x=-186.50, y=65.00, z=55.50]
+[08Dec2024 09:20:07.369] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3016, l='ServerLevel[world]', x=-259.50, y=65.00, z=-10.50]
+[08Dec2024 09:20:07.371] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3017, l='ServerLevel[world]', x=-258.50, y=65.00, z=-11.50]
+[08Dec2024 09:20:09.916] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/3023, l='ServerLevel[world]', x=-90.50, y=-38.00, z=-46.50]
+[08Dec2024 09:20:10.169] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3026, l='ServerLevel[world]', x=-214.50, y=68.00, z=-36.50]
+[08Dec2024 09:20:10.170] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3027, l='ServerLevel[world]', x=-213.50, y=68.00, z=-35.50]
+[08Dec2024 09:20:16.265] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3039, l='ServerLevel[world]', x=-240.50, y=64.00, z=10.50]
+[08Dec2024 09:20:24.914] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3058, l='ServerLevel[world]', x=-212.50, y=64.00, z=-0.50]
+[08Dec2024 09:20:24.916] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3059, l='ServerLevel[world]', x=-212.50, y=64.00, z=-1.50]
+[08Dec2024 09:20:27.814] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/3067, l='ServerLevel[world]', x=-99.50, y=-33.00, z=-49.50]
+[08Dec2024 09:20:29.817] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/3074, l='ServerLevel[world]', x=-264.50, y=10.00, z=-61.50]
+[08Dec2024 09:20:32.215] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3082, l='ServerLevel[world]', x=-150.50, y=66.00, z=-144.50]
+[08Dec2024 09:20:32.866] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/3083, l='ServerLevel[world]', x=-209.50, y=-27.00, z=-24.50]
+[08Dec2024 09:20:34.964] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/3087, l='ServerLevel[world]', x=-204.50, y=67.00, z=-75.50]
+[08Dec2024 09:20:37.368] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3092, l='ServerLevel[world]', x=-192.50, y=68.00, z=-74.50]
+[08Dec2024 09:20:37.464] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3093, l='ServerLevel[world]', x=-204.50, y=64.00, z=23.50]
+[08Dec2024 09:20:38.266] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/3094, l='ServerLevel[world]', x=-199.50, y=-30.00, z=-14.50]
+[08Dec2024 09:20:41.415] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/3097, l='ServerLevel[world]', x=-217.50, y=58.00, z=7.50]
+[08Dec2024 09:20:47.815] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3123, l='ServerLevel[world]', x=-226.50, y=65.00, z=-48.50]
+[08Dec2024 09:20:48.715] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/3128, l='ServerLevel[world]', x=-111.50, y=20.00, z=25.50]
+[08Dec2024 09:20:49.165] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/3130, l='ServerLevel[world]', x=-268.50, y=64.00, z=-50.50]
+[08Dec2024 09:20:49.167] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/3131, l='ServerLevel[world]', x=-264.50, y=64.00, z=-58.50]
+[08Dec2024 09:20:50.165] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/3134, l='ServerLevel[world]', x=-258.50, y=29.00, z=-94.50]
+[08Dec2024 09:20:56.315] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/3219, l='ServerLevel[world]', x=-237.50, y=65.00, z=-53.50]
+[08Dec2024 09:20:59.066] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3222, l='ServerLevel[world]', x=-203.50, y=65.00, z=42.50]
+[08Dec2024 09:20:59.315] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3224, l='ServerLevel[world]', x=-268.50, y=66.00, z=-23.50]
+[08Dec2024 09:20:59.316] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3225, l='ServerLevel[world]', x=-265.50, y=66.00, z=-25.50]
+[08Dec2024 09:20:59.317] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Jungle Creeper'/3226, l='ServerLevel[world]', x=-266.50, y=66.00, z=-20.50]
+[08Dec2024 09:21:03.768] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3238, l='ServerLevel[world]', x=-116.50, y=64.00, z=0.50]
+[08Dec2024 09:21:03.771] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3239, l='ServerLevel[world]', x=-117.50, y=64.00, z=-1.50]
+[08Dec2024 09:21:06.865] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3242, l='ServerLevel[world]', x=-127.50, y=66.00, z=-88.50]
+[08Dec2024 09:21:06.866] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3243, l='ServerLevel[world]', x=-123.50, y=66.00, z=-87.50]
+[08Dec2024 09:21:12.217] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Jungle Creeper'/3252, l='ServerLevel[world]', x=-199.50, y=65.00, z=57.50]
+[08Dec2024 09:21:15.516] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3258, l='ServerLevel[world]', x=-270.50, y=65.00, z=-17.50]
+[08Dec2024 09:21:26.618] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3297, l='ServerLevel[world]', x=-243.50, y=67.00, z=-39.50]
+[08Dec2024 09:21:27.264] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper PhantomCreeperEntity['Phantom Creeper'/3301, l='ServerLevel[world]', x=-179.50, y=59.00, z=-51.50]
+[08Dec2024 09:21:27.423] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/3306, l='ServerLevel[world]', x=-161.50, y=-29.00, z=-28.50]
+[08Dec2024 09:21:27.665] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/3308, l='ServerLevel[world]', x=-130.50, y=-24.00, z=-58.50]
+[08Dec2024 09:21:27.920] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3311, l='ServerLevel[world]', x=-277.50, y=65.00, z=-65.50]
+[08Dec2024 09:21:27.922] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3312, l='ServerLevel[world]', x=-280.50, y=65.00, z=-66.50]
+[08Dec2024 09:21:28.008] [Worker-Main-25/WARN] [net.minecraft.world.level.levelgen.heightproviders.BiasedToBottomHeight/]: Empty height range: biased[-3 absolute--5 absolute inner: 1]
+[08Dec2024 09:21:29.886] [Worker-Main-24/WARN] [net.minecraft.world.level.levelgen.heightproviders.BiasedToBottomHeight/]: Empty height range: biased[-10 absolute--15 absolute inner: 1]
+[08Dec2024 09:21:32.015] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3339, l='ServerLevel[world]', x=-209.50, y=64.00, z=5.50]
+[08Dec2024 09:21:32.016] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3340, l='ServerLevel[world]', x=-210.50, y=64.00, z=7.50]
+[08Dec2024 09:21:34.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MEGAnonimo has made the advancement [Stone Age]
+[08Dec2024 09:21:46.366] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/3377, l='ServerLevel[world]', x=-100.50, y=-44.00, z=-96.50]
+[08Dec2024 09:21:47.516] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Jungle Creeper'/3379, l='ServerLevel[world]', x=-230.50, y=65.00, z=-93.50]
+[08Dec2024 09:21:49.566] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper PufferfishCreeper['Ocean Creeper'/3388, l='ServerLevel[world]', x=-61.50, y=54.00, z=-21.50]
+[08Dec2024 09:21:56.215] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper PhantomCreeperEntity['Phantom Creeper'/3403, l='ServerLevel[world]', x=-258.50, y=27.00, z=-92.50]
+[08Dec2024 09:22:08.265] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3428, l='ServerLevel[world]', x=-222.50, y=67.00, z=-27.50]
+[08Dec2024 09:22:09.367] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3435, l='ServerLevel[world]', x=-218.50, y=67.00, z=-14.50]
+[08Dec2024 09:22:11.069] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3441, l='ServerLevel[world]', x=-227.50, y=66.00, z=-32.50]
+[08Dec2024 09:22:11.071] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3442, l='ServerLevel[world]', x=-224.50, y=66.00, z=-36.50]
+[08Dec2024 09:22:24.664] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/3500, l='ServerLevel[world]', x=-197.50, y=-48.00, z=-40.50]
+[08Dec2024 09:22:24.666] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/3501, l='ServerLevel[world]', x=-197.50, y=-48.00, z=-44.50]
+[08Dec2024 09:22:25.015] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3503, l='ServerLevel[world]', x=-216.50, y=68.00, z=-34.50]
+[08Dec2024 09:22:25.016] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3504, l='ServerLevel[world]', x=-213.50, y=68.00, z=-36.50]
+[08Dec2024 09:22:25.017] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3505, l='ServerLevel[world]', x=-217.50, y=68.00, z=-22.50]
+[08Dec2024 09:22:35.513] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/3537, l='ServerLevel[world]', x=-239.50, y=63.00, z=-89.50]
+[08Dec2024 09:22:35.515] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/3538, l='ServerLevel[world]', x=-238.50, y=63.00, z=-89.50]
+[08Dec2024 09:22:39.865] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/3546, l='ServerLevel[world]', x=-243.50, y=-13.00, z=-61.50]
+[08Dec2024 09:22:50.768] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Jungle Creeper'/3579, l='ServerLevel[world]', x=-195.50, y=68.00, z=-50.50]
+[08Dec2024 09:22:55.814] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/3589, l='ServerLevel[world]', x=-152.50, y=69.00, z=48.50]
+[08Dec2024 09:22:56.865] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3592, l='ServerLevel[world]', x=-189.50, y=64.00, z=-118.50]
+[08Dec2024 09:22:56.867] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Jungle Creeper'/3593, l='ServerLevel[world]', x=-187.50, y=64.00, z=-114.50]
+[08Dec2024 09:22:57.515] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Jungle Creeper'/3596, l='ServerLevel[world]', x=-249.50, y=64.00, z=10.50]
+[08Dec2024 09:22:57.515] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Jungle Creeper'/3597, l='ServerLevel[world]', x=-246.50, y=64.00, z=9.50]
+[08Dec2024 09:23:12.765] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/3629, l='ServerLevel[world]', x=-79.50, y=28.00, z=-19.50]
+[08Dec2024 09:23:16.063] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3630, l='ServerLevel[world]', x=-144.50, y=64.00, z=-185.50]
+[08Dec2024 09:23:20.964] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper PhantomCreeperEntity['Phantom Creeper'/3639, l='ServerLevel[world]', x=-152.50, y=-7.00, z=-123.50]
+[08Dec2024 09:23:24.964] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/3656, l='ServerLevel[world]', x=-207.50, y=68.00, z=-38.50]
+[08Dec2024 09:23:39.268] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3691, l='ServerLevel[world]', x=-226.50, y=68.00, z=-75.50]
+[08Dec2024 09:23:39.269] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3692, l='ServerLevel[world]', x=-226.50, y=68.00, z=-72.50]
+[08Dec2024 09:23:43.415] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/3720, l='ServerLevel[world]', x=-161.50, y=-32.00, z=15.50]
+[08Dec2024 09:23:43.965] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3721, l='ServerLevel[world]', x=-181.50, y=68.00, z=-23.50]
+[08Dec2024 09:23:48.316] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/3734, l='ServerLevel[world]', x=-167.50, y=-33.00, z=11.50]
+[08Dec2024 09:23:54.815] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/3754, l='ServerLevel[world]', x=-82.50, y=5.00, z=-43.50]
+[08Dec2024 09:23:54.817] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/3755, l='ServerLevel[world]', x=-82.50, y=5.00, z=-47.50]
+[08Dec2024 09:23:58.265] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/3761, l='ServerLevel[world]', x=-92.50, y=-51.00, z=-83.50]
+[08Dec2024 09:24:04.868] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/3770, l='ServerLevel[world]', x=-231.50, y=63.00, z=-142.50]
+[08Dec2024 09:24:07.317] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3772, l='ServerLevel[world]', x=-175.50, y=65.00, z=4.50]
+[08Dec2024 09:24:07.318] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3773, l='ServerLevel[world]', x=-175.50, y=65.00, z=6.50]
+[08Dec2024 09:24:15.265] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/3788, l='ServerLevel[world]', x=-187.50, y=68.00, z=-177.50]
+[08Dec2024 09:24:15.365] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3789, l='ServerLevel[world]', x=-208.50, y=66.00, z=-76.50]
+[08Dec2024 09:24:16.119] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3793, l='ServerLevel[world]', x=-191.50, y=64.00, z=-129.50]
+[08Dec2024 09:24:16.120] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3794, l='ServerLevel[world]', x=-190.50, y=64.00, z=-130.50]
+[08Dec2024 09:24:53.465] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/3913, l='ServerLevel[world]', x=-138.50, y=-25.00, z=-84.50]
+[08Dec2024 09:24:56.015] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/3925, l='ServerLevel[world]', x=-176.50, y=8.00, z=-50.50]
+[08Dec2024 09:25:01.014] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3934, l='ServerLevel[world]', x=-242.50, y=65.00, z=-3.50]
+[08Dec2024 09:25:01.015] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3935, l='ServerLevel[world]', x=-244.50, y=65.00, z=-5.50]
+[08Dec2024 09:25:01.868] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/3937, l='ServerLevel[world]', x=-205.50, y=64.00, z=-3.50]
+[08Dec2024 09:25:02.467] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/3939, l='ServerLevel[world]', x=-113.50, y=20.00, z=25.50]
+[08Dec2024 09:25:02.469] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/3940, l='ServerLevel[world]', x=-113.50, y=20.00, z=26.50]
+[08Dec2024 09:25:04.166] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Cave Creeper'/3945, l='ServerLevel[world]', x=-168.50, y=10.00, z=-4.50]
+[08Dec2024 09:25:06.065] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/3961, l='ServerLevel[world]', x=-82.50, y=29.00, z=-25.50]
+[08Dec2024 09:25:12.517] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/3984, l='ServerLevel[world]', x=-272.50, y=65.00, z=-74.50]
+[08Dec2024 09:25:12.517] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/3985, l='ServerLevel[world]', x=-269.50, y=65.00, z=-74.50]
+[08Dec2024 09:25:20.667] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/3998, l='ServerLevel[world]', x=-225.50, y=-13.00, z=-116.50]
+[08Dec2024 09:25:28.464] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/4011, l='ServerLevel[world]', x=-203.50, y=-50.00, z=-78.50]
+[08Dec2024 09:25:29.115] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/4014, l='ServerLevel[world]', x=-245.50, y=64.00, z=-81.50]
+[08Dec2024 09:25:30.615] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Jungle Creeper'/4015, l='ServerLevel[world]', x=-201.50, y=66.00, z=-26.50]
+[08Dec2024 09:25:36.515] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/4029, l='ServerLevel[world]', x=-211.50, y=67.00, z=-42.50]
+[08Dec2024 09:25:36.516] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/4030, l='ServerLevel[world]', x=-211.50, y=67.00, z=-45.50]
+[08Dec2024 09:25:43.418] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/4051, l='ServerLevel[world]', x=-123.50, y=64.00, z=9.50]
+[08Dec2024 09:25:43.420] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper NeutralCreeper['Bamboo Creeper'/4052, l='ServerLevel[world]', x=-122.50, y=64.00, z=9.50]
+[08Dec2024 09:25:52.914] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Jungle Creeper'/4086, l='ServerLevel[world]', x=-188.50, y=64.00, z=-129.50]
+[08Dec2024 09:25:53.716] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/4088, l='ServerLevel[world]', x=-166.50, y=-35.00, z=-131.50]
+[08Dec2024 09:25:54.816] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Jungle Creeper'/4090, l='ServerLevel[world]', x=-225.50, y=64.00, z=16.50]
+[08Dec2024 09:25:55.315] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/4093, l='ServerLevel[world]', x=-197.50, y=-49.00, z=-33.50]
+[08Dec2024 09:25:55.317] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/4095, l='ServerLevel[world]', x=-197.50, y=-49.00, z=-30.50]
+[08Dec2024 09:25:55.318] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper Creeper['Creeper'/4096, l='ServerLevel[world]', x=-197.50, y=-49.00, z=-26.50]
+[08Dec2024 09:25:57.120] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/4097, l='ServerLevel[world]', x=-263.50, y=66.00, z=-49.50]
+[08Dec2024 09:25:57.416] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Dripstone Creeper'/4101, l='ServerLevel[world]', x=-122.50, y=33.00, z=-152.50]
+[08Dec2024 09:25:58.017] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper BaseCreeper['Jungle Creeper'/4103, l='ServerLevel[world]', x=-123.50, y=65.00, z=-78.50]
+[08Dec2024 09:26:04.614] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/4129, l='ServerLevel[world]', x=-150.50, y=66.00, z=19.50]
+[08Dec2024 09:26:10.064] [Server thread/INFO] [Stalker Creepers/]: modifier Creeper SkeletonCreeper['Skeleton Creeper'/4144, l='ServerLevel[world]', x=-172.50, y=63.00, z=-121.50]
