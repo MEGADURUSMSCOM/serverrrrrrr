@@ -2,7 +2,7 @@
 #Server options
 [server]
 	#DEFAULT=true. Specifies if a warning should be printed out to server operators if flying is disabled. NONE
-	flyingEnabledWarning = true
+	flyingEnabledWarning = false
 
 	#Misc
 	[server.misc]
