@@ -19,9 +19,6 @@
 		[types.leaves_type.alexscaves]
 			ancient = true
 
-		[types.leaves_type.witherstormmod]
-			tainted = true
-
 	[types.wood_type]
 
 		[types.wood_type.deeperdarker]
